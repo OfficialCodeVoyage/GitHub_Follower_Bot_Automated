@@ -16,8 +16,10 @@ The bot can be run in two ways:
 - **Error Handling:** Built-in error handling ensures smooth operation and reliability.
 - **Logging:** Detailed logs for tracking bot activity and performance.
 
+
 ## 🛠️ Setup & Installation
 ### Run the Bot Manually
+
 ### 1. Clone the Repository
 Clone this repository to your local machine:
 ```bash
