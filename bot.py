@@ -2,18 +2,14 @@ import os
 import json
 import requests
 from requests.auth import HTTPBasicAuth
-from dotenv import load_dotenv
 import logging
 import time
-
-# Load environment variables from .env file
-load_dotenv()
 
 # Setup logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-GITHUB_USER = os.getenv('GITHUB_USER')
-PERSONAL_GITHUB_TOKEN = os.getenv('PERSONAL_GITHUB_TOKEN')
+GITHUB_USER = "OfficialCodeVoyage"
+PERSONAL_GITHUB_TOKEN = "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"
 FOLLOWER_URL = f'https://api.github.com/users/{GITHUB_USER}/followers?page='
 UPDATE_FOLLOWED_USER = 'https://api.github.com/user/following/{}'
 
