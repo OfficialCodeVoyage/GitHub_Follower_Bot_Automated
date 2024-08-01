@@ -14,6 +14,7 @@ FOLLOWER_URL = f'https://api.github.com/users/{GITHUB_USER}/followers?page='
 UPDATE_FOLLOWED_USER = 'https://api.github.com/user/following/{}'
 
 
+
 def fetch_followers(page):
     try:
         response = requests.get(FOLLOWER_URL + str(page))
