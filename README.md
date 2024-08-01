@@ -5,8 +5,8 @@ Welcome to the **GitHub Follower Bot Automated** repository! This project is des
 **You Follow Me** ---> **My Bot Follows you Back! Let's growth Together!**
 
 The bot can be run in two ways:
-1. **Manually**: You can run the bot manually on your local machine.
-2. **Automatically with GitHub Actions**: Set up the bot to run automatically on a schedule using GitHub Actions.
+1. **[Manually](#run-the-bot-manually)**: You can run the bot manually on your local machine.
+2. **[Automatically with GitHub Actions](#github-actions-workflow-setup)**: Set up the bot to run automatically on a schedule using GitHub Actions.
 
 
 ## 🚀 Features
@@ -17,7 +17,7 @@ The bot can be run in two ways:
 - **Logging:** Detailed logs for tracking bot activity and performance.
 
 ## 🛠️ Setup & Installation
-
+**#run-the-bot-manually**
 ### 1. Clone the Repository
 Clone this repository to your local machine:
 ```bash
