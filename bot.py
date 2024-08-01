@@ -9,7 +9,7 @@ import time
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 GITHUB_USER = "OfficialCodeVoyage"
-PERSONAL_GITHUB_TOKEN = "#"
+PERSONAL_GITHUB_TOKEN = os.getenv('personal_github_token')
 FOLLOWER_URL = f'https://api.github.com/users/{GITHUB_USER}/followers?page='
 UPDATE_FOLLOWED_USER = 'https://api.github.com/user/following/{}'
 
