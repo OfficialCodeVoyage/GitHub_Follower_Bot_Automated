@@ -17,7 +17,7 @@ The bot can be run in two ways:
 - **Logging:** Detailed logs for tracking bot activity and performance.
 
 ## 🛠️ Setup & Installation
-**#run-the-bot-manually**
+### Run the Bot Manually
 ### 1. Clone the Repository
 Clone this repository to your local machine:
 ```bash
