@@ -1,0 +1,38 @@
+name: GitHub Follower Bot Running
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+jobs:
+  up-and-running:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get working copy
+        uses: actions/checkout@main
+        with:
+          fetch-depth: 1
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+      - name: Install pipenv
+        run: pip install pipenv --user
+      - name: Setup Python virtual environment
+        run: |
+          PATH=$PATH:/home/officialcodevoyage/.local/bin
+          pipenv install
+      - name: Run Follower bot
+        run: |
+          export github_user=officialcodevoyage
+          export personal_github_token=${{ secrets.PERSONAL_GITHUB_TOKEN }}
+          pipenv run python bot.py
+      - name: Commit and push if it changed
+        run: |
+          git config user.name "OfficialCodeVoyage"
+          git config user.email "bondarenkopavloua@yahoo.com"
+          git add -A
+          timestamp=$(date -u)
+          git commit -m "Last Commit: ${timestamp}(UTC)" || exit 0
+          git push origin main
