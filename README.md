@@ -47,8 +47,144 @@ Run the bot using the following command:
 python follower_bot.py
 ```
 
-## 🛠️ Setup & Installation To Run the Bot every 10 with HitHub Actions(Automatically)
-### Run the Bot Automatically
+## 🛠️ Setup & Installation To Run the Bot every 10 minutes with HitHub Actions(Automatically)
+### GitHub Actions Workflow Setup
+
+
+<h3>Automatically with GitHub Actions</h3>
+
+<p>To set up the bot to run automatically on a schedule using GitHub Actions, follow these steps:</p>
+
+<h4>1. Creating a Personal Access Token (PAT):</h4>
+
+<p>You need to create a Personal Access Token (PAT) to authenticate the bot with the GitHub API:</p>
+<ol>
+    <li>Go to your GitHub profile and click on your avatar in the upper-right corner, then select "Settings".</li>
+    <li>On the left sidebar, click on "Developer settings".</li>
+    <li>Under "Developer settings", click on "Personal access tokens".</li>
+    <li>Click the "Generate new token" button.</li>
+    <li>Give your token a descriptive name, such as "GitHub Follower Bot Token".</li>
+    <li>Select the following scopes:
+        <ul>
+            <li><code>repo</code>: Full control of private repositories.</li>
+            <li><code>workflow</code>: Update GitHub Actions workflows.</li>
+            <li><code>admin:repo_hook</code>: Manage webhooks and their events.</li>
+            <li><code>public_repo</code>: Access to public repositories.</li>
+            <li><code>read:user</code>: Read access to your profile data.</li>
+            <li><code>write:repo_hook</code>: Manage repository hooks.</li>
+            <li><code>user</code>: Read and write access to profile information.</li>
+            <li><code>gist</code>: Access to Gists (if needed).</li>
+        </ul>
+    </li>
+    <li>Click "Generate token" and <strong>copy the token</strong> immediately, as it will not be shown again.</li>
+</ol>
+
+<h4>2. Storing the PAT as a GitHub Secret:</h4>
+
+<ol>
+    <li>Navigate to your repository on GitHub.</li>
+    <li>Click on "Settings" in the repository menu.</li>
+    <li>On the left sidebar, click on "Secrets and variables" under the "Security" section, and select "Actions".</li>
+    <li>Click "New repository secret".</li>
+    <li>Name the secret <code>GH_PAT</code>.</li>
+    <li>Paste the Personal Access Token you copied earlier into the "Secret" field.</li>
+    <li>Click "Add secret" to save it.</li>
+</ol>
+
+<h4>3. Setting Up the GitHub Actions Workflow:</h4>
+
+<ol>
+    <li>In your repository, create a new directory called <code>.github/workflows/</code>.</li>
+    <li>Inside this directory, create a new file named <code>github_follower_bot.yml</code>.</li>
+    <li>Add the following content to this file:</li>
+</ol>
+
+<pre><code>name: GitHub Follower Bot
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs daily at 12:00am UTC
+  workflow_dispatch:  # Allows manual triggering from the Actions tab
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run bot script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          python bot_script.py
+</code></pre>
+
+<ol start="4">
+    <li>Commit and push the file to your repository.</li>
+</ol>
+
+<h4>4. Granting Workflow Permissions:</h4>
+
+<p>Ensure that your workflow has the necessary permissions by adding this to your YAML file:</p>
+
+<pre><code>permissions:
+  contents: write  # Allows committing and pushing changes
+  issues: write    # Allows creating and managing issues
+  pull-requests: write  # Allows managing pull requests
+  workflows: write  # Allows updating GitHub Actions workflows
+</code></pre>
+
+<h4>5. Monitoring the Workflow:</h4>
+
+<ul>
+    <li>You can monitor the workflow runs in the "Actions" tab of your GitHub repository.</li>
+    <li>The bot will run automatically based on the schedule you set or manually from the Actions tab.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
