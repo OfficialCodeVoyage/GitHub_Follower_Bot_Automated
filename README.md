@@ -47,89 +47,65 @@ Run the bot using the following command:
 python follower_bot.py
 ```
 
-## 🛠️ Setup & Installation To Run the Bot every 10 minutes with HitHub Actions(Automatically)
+## 🛠️ Setup & Installation To Run the Bot every 10 minutes with GitHub Actions(Automatically)
 ### GitHub Actions Workflow Setup
-
-
-<h3>Automatically with GitHub Actions</h3>
-
 <p>To set up the bot to run automatically on a schedule using GitHub Actions, follow these steps:</p>
 
 <h4>1. Creating a Personal Access Token (PAT):</h4>
 
-<p>You need to create a Personal Access Token (PAT) to authenticate the bot with the GitHub API:</p>
 <ol>
-    <li>Go to your GitHub profile and click on your avatar in the upper-right corner, then select "Settings".</li>
-    <li>On the left sidebar, click on "Developer settings".</li>
-    <li>Under "Developer settings", click on "Personal access tokens".</li>
-    <li>Click the "Generate new token" button.</li>
-    <li>Give your token a descriptive name, such as "GitHub Follower Bot Token".</li>
-    <li>Select the following scopes:
+    <li><strong>Go to GitHub Settings:</strong> Navigate to your GitHub profile, click on your avatar in the upper-right corner, and select "Settings".</li>
+    <li><strong>Access Developer Settings:</strong> On the left sidebar, click on "Developer settings"(all the way to bottom / last button). Under "Developer settings", click on "Personal access tokens".</li>
+    <li><strong>Generate a New Token:</strong> Click the "Generate new token" button. Give your token a descriptive name like "GitHub Follower Bot Token".</li>
+    <li><strong>Select the Required Scopes:</strong> Choose the following scopes:
         <ul>
             <li><code>repo</code>: Full control of private repositories.</li>
             <li><code>workflow</code>: Update GitHub Actions workflows.</li>
             <li><code>admin:repo_hook</code>: Manage webhooks and their events.</li>
             <li><code>public_repo</code>: Access to public repositories.</li>
-            <li><code>read:user</code>: Read access to your profile data.</li>
+            <li><code>read:user</code>: Read access to profile data.</li>
             <li><code>write:repo_hook</code>: Manage repository hooks.</li>
             <li><code>user</code>: Read and write access to profile information.</li>
             <li><code>gist</code>: Access to Gists (if needed).</li>
         </ul>
     </li>
-    <li>Click "Generate token" and <strong>copy the token</strong> immediately, as it will not be shown again.</li>
+    <li><strong>Generate and Save the Token:</strong> Click "Generate token" and <strong>copy the token</strong> immediately, as it will not be shown again.</li>
 </ol>
 
 <h4>2. Storing the PAT as a GitHub Secret:</h4>
 
 <ol>
-    <li>Navigate to your repository on GitHub.</li>
-    <li>Click on "Settings" in the repository menu.</li>
-    <li>On the left sidebar, click on "Secrets and variables" under the "Security" section, and select "Actions".</li>
-    <li>Click "New repository secret".</li>
-    <li>Name the secret <code>GH_PAT</code>.</li>
-    <li>Paste the Personal Access Token you copied earlier into the "Secret" field.</li>
-    <li>Click "Add secret" to save it.</li>
+    <li><strong>Navigate to Your Repository:</strong> Go to your repository on GitHub. Click on "Settings" in the repository menu.</li>
+    <li><strong>Add a New Secret:</strong> On the left sidebar, click on "Secrets and variables" under the "Security" section and select "Actions". Click "New repository secret".</li>
+    <li><strong>Name the secret <code>PERSONAL_GITHUB_TOKEN</code>:</strong> Paste the Personal Access Token you copied earlier into the "Secret" field and click "Add secret" to save it.</li>
 </ol>
 
-<h4>3. Setting Up the GitHub Actions Workflow:</h4>
+<h4>3. Updating the GitHub Actions Workflow File:</h4>
+
+<p>In your YAML file (e.g., <code>automation.yml</code>), update the following:</p>
 
 <ol>
-    <li>In your repository, create a new directory called <code>.github/workflows/</code>.</li>
-    <li>Inside this directory, create a new file named <code>github_follower_bot.yml</code>.</li>
-    <li>Add the following content to this file:</li>
+    <li><strong>Token Reference:</strong> Ensure your workflow is referencing the token correctly:
+        <pre><code>env:
+  GITHUB_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKEN }}</code></pre>
+    </li>
+    <li><strong>Script Name:</strong> Replace <code>bot.py</code> with your actual script name in the <code>run</code> command:
+        <pre><code>run: |
+  python bot.py</code></pre>
+    </li>
+    <li><strong>Dependencies:</strong> Make sure your <code>requirements.txt</code> is correct and that the path is correct if it's in a different directory.</li>
+    <li><strong>Cron Schedule:</strong> Adjust the cron expression to control when the workflow runs automatically:
+        <pre><code>schedule:
+  - cron: '0 0 * * *'  # Modify as needed</code></pre>
+    </li>
 </ol>
 
-<pre><code>name: GitHub Follower Bot
+<h4>4. Monitoring the Workflow:</h4>
 
-on:
-  schedule:
-    - cron: '0 0 * * *'  # Runs daily at 12:00am UTC
-  workflow_dispatch:  # Allows manual triggering from the Actions tab
+<ul>
+    <li>After setting up, monitor the workflow in the "Actions" tab of your repository to ensure it runs as expected.</li>
+</ul>
 
-jobs:
-  run-bot:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.x'
-
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-
-      - name: Run bot script
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
-        run: |
-          python bot_script.py
-</code></pre>
 
 <ol start="4">
     <li>Commit and push the file to your repository.</li>
