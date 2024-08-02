@@ -181,12 +181,13 @@ Additional features can be implemented as needed. Check the Issues and Discussio
 
 ## 📂 Project Structure
 
-- **follower_bot.py**: Main script for the bot.
+- **bot.py**: Main script for the bot.
 - **followers.txt**: File where followed users are logged.
 - **requirements.txt**: Python dependencies.
 - **.env**: Environment variables (not included, must be created).
 - **LICENSE**: Project licensing information.
 - **README.md**: This readme file.
+- **follower_counter.txt**: total followers that bot followed automatically 
 
 ## 📈 Contributions
 
