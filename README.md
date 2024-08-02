@@ -4,6 +4,12 @@ Welcome to the **GitHub Follower Bot Automated** repository! This project is des
 
 **You Follow Me** ---> **My Bot Follows you Back! Let's growth Together!**
 
+## 📝 Usage
+
+The bot will fetch your list of followers and automatically follow any users that are not already followed.
+A log of followed users is maintained in the `followers.txt` file.
+The bot will continue to run until all followers have been processed.
+
 The bot can be run in two ways:
 1. **[Manually](#run-the-bot-manually)**: You can run the bot manually on your local machine.
 2. **[Automatically with GitHub Actions](#github-actions-workflow-setup)**: Set up the bot to run automatically on a schedule using GitHub Actions.
@@ -128,47 +134,6 @@ python follower_bot.py
     <li>You can monitor the workflow runs in the "Actions" tab of your GitHub repository.</li>
     <li>The bot will run automatically based on the schedule you set or manually from the Actions tab.</li>
 </ul>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## 📝 Usage
-
-The bot will fetch your list of followers and automatically follow any users that are not already followed.
-A log of followed users is maintained in the `followers.txt` file.
-The bot will continue to run until all followers have been processed.
 
 ## 🤖 Bot Configuration
 
