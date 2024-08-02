@@ -5,6 +5,9 @@ on:
     - cron: '*/10 * * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write  # Grant write permission to GITHUB_TOKEN
+
 jobs:
   up-and-running:
     runs-on: ubuntu-latest
