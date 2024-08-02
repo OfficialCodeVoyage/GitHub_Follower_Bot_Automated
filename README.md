@@ -17,7 +17,7 @@ The bot can be run in two ways:
 - **Logging:** Detailed logs for tracking bot activity and performance.
 
 
-## 🛠️ Setup & Installation
+## 🛠️ Setup & Installation To Run the Bot Manually on Local Server
 ### Run the Bot Manually
 
 ### 1. Clone the Repository
@@ -46,6 +46,11 @@ Run the bot using the following command:
 ```bash
 python follower_bot.py
 ```
+
+## 🛠️ Setup & Installation To Run the Bot every 10 with HitHub Actions(Automatically)
+### Run the Bot Automatically
+
+
 
 ## 📝 Usage
 
