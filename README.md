@@ -129,7 +129,7 @@ python follower_bot.py
   contents: write  # Allows committing and pushing changes
   issues: write    # Allows creating and managing issues
   pull-requests: write  # Allows managing pull requests
-  workflows: write  # Allows updating GitHub Actions workflows
+  actions: write  # Allows updating GitHub Actions workflows
 </code></pre>
 
 <h4>5. Monitoring the Workflow:</h4>
