@@ -9,10 +9,12 @@ import time
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 GITHUB_USER = "OfficialCodeVoyage"
-PERSONAL_GITHUB_TOKEN = os.getenv('personal_github_token')
+PERSONAL_GITHUB_TOKEN = "####################"
 FOLLOWER_URL = f'https://api.github.com/users/{GITHUB_USER}/followers?page='
 UPDATE_FOLLOWED_USER = 'https://api.github.com/user/following/{}'
 LAST_CHECKED_FOLLOWER_FILE = './last_checked_follower.txt'
+FOLLOWER_COUNTER_FILE = './follower_counter.txt'
+FOLLOWERS_FILE = './followers.txt'
 
 def fetch_users(url, page):
     try:
@@ -51,13 +53,37 @@ def save_last_checked_follower(file_path, user):
     with open(file_path, 'w') as file:
         file.write(user)
 
+def read_followed_users(file_path):
+    try:
+        with open(file_path, 'r') as file:
+            return set(file.read().splitlines())
+    except FileNotFoundError:
+        return set()
+
+def save_followed_user(file_path, user):
+    with open(file_path, 'a') as file:
+        file.write(user + '\n')
+
+def update_follower_counter(file_path):
+    try:
+        with open(file_path, 'r+') as file:
+            counter = int(file.read().strip() or 0)
+            counter += 1
+            file.seek(0)
+            file.write(str(counter))
+            return counter
+    except FileNotFoundError:
+        with open(file_path, 'w') as file:
+            file.write('1')
+            return 1
+
 def main():
     logging.info('Starting to fetch your new followers...')
 
     page = 1
     last_checked_follower = read_last_checked_follower(LAST_CHECKED_FOLLOWER_FILE)
+    followed_users = read_followed_users(FOLLOWERS_FILE)
     new_followers = []
-    followed_users = set()
 
     # Fetch new followers
     while True:
@@ -70,7 +96,8 @@ def main():
             user = follower_info['login']
             if user == last_checked_follower:
                 break
-            new_followers.append(user)
+            if user not in followed_users:  # Check if the user has already been followed
+                new_followers.append(user)
 
         if new_followers and new_followers[-1] == last_checked_follower:
             break
@@ -80,7 +107,8 @@ def main():
     if new_followers:
         for user in reversed(new_followers):  # Start from the most recent follower
             if follow_user(user):
-                followed_users.add(user)
+                save_followed_user(FOLLOWERS_FILE, user)
+                update_follower_counter(FOLLOWER_COUNTER_FILE)
             time.sleep(5)
         save_last_checked_follower(LAST_CHECKED_FOLLOWER_FILE, new_followers[0])
 
