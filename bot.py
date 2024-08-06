@@ -9,7 +9,7 @@ import time
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 GITHUB_USER = "OfficialCodeVoyage"
-personal_github_token = os.getenv('personal_github_token') ###
+personal_github_token = os.getenv('personal_github_token')
 FOLLOWER_URL = f'https://api.github.com/users/{GITHUB_USER}/followers?page='
 UPDATE_FOLLOWED_USER = 'https://api.github.com/user/following/{}'
 LAST_CHECKED_FOLLOWER_FILE = './last_checked_follower.txt'
@@ -95,9 +95,11 @@ def main():
         for follower_info in follower_lists:
             user = follower_info['login']
             if user == last_checked_follower:
+                logging.info(f"Reached last checked follower: {user}, stopping further fetch.")
                 break
             if user not in followed_users:  # Check if the user has already been followed
                 new_followers.append(user)
+                logging.info(f"New follower found: {user}")
 
         if new_followers and new_followers[-1] == last_checked_follower:
             break
@@ -105,12 +107,14 @@ def main():
         page += 1
 
     if new_followers:
+        logging.info(f"Total new followers to process: {len(new_followers)}")
         for user in reversed(new_followers):  # Start from the most recent follower
             if follow_user(user):
                 save_followed_user(FOLLOWERS_FILE, user)
                 update_follower_counter(FOLLOWER_COUNTER_FILE)
             time.sleep(5)
         save_last_checked_follower(LAST_CHECKED_FOLLOWER_FILE, new_followers[0])
+        logging.info(f"Last checked follower updated to: {new_followers[0]}")
 
     logging.info('Processed new followers.')
 
