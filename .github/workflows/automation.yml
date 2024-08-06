@@ -6,7 +6,10 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write  # Grant write permission to GITHUB_TOKEN
+  contents: write
+  actions: read
+  packages: write
+
 
 jobs:
   up-and-running:
