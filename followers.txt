@@ -174,3 +174,6 @@ cloudhighfive
 Tvenus
 coskuntekin
 Gor-Hoveyan
+felipe-devexpert
+joelibaceta
+victorfeight
