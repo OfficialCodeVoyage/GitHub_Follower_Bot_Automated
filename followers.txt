@@ -271,3 +271,5 @@ waldenylson
 dougkalash
 redsupertomato
 s7evenv
+lcubas
+LokiSharp
