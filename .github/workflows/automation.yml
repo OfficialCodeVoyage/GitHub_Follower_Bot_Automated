@@ -2,7 +2,7 @@ name: GitHub Follower Bot Running
 
 on:
   schedule:
-    - cron: '0 */4 * * *'
+    - cron: '0 */12 * * *'
   workflow_dispatch:
 
 permissions:
