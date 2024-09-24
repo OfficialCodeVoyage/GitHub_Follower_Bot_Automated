@@ -21,7 +21,7 @@ logging.basicConfig(
 )
 
 # config
-GITHUB_USER = os.getenv('GITHUB_USER')  # Your GitHub username
+GITHUB_USER = os.getenv('USERNAME')  # Your GitHub username
 PERSONAL_GITHUB_TOKEN = os.getenv('PERSONAL_GITHUB_TOKEN')  # Your personal access token
 
 
