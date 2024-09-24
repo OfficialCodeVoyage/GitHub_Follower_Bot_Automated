@@ -3,19 +3,30 @@ import asyncio
 import aiohttp
 import aiofiles
 import logging
-from aiohttp import ClientSession
-from aiohttp import ClientResponseError
+from aiohttp import ClientSession, ClientResponseError
 from aiohttp.client_exceptions import ClientError
+from dotenv import load_dotenv
 
-# Setup logging
+load_dotenv()
+
+# logging
 logging.basicConfig(
     level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s'
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler("bot.log"),
+        logging.StreamHandler()
+    ]
 )
 
-# Constants and Configuration
+# Config
 GITHUB_USER = "OfficialCodeVoyage"
-PERSONAL_GITHUB_TOKEN = os.getenv('personal_github_token')
+PERSONAL_GITHUB_TOKEN = os.getenv('PERSONAL_GITHUB_TOKEN')
+
+if not PERSONAL_GITHUB_TOKEN:
+    logging.error("Personal GitHub Token is not set. Please set the 'PERSONAL_GITHUB_TOKEN' environment variable.")
+    exit(1)
+
 FOLLOWER_URL = f'https://api.github.com/users/{GITHUB_USER}/followers'
 FOLLOW_URL_TEMPLATE = 'https://api.github.com/user/following/{}'
 LAST_CHECKED_FOLLOWER_FILE = './last_checked_follower.txt'
@@ -26,13 +37,17 @@ FOLLOWED_USERS_FILE = './followers.txt'
 HEADERS = {
     'Authorization': f'token {PERSONAL_GITHUB_TOKEN}',
     'Accept': 'application/vnd.github.v3+json',
-    'User-Agent': 'OfficialCodeVoyage-Bot'
+    'User-Agent': f'{GITHUB_USER}-FollowBack-Bot'
 }
 
-# Concurrency limit
-CONCURRENT_REQUESTS = 5
+# Concurrency and Rate Limiting Configuration
+CONCURRENT_REQUESTS = 5      # Number of concurrent follow requests
+FOLLOW_REQUEST_DELAY = 1     # Seconds to wait between follow requests per task
 
-async def fetch_followers(session: ClientSession, url: str, page: int):
+async def fetch_followers(session: ClientSession, url: str, page: int) -> list:
+    """
+    Fetches a list of followers from a specific page.
+    """
     params = {'page': page, 'per_page': 100}
     try:
         async with session.get(url, headers=HEADERS, params=params) as response:
@@ -48,7 +63,10 @@ async def fetch_followers(session: ClientSession, url: str, page: int):
         logging.error(f"Unexpected error while fetching followers from page {page}: {e}")
     return []
 
-async def follow_user(session: ClientSession, user: str, semaphore: asyncio.Semaphore):
+async def follow_user(session: ClientSession, user: str, semaphore: asyncio.Semaphore) -> bool:
+    """
+    Attempts to follow a specified user with rate limiting.
+    """
     follow_url = FOLLOW_URL_TEMPLATE.format(user)
     async with semaphore:
         try:
@@ -69,9 +87,15 @@ async def follow_user(session: ClientSession, user: str, semaphore: asyncio.Sema
             logging.error(f"Client error while following {user}: {e}")
         except Exception as e:
             logging.error(f"Unexpected error while following {user}: {e}")
+        finally:
+            # Introduce a delay to prevent hitting rate limits
+            await asyncio.sleep(FOLLOW_REQUEST_DELAY)
     return False
 
 async def read_file(file_path: str) -> str:
+    """
+    Reads content from a file asynchronously.
+    """
     try:
         async with aiofiles.open(file_path, 'r') as f:
             content = await f.read()
@@ -85,6 +109,9 @@ async def read_file(file_path: str) -> str:
         return ''
 
 async def write_file(file_path: str, content: str):
+    """
+    Writes content to a file asynchronously.
+    """
     try:
         async with aiofiles.open(file_path, 'w') as f:
             await f.write(content)
@@ -93,6 +120,9 @@ async def write_file(file_path: str, content: str):
         logging.error(f"Error writing to {file_path}: {e}")
 
 async def append_to_file(file_path: str, content: str):
+    """
+    Appends a line to a file asynchronously.
+    """
     try:
         async with aiofiles.open(file_path, 'a') as f:
             await f.write(content + '\n')
@@ -100,7 +130,10 @@ async def append_to_file(file_path: str, content: str):
     except Exception as e:
         logging.error(f"Error appending to {file_path}: {e}")
 
-async def increment_counter(file_path: str):
+async def increment_counter(file_path: str) -> int:
+    """
+    Increments a numerical counter stored in a file asynchronously.
+    """
     try:
         async with aiofiles.open(file_path, 'r+') as f:
             content = await f.read()
@@ -120,14 +153,19 @@ async def increment_counter(file_path: str):
         return 0
 
 async def get_new_followers(session: ClientSession, last_checked: str) -> list:
+    """
+    Retrieves all new followers since the last checked follower.
+    """
     page = 1
     new_followers = []
-    semaphore = asyncio.Semaphore(CONCURRENT_REQUESTS)
+    found_last_checked = False
 
     while True:
         followers = await fetch_followers(session, FOLLOWER_URL, page)
         if not followers:
-            break
+            break  # No more followers to fetch
+
+        logging.info(f"Processing page {page} with {len(followers)} followers.")
 
         for follower in followers:
             user = follower.get('login')
@@ -135,18 +173,31 @@ async def get_new_followers(session: ClientSession, last_checked: str) -> list:
                 continue
             if user == last_checked:
                 logging.info(f"Reached last checked follower: {user}. Stopping fetch.")
-                return new_followers
+                found_last_checked = True
+                break
             new_followers.append(user)
             logging.info(f"New follower found: {user}")
 
-        if len(followers) < 100:
-            # Assuming less than 100 means last page
+        if found_last_checked:
             break
-        page += 1
 
+        if len(followers) < 100:
+            # If fewer than 100 followers are returned, it indicates the last page
+            logging.info("Last page of followers reached.")
+            break
+
+        page += 1  # Move to the next page
+
+    if not found_last_checked and last_checked:
+        logging.warning("Last checked follower not found. Processing all fetched followers.")
+
+    logging.info(f"Total new followers fetched: {len(new_followers)}")
     return new_followers
 
 async def process_new_followers(session: ClientSession, new_followers: list):
+    """
+    Processes the list of new followers by attempting to follow them back.
+    """
     if not new_followers:
         logging.info("No new followers to process.")
         return
@@ -166,8 +217,13 @@ async def process_new_followers(session: ClientSession, new_followers: list):
         # Update the last checked follower to the most recent one processed
         await write_file(LAST_CHECKED_FOLLOWER_FILE, followed_users[0])
         logging.info(f"Last checked follower updated to: {followed_users[0]}")
+    else:
+        logging.info("No users were successfully followed.")
 
 async def main():
+    """
+    Main entry point for the bot.
+    """
     logging.info("Starting the GitHub follow-back bot...")
 
     async with aiohttp.ClientSession() as session:
