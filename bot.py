@@ -205,6 +205,7 @@ class GitHubFollowBackBot:
                 logging.info("Last page of followers reached.")
                 break
 
+
             page += 1  # Move to the next page
 
         if not found_last_checked and last_checked:
