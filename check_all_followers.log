@@ -1,0 +1,15 @@
+2024-09-26 19:00:08,634 - INFO - Starting 'check_all_followers.py' script.
+2024-09-26 19:00:08,880 - INFO - Total followers: 1
+2024-09-26 19:00:08,881 - INFO - Loaded 2006 already followed users from 'followers.txt'.
+2024-09-26 19:00:48,642 - INFO - Starting 'check_all_followers.py' script.
+2024-09-26 19:00:48,835 - INFO - Total followers: 1
+2024-09-26 19:00:48,836 - INFO - Loaded 2006 already followed users from 'followers.txt'.
+2024-09-26 19:00:49,015 - INFO - Rate Limit - Remaining: 4419, Reset at: 2024-09-26 19:11:55
+2024-09-26 19:00:49,016 - INFO - Current follower counter: 2006
+2024-09-26 19:00:49,016 - INFO - =========================================
+2024-09-26 19:00:49,016 - INFO - Total Followers: 1
+2024-09-26 19:00:49,017 - INFO - Already Followed: 2006
+2024-09-26 19:00:49,017 - INFO - Followers Left to Follow: 0
+2024-09-26 19:00:49,017 - INFO - API Requests Remaining: 4419
+2024-09-26 19:00:49,017 - INFO - Can Follow Now: 0
+2024-09-26 19:00:49,017 - INFO - =========================================
