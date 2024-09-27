@@ -14,17 +14,37 @@ The bot will fetch your list of followers and automatically follow any users tha
 A log of followed users is maintained in the `followers.txt` file.
 The bot will continue to run until all followers have been processed.
 
+Additionally, the `check_all_followers.py` script allows you to monitor how many followers you have and how many you can follow based on your current GitHub API rate limits.
+
 The bot can be run in two ways:
 1. **[Manually](#run-the-bot-manually)**: You can run the bot manually on your local machine.
 2. **[Automatically with GitHub Actions](#github-actions-workflow-setup)**: Set up the bot to run automatically on a schedule using GitHub Actions.
 
+## Project Structure
+
+```plaintext
+GitHub_Follower_Bot_Automated/
+│
+├── bot.py                    # Main script for the bot.
+├── check_all_followers.py     # Script to check total followers and available follows.
+├── followers.txt              # File where followed users are logged.
+├── follower_counter.txt       # Total number of users followed across all runs.
+├── requirements.txt           # Python dependencies.
+├── .env                       # Environment variables (must be created).
+├── bot.log                    # Log file for bot.py activities.
+├── check_all_followers.log    # Log file for check_all_followers.py activities.
+├── LICENSE                    # Project licensing information.
+└── README.md                  # This readme file.
+```
 
 ## 🚀 Features
 
 - **Automated Follower Management:** Automatically follows users who follow you on GitHub.
 - **User-Friendly:** Easy to set up and run, even for those with minimal technical knowledge.
 - **Error Handling:** Built-in error handling ensures smooth operation and reliability.
-- **Logging:** Detailed logs for tracking bot activity and performance.
+- **Logging:** Comprehensive logs for tracking bot activity and performance.
+- **Persistent Tracking:** Maintains a persistent follower counter across multiple runs.
+- **Rate Limit Awareness:** Monitors GitHub API rate limits to prevent exceeding them.
 
 
 ## 🛠️ Setup & Installation To Run the Bot Manually on Local Server
@@ -49,7 +69,7 @@ Create a .env file in the project root and add your GitHub username and Personal
 GITHUB_USER=your_github_username
 PERSONAL_GITHUB_TOKEN=your_personal_access_token
 ```
-**Make sure you do not commit this file to the repository as it contains sensitive information.**
+**Make sure you do not commit this file to the repository as it contains sensitive information. Create .gitignore file and add .env to it.**
 
 ### 4. Run the Bot
 Run the bot using the following command:
@@ -147,16 +167,6 @@ python follower_bot.py
 
 ### Optional Features
 Additional features can be implemented as needed. Check the Issues and Discussions sections for ideas and contributions.
-
-## 📂 Project Structure
-
-- **bot.py**: Main script for the bot.
-- **followers.txt**: File where followed users are logged.
-- **requirements.txt**: Python dependencies.
-- **.env**: Environment variables (not included, must be created).
-- **LICENSE**: Project licensing information.
-- **README.md**: This readme file.
-- **follower_counter.txt**: total followers that bot followed automatically 
 
 ## 📈 Contributions
 
