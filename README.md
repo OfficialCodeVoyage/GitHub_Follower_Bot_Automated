@@ -1,4 +1,4 @@
-[![Alt text](gh_bot.png)
+![Alt text](gh_bot.png)
 
 # GitHub Follower Bot Automated
 
