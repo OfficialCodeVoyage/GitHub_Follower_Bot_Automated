@@ -39,7 +39,7 @@ RATE_LIMIT_THRESHOLD = 100  # Remaining requests to start being cautious
 # Delay settings (in seconds)
 DELAY_BETWEEN_FETCH_AND_FOLLOW = 5   # Increased from 3 to 5 seconds
 DELAY_BETWEEN_FOLLOWS = 10           # Increased from 5 to 10 seconds
-DELAY_ON_RATE_LIMIT = 300            # seconds (5 minutes)
+DELAY_ON_RATE_LIMIT = 30            # seconds (5 minutes)
 
 # ===========================
 # Logging Configuration
