@@ -10575,3 +10575,117 @@ Following users from your follower list is done! Total followers fetched: 2407, 
 2024-10-01 00:10:30,969 - INFO - Follower counter updated: 2418
 2024-10-01 00:10:30,969 - INFO - 
 Following users from your follower list is done! Total followers fetched: 2407, Total followers followed: 2418
+2024-10-01 01:09:35,048 - INFO - Hi! I am GitHub Follower Bot.
+2024-10-01 01:09:35,048 - INFO - Letting you follow all your followers!
+2024-10-01 01:09:35,048 - INFO - Starting to fetch your follower lists...
+
+2024-10-01 01:09:35,049 - INFO - Loaded 2418 already followed users.
+2024-10-01 01:09:35,049 - INFO - Resuming from last followed user: im-dipanshu
+2024-10-01 01:09:35,049 - INFO - Starting from page: 1
+2024-10-01 01:09:35,049 - INFO - Current follower counter: 2418
+2024-10-01 01:09:35,136 - INFO - Rate Limit - Remaining: 4711, Reset at: 2024-10-01 01:21:06
+2024-10-01 01:09:35,137 - INFO - Fetching followers from: https://api.github.com/users/officialcodevoyage/followers?per_page=100&page=1
+2024-10-01 01:09:35,231 - INFO - Fetched 100 followers on page 1.
+2024-10-01 01:09:35,231 - INFO - Sleeping for 5 seconds before following users.
+2024-10-01 01:09:40,321 - INFO - Rate Limit - Remaining: 4710, Reset at: 2024-10-01 01:21:06
+2024-10-01 01:09:40,322 - INFO - Fetching followers from: https://api.github.com/users/officialcodevoyage/followers?per_page=100&page=2
+2024-10-01 01:09:40,431 - INFO - Fetched 100 followers on page 2.
+2024-10-01 01:09:40,431 - INFO - Sleeping for 5 seconds before following users.
+2024-10-01 01:09:45,523 - INFO - Rate Limit - Remaining: 4708, Reset at: 2024-10-01 01:21:06
+2024-10-01 01:09:45,524 - INFO - Fetching followers from: https://api.github.com/users/officialcodevoyage/followers?per_page=100&page=3
+2024-10-01 01:09:45,632 - INFO - Fetched 100 followers on page 3.
+2024-10-01 01:09:45,632 - INFO - Sleeping for 5 seconds before following users.
+2024-10-01 01:09:50,723 - INFO - Rate Limit - Remaining: 4707, Reset at: 2024-10-01 01:21:06
+2024-10-01 01:09:50,724 - INFO - Fetching followers from: https://api.github.com/users/officialcodevoyage/followers?per_page=100&page=4
+2024-10-01 01:09:50,831 - INFO - Fetched 100 followers on page 4.
+2024-10-01 01:09:50,831 - INFO - Sleeping for 5 seconds before following users.
+2024-10-01 01:09:55,916 - INFO - Rate Limit - Remaining: 4705, Reset at: 2024-10-01 01:21:06
+2024-10-01 01:09:55,916 - INFO - Fetching followers from: https://api.github.com/users/officialcodevoyage/followers?per_page=100&page=5
+2024-10-01 01:09:56,023 - INFO - Fetched 100 followers on page 5.
+2024-10-01 01:09:56,023 - INFO - Sleeping for 5 seconds before following users.
+2024-10-01 01:10:01,122 - INFO - Rate Limit - Remaining: 4704, Reset at: 2024-10-01 01:21:06
+2024-10-01 01:10:01,123 - INFO - Fetching followers from: https://api.github.com/users/officialcodevoyage/followers?per_page=100&page=6
+2024-10-01 01:10:01,246 - INFO - Fetched 100 followers on page 6.
+2024-10-01 01:10:01,246 - INFO - Sleeping for 5 seconds before following users.
+2024-10-01 01:10:06,340 - INFO - Rate Limit - Remaining: 4702, Reset at: 2024-10-01 01:21:06
+2024-10-01 01:10:06,341 - INFO - Fetching followers from: https://api.github.com/users/officialcodevoyage/followers?per_page=100&page=7
+2024-10-01 01:10:06,435 - INFO - Fetched 100 followers on page 7.
+2024-10-01 01:10:06,435 - INFO - Sleeping for 5 seconds before following users.
+2024-10-01 01:10:11,537 - INFO - Rate Limit - Remaining: 4701, Reset at: 2024-10-01 01:21:06
+2024-10-01 01:10:11,538 - INFO - Fetching followers from: https://api.github.com/users/officialcodevoyage/followers?per_page=100&page=8
+2024-10-01 01:10:11,663 - INFO - Fetched 100 followers on page 8.
+2024-10-01 01:10:11,663 - INFO - Sleeping for 5 seconds before following users.
+2024-10-01 01:10:16,757 - INFO - Rate Limit - Remaining: 4699, Reset at: 2024-10-01 01:21:06
+2024-10-01 01:10:16,758 - INFO - Fetching followers from: https://api.github.com/users/officialcodevoyage/followers?per_page=100&page=9
+2024-10-01 01:10:16,885 - INFO - Fetched 100 followers on page 9.
+2024-10-01 01:10:16,886 - INFO - Sleeping for 5 seconds before following users.
+2024-10-01 01:10:21,971 - INFO - Rate Limit - Remaining: 4698, Reset at: 2024-10-01 01:21:06
+2024-10-01 01:10:21,971 - INFO - Fetching followers from: https://api.github.com/users/officialcodevoyage/followers?per_page=100&page=10
+2024-10-01 01:10:22,070 - INFO - Fetched 100 followers on page 10.
+2024-10-01 01:10:22,070 - INFO - Sleeping for 5 seconds before following users.
+2024-10-01 01:10:27,160 - INFO - Rate Limit - Remaining: 4696, Reset at: 2024-10-01 01:21:06
+2024-10-01 01:10:27,161 - INFO - Fetching followers from: https://api.github.com/users/officialcodevoyage/followers?per_page=100&page=11
+2024-10-01 01:10:27,282 - INFO - Fetched 100 followers on page 11.
+2024-10-01 01:10:27,282 - INFO - Sleeping for 5 seconds before following users.
+2024-10-01 01:10:32,380 - INFO - Rate Limit - Remaining: 4695, Reset at: 2024-10-01 01:21:06
+2024-10-01 01:10:32,381 - INFO - Fetching followers from: https://api.github.com/users/officialcodevoyage/followers?per_page=100&page=12
+2024-10-01 01:10:32,477 - INFO - Fetched 100 followers on page 12.
+2024-10-01 01:10:32,478 - INFO - Sleeping for 5 seconds before following users.
+2024-10-01 01:10:37,578 - INFO - Rate Limit - Remaining: 4693, Reset at: 2024-10-01 01:21:06
+2024-10-01 01:10:37,578 - INFO - Fetching followers from: https://api.github.com/users/officialcodevoyage/followers?per_page=100&page=13
+2024-10-01 01:10:37,717 - INFO - Fetched 100 followers on page 13.
+2024-10-01 01:10:37,717 - INFO - Sleeping for 5 seconds before following users.
+2024-10-01 01:10:42,811 - INFO - Rate Limit - Remaining: 4692, Reset at: 2024-10-01 01:21:06
+2024-10-01 01:10:42,812 - INFO - Fetching followers from: https://api.github.com/users/officialcodevoyage/followers?per_page=100&page=14
+2024-10-01 01:10:42,964 - INFO - Fetched 100 followers on page 14.
+2024-10-01 01:10:42,964 - INFO - Sleeping for 5 seconds before following users.
+2024-10-01 01:10:48,060 - INFO - Rate Limit - Remaining: 4690, Reset at: 2024-10-01 01:21:06
+2024-10-01 01:10:48,060 - INFO - Fetching followers from: https://api.github.com/users/officialcodevoyage/followers?per_page=100&page=15
+2024-10-01 01:10:48,176 - INFO - Fetched 100 followers on page 15.
+2024-10-01 01:10:48,176 - INFO - Sleeping for 5 seconds before following users.
+2024-10-01 01:10:53,262 - INFO - Rate Limit - Remaining: 4688, Reset at: 2024-10-01 01:21:06
+2024-10-01 01:10:53,262 - INFO - Fetching followers from: https://api.github.com/users/officialcodevoyage/followers?per_page=100&page=16
+2024-10-01 01:10:53,368 - INFO - Fetched 100 followers on page 16.
+2024-10-01 01:10:53,368 - INFO - Sleeping for 5 seconds before following users.
+2024-10-01 01:10:58,467 - INFO - Rate Limit - Remaining: 4687, Reset at: 2024-10-01 01:21:06
+2024-10-01 01:10:58,468 - INFO - Fetching followers from: https://api.github.com/users/officialcodevoyage/followers?per_page=100&page=17
+2024-10-01 01:10:58,586 - INFO - Fetched 100 followers on page 17.
+2024-10-01 01:10:58,586 - INFO - Sleeping for 5 seconds before following users.
+2024-10-01 01:11:03,699 - INFO - Rate Limit - Remaining: 4685, Reset at: 2024-10-01 01:21:06
+2024-10-01 01:11:03,700 - INFO - Fetching followers from: https://api.github.com/users/officialcodevoyage/followers?per_page=100&page=18
+2024-10-01 01:11:03,825 - INFO - Fetched 100 followers on page 18.
+2024-10-01 01:11:03,825 - INFO - Sleeping for 5 seconds before following users.
+2024-10-01 01:11:08,929 - INFO - Rate Limit - Remaining: 4684, Reset at: 2024-10-01 01:21:06
+2024-10-01 01:11:08,930 - INFO - Fetching followers from: https://api.github.com/users/officialcodevoyage/followers?per_page=100&page=19
+2024-10-01 01:11:09,088 - INFO - Fetched 100 followers on page 19.
+2024-10-01 01:11:09,088 - INFO - Sleeping for 5 seconds before following users.
+2024-10-01 01:11:14,187 - INFO - Rate Limit - Remaining: 4682, Reset at: 2024-10-01 01:21:06
+2024-10-01 01:11:14,188 - INFO - Fetching followers from: https://api.github.com/users/officialcodevoyage/followers?per_page=100&page=20
+2024-10-01 01:11:14,293 - INFO - Fetched 100 followers on page 20.
+2024-10-01 01:11:14,293 - INFO - Sleeping for 5 seconds before following users.
+2024-10-01 01:11:19,406 - INFO - Rate Limit - Remaining: 4681, Reset at: 2024-10-01 01:21:06
+2024-10-01 01:11:19,407 - INFO - Fetching followers from: https://api.github.com/users/officialcodevoyage/followers?per_page=100&page=21
+2024-10-01 01:11:19,538 - INFO - Fetched 100 followers on page 21.
+2024-10-01 01:11:19,538 - INFO - Sleeping for 5 seconds before following users.
+2024-10-01 01:11:24,622 - INFO - Rate Limit - Remaining: 4679, Reset at: 2024-10-01 01:21:06
+2024-10-01 01:11:24,623 - INFO - Fetching followers from: https://api.github.com/users/officialcodevoyage/followers?per_page=100&page=22
+2024-10-01 01:11:24,784 - INFO - Fetched 100 followers on page 22.
+2024-10-01 01:11:24,784 - INFO - Sleeping for 5 seconds before following users.
+2024-10-01 01:11:29,878 - INFO - Rate Limit - Remaining: 4678, Reset at: 2024-10-01 01:21:06
+2024-10-01 01:11:29,879 - INFO - Fetching followers from: https://api.github.com/users/officialcodevoyage/followers?per_page=100&page=23
+2024-10-01 01:11:30,004 - INFO - Fetched 100 followers on page 23.
+2024-10-01 01:11:30,004 - INFO - Sleeping for 5 seconds before following users.
+2024-10-01 01:11:35,098 - INFO - Rate Limit - Remaining: 4676, Reset at: 2024-10-01 01:21:06
+2024-10-01 01:11:35,099 - INFO - Fetching followers from: https://api.github.com/users/officialcodevoyage/followers?per_page=100&page=24
+2024-10-01 01:11:35,205 - INFO - Fetched 100 followers on page 24.
+2024-10-01 01:11:35,206 - INFO - Sleeping for 5 seconds before following users.
+2024-10-01 01:11:40,307 - INFO - Rate Limit - Remaining: 4675, Reset at: 2024-10-01 01:21:06
+2024-10-01 01:11:40,308 - INFO - Fetching followers from: https://api.github.com/users/officialcodevoyage/followers?per_page=100&page=25
+2024-10-01 01:11:40,479 - INFO - Fetched 9 followers on page 25.
+2024-10-01 01:11:40,479 - INFO - Sleeping for 5 seconds before following users.
+2024-10-01 01:11:45,577 - INFO - Rate Limit - Remaining: 4673, Reset at: 2024-10-01 01:21:06
+2024-10-01 01:11:45,578 - INFO - Fetching followers from: https://api.github.com/users/officialcodevoyage/followers?per_page=100&page=26
+2024-10-01 01:11:45,674 - INFO - No more followers to process. Exiting.
+2024-10-01 01:11:45,674 - INFO - Follower counter updated: 2418
+2024-10-01 01:11:45,674 - INFO - 
+Following users from your follower list is done! Total followers fetched: 2409, Total followers followed: 2418
