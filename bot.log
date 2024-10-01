@@ -8445,3 +8445,2019 @@ Following users from your follower list is done! Total followers fetched: 0, Tot
 2024-09-27 09:31:33,448 - INFO - Follower counter updated: 2006
 2024-09-27 09:31:33,448 - INFO - 
 Following users from your follower list is done! Total followers fetched: 0, Total followers followed: 2006
+2024-09-30 15:14:10,210 - INFO - Hi! I am GitHub Follower Bot.
+2024-09-30 15:14:10,210 - INFO - Letting you follow all your followers!
+2024-09-30 15:14:10,210 - INFO - Starting to fetch your follower lists...
+
+2024-09-30 15:14:10,211 - INFO - Loaded 2006 already followed users.
+2024-09-30 15:14:10,212 - INFO - Resuming from last checked follower: Isabella1344
+2024-09-30 15:14:10,212 - INFO - Starting from page: 416
+2024-09-30 15:14:10,212 - INFO - Current follower counter: 2006
+2024-09-30 15:14:10,415 - INFO - Rate Limit - Remaining: 4682, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:14:10,416 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=416
+2024-09-30 15:14:10,635 - INFO - No more followers to process. Exiting.
+2024-09-30 15:14:10,636 - INFO - Follower counter updated: 2006
+2024-09-30 15:14:10,636 - INFO - 
+Following users from your follower list is done! Total followers fetched: 0, Total followers followed: 2006
+2024-09-30 15:14:19,902 - INFO - Hi! I am GitHub Follower Bot.
+2024-09-30 15:14:19,902 - INFO - Letting you follow all your followers!
+2024-09-30 15:14:19,902 - INFO - Starting to fetch your follower lists...
+
+2024-09-30 15:14:19,903 - INFO - Loaded 2006 already followed users.
+2024-09-30 15:14:19,904 - INFO - Resuming from last checked follower: Isabella1344
+2024-09-30 15:14:19,904 - INFO - Starting from page: 416
+2024-09-30 15:14:19,904 - INFO - Current follower counter: 2006
+2024-09-30 15:14:20,086 - INFO - Rate Limit - Remaining: 4680, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:14:20,086 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=416
+2024-09-30 15:14:20,272 - INFO - No more followers to process. Exiting.
+2024-09-30 15:14:20,273 - INFO - Follower counter updated: 2006
+2024-09-30 15:14:20,273 - INFO - 
+Following users from your follower list is done! Total followers fetched: 0, Total followers followed: 2006
+2024-09-30 15:15:56,879 - INFO - Hi! I am GitHub Follower Bot.
+2024-09-30 15:15:56,879 - INFO - Letting you follow all your followers!
+2024-09-30 15:15:56,879 - INFO - Starting to fetch your follower lists...
+
+2024-09-30 15:15:56,880 - INFO - Loaded 2006 already followed users.
+2024-09-30 15:15:56,881 - INFO - Resuming from last checked follower: Isabella1344
+2024-09-30 15:15:56,881 - INFO - Starting from page: 1
+2024-09-30 15:15:56,881 - INFO - Current follower counter: 2006
+2024-09-30 15:15:57,077 - INFO - Rate Limit - Remaining: 4670, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:15:57,077 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=1
+2024-09-30 15:15:57,328 - INFO - Fetched 100 followers on page 1.
+2024-09-30 15:15:57,329 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:16:02,515 - INFO - Rate Limit - Remaining: 4668, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:16:02,515 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=2
+2024-09-30 15:16:02,722 - INFO - Fetched 100 followers on page 2.
+2024-09-30 15:16:02,722 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:16:07,906 - INFO - Rate Limit - Remaining: 4667, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:16:07,906 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=3
+2024-09-30 15:16:08,111 - INFO - Fetched 100 followers on page 3.
+2024-09-30 15:16:08,111 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:16:13,282 - INFO - Rate Limit - Remaining: 4665, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:16:13,283 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=4
+2024-09-30 15:16:13,480 - INFO - Fetched 100 followers on page 4.
+2024-09-30 15:16:13,480 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:16:15,665 - WARNING - Script interrupted by user. Saving progress and exiting.
+2024-09-30 15:16:15,666 - INFO - Follower counter updated: 2006
+2024-09-30 15:16:15,666 - INFO - 
+Following users from your follower list is done! Total followers fetched: 400, Total followers followed: 2006
+2024-09-30 15:16:58,273 - INFO - Hi! I am GitHub Follower Bot.
+2024-09-30 15:16:58,274 - INFO - Letting you follow all your followers!
+2024-09-30 15:16:58,274 - INFO - Starting to fetch your follower lists...
+
+2024-09-30 15:16:58,275 - INFO - Loaded 2006 already followed users.
+2024-09-30 15:16:58,275 - INFO - Resuming from last checked follower: Isabella1344
+2024-09-30 15:16:58,275 - INFO - Starting from page: 1
+2024-09-30 15:16:58,276 - INFO - Current follower counter: 2006
+2024-09-30 15:16:58,483 - INFO - Rate Limit - Remaining: 4660, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:16:58,483 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=1
+2024-09-30 15:16:58,694 - INFO - Fetched 100 followers on page 1.
+2024-09-30 15:16:58,694 - INFO - Sleeping for 1 seconds before following users.
+2024-09-30 15:16:59,861 - INFO - Rate Limit - Remaining: 4658, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:16:59,861 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=2
+2024-09-30 15:17:00,044 - INFO - Fetched 100 followers on page 2.
+2024-09-30 15:17:00,044 - INFO - Sleeping for 1 seconds before following users.
+2024-09-30 15:17:01,222 - INFO - Rate Limit - Remaining: 4657, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:17:01,222 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=3
+2024-09-30 15:17:01,445 - INFO - Fetched 100 followers on page 3.
+2024-09-30 15:17:01,445 - INFO - Sleeping for 1 seconds before following users.
+2024-09-30 15:17:02,616 - INFO - Rate Limit - Remaining: 4656, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:17:02,617 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=4
+2024-09-30 15:17:02,819 - INFO - Fetched 100 followers on page 4.
+2024-09-30 15:17:02,819 - INFO - Sleeping for 1 seconds before following users.
+2024-09-30 15:17:03,998 - INFO - Rate Limit - Remaining: 4655, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:17:03,998 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=5
+2024-09-30 15:17:04,187 - INFO - Fetched 100 followers on page 5.
+2024-09-30 15:17:04,188 - INFO - Sleeping for 1 seconds before following users.
+2024-09-30 15:17:05,373 - INFO - Rate Limit - Remaining: 4654, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:17:05,373 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=6
+2024-09-30 15:17:05,592 - INFO - Fetched 100 followers on page 6.
+2024-09-30 15:17:05,592 - INFO - Sleeping for 1 seconds before following users.
+2024-09-30 15:17:06,783 - INFO - Rate Limit - Remaining: 4653, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:17:06,783 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=7
+2024-09-30 15:17:06,973 - INFO - Fetched 100 followers on page 7.
+2024-09-30 15:17:06,974 - INFO - Sleeping for 1 seconds before following users.
+2024-09-30 15:17:08,152 - INFO - Rate Limit - Remaining: 4652, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:17:08,152 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=8
+2024-09-30 15:17:08,366 - INFO - Fetched 100 followers on page 8.
+2024-09-30 15:17:08,366 - INFO - Sleeping for 1 seconds before following users.
+2024-09-30 15:17:09,537 - INFO - Rate Limit - Remaining: 4651, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:17:09,538 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=9
+2024-09-30 15:17:09,729 - INFO - Fetched 100 followers on page 9.
+2024-09-30 15:17:09,729 - INFO - Sleeping for 1 seconds before following users.
+2024-09-30 15:17:10,906 - INFO - Rate Limit - Remaining: 4649, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:17:10,906 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=10
+2024-09-30 15:17:11,092 - INFO - Fetched 100 followers on page 10.
+2024-09-30 15:17:11,092 - INFO - Sleeping for 1 seconds before following users.
+2024-09-30 15:17:12,274 - INFO - Rate Limit - Remaining: 4648, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:17:12,275 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=11
+2024-09-30 15:17:12,519 - INFO - Fetched 100 followers on page 11.
+2024-09-30 15:17:12,519 - INFO - Sleeping for 1 seconds before following users.
+2024-09-30 15:17:13,701 - INFO - Rate Limit - Remaining: 4647, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:17:13,701 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=12
+2024-09-30 15:17:13,920 - INFO - Fetched 100 followers on page 12.
+2024-09-30 15:17:13,920 - INFO - Sleeping for 1 seconds before following users.
+2024-09-30 15:17:15,114 - INFO - Rate Limit - Remaining: 4646, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:17:15,114 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=13
+2024-09-30 15:17:15,325 - INFO - Fetched 100 followers on page 13.
+2024-09-30 15:17:15,326 - INFO - Sleeping for 1 seconds before following users.
+2024-09-30 15:17:16,494 - INFO - Rate Limit - Remaining: 4645, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:17:16,494 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=14
+2024-09-30 15:17:16,699 - INFO - Fetched 100 followers on page 14.
+2024-09-30 15:17:16,699 - INFO - Sleeping for 1 seconds before following users.
+2024-09-30 15:17:17,885 - INFO - Rate Limit - Remaining: 4644, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:17:17,886 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=15
+2024-09-30 15:17:18,088 - INFO - Fetched 100 followers on page 15.
+2024-09-30 15:17:18,088 - INFO - Sleeping for 1 seconds before following users.
+2024-09-30 15:17:19,268 - INFO - Rate Limit - Remaining: 4643, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:17:19,268 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=16
+2024-09-30 15:17:19,474 - INFO - Fetched 100 followers on page 16.
+2024-09-30 15:17:19,475 - INFO - Sleeping for 1 seconds before following users.
+2024-09-30 15:17:20,635 - INFO - Rate Limit - Remaining: 4641, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:17:20,635 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=17
+2024-09-30 15:17:20,891 - INFO - Fetched 100 followers on page 17.
+2024-09-30 15:17:20,891 - INFO - Sleeping for 1 seconds before following users.
+2024-09-30 15:17:22,079 - INFO - Rate Limit - Remaining: 4640, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:17:22,079 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=18
+2024-09-30 15:17:22,273 - INFO - Fetched 100 followers on page 18.
+2024-09-30 15:17:22,273 - INFO - Sleeping for 1 seconds before following users.
+2024-09-30 15:17:23,442 - INFO - Rate Limit - Remaining: 4639, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:17:23,442 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=19
+2024-09-30 15:17:23,658 - INFO - Fetched 100 followers on page 19.
+2024-09-30 15:17:23,658 - INFO - Sleeping for 1 seconds before following users.
+2024-09-30 15:17:24,828 - INFO - Rate Limit - Remaining: 4638, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:17:24,829 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=20
+2024-09-30 15:17:25,031 - INFO - Fetched 100 followers on page 20.
+2024-09-30 15:17:25,031 - INFO - Sleeping for 1 seconds before following users.
+2024-09-30 15:17:26,212 - INFO - Rate Limit - Remaining: 4637, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:17:26,212 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=21
+2024-09-30 15:17:26,426 - INFO - Fetched 100 followers on page 21.
+2024-09-30 15:17:26,426 - INFO - Sleeping for 1 seconds before following users.
+2024-09-30 15:17:27,602 - INFO - Rate Limit - Remaining: 4636, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:17:27,603 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=22
+2024-09-30 15:17:27,823 - INFO - Fetched 100 followers on page 22.
+2024-09-30 15:17:27,823 - INFO - Sleeping for 1 seconds before following users.
+2024-09-30 15:17:29,021 - INFO - Rate Limit - Remaining: 4635, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:17:29,021 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=23
+2024-09-30 15:17:29,216 - INFO - Fetched 100 followers on page 23.
+2024-09-30 15:17:29,216 - INFO - Sleeping for 1 seconds before following users.
+2024-09-30 15:17:30,394 - INFO - Rate Limit - Remaining: 4633, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:17:30,394 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=24
+2024-09-30 15:17:30,607 - INFO - Fetched 100 followers on page 24.
+2024-09-30 15:17:30,607 - INFO - Sleeping for 1 seconds before following users.
+2024-09-30 15:17:31,840 - WARNING - Received 429 Too Many Requests. Sleeping for 30 seconds.
+2024-09-30 15:18:02,068 - WARNING - Received 429 Too Many Requests. Sleeping for 30 seconds.
+2024-09-30 15:18:08,647 - WARNING - Script interrupted by user. Saving progress and exiting.
+2024-09-30 15:18:08,648 - INFO - Follower counter updated: 2006
+2024-09-30 15:18:08,648 - INFO - 
+Following users from your follower list is done! Total followers fetched: 2400, Total followers followed: 2006
+2024-09-30 15:18:30,110 - INFO - Hi! I am GitHub Follower Bot.
+2024-09-30 15:18:30,110 - INFO - Letting you follow all your followers!
+2024-09-30 15:18:30,110 - INFO - Starting to fetch your follower lists...
+
+2024-09-30 15:18:30,112 - INFO - Loaded 2006 already followed users.
+2024-09-30 15:18:30,112 - INFO - Resuming from last checked follower: Isabella1344
+2024-09-30 15:18:30,112 - INFO - Starting from page: 1
+2024-09-30 15:18:30,112 - INFO - Current follower counter: 2006
+2024-09-30 15:18:30,302 - INFO - Rate Limit - Remaining: 4625, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:18:30,303 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=1
+2024-09-30 15:18:30,499 - INFO - Fetched 100 followers on page 1.
+2024-09-30 15:18:30,499 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:18:33,677 - INFO - Rate Limit - Remaining: 4623, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:18:33,678 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=2
+2024-09-30 15:18:33,866 - INFO - Fetched 100 followers on page 2.
+2024-09-30 15:18:33,866 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:18:37,047 - INFO - Rate Limit - Remaining: 4622, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:18:37,047 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=3
+2024-09-30 15:18:37,258 - INFO - Fetched 100 followers on page 3.
+2024-09-30 15:18:37,259 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:18:40,455 - INFO - Rate Limit - Remaining: 4621, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:18:40,456 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=4
+2024-09-30 15:18:40,684 - INFO - Fetched 100 followers on page 4.
+2024-09-30 15:18:40,685 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:18:43,860 - INFO - Rate Limit - Remaining: 4619, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:18:43,860 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=5
+2024-09-30 15:18:44,082 - INFO - Fetched 100 followers on page 5.
+2024-09-30 15:18:44,082 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:18:47,268 - INFO - Rate Limit - Remaining: 4618, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:18:47,269 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=6
+2024-09-30 15:18:47,472 - INFO - Fetched 100 followers on page 6.
+2024-09-30 15:18:47,472 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:18:50,648 - INFO - Rate Limit - Remaining: 4617, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:18:50,648 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=7
+2024-09-30 15:18:50,838 - INFO - Fetched 100 followers on page 7.
+2024-09-30 15:18:50,838 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:18:54,010 - INFO - Rate Limit - Remaining: 4615, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:18:54,010 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=8
+2024-09-30 15:18:54,224 - INFO - Fetched 100 followers on page 8.
+2024-09-30 15:18:54,224 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:18:57,400 - INFO - Rate Limit - Remaining: 4614, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:18:57,400 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=9
+2024-09-30 15:18:57,594 - INFO - Fetched 100 followers on page 9.
+2024-09-30 15:18:57,594 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:19:00,770 - INFO - Rate Limit - Remaining: 4613, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:19:00,770 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=10
+2024-09-30 15:19:00,974 - INFO - Fetched 100 followers on page 10.
+2024-09-30 15:19:00,974 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:19:04,202 - INFO - Rate Limit - Remaining: 4611, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:19:04,202 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=11
+2024-09-30 15:19:04,429 - INFO - Fetched 100 followers on page 11.
+2024-09-30 15:19:04,429 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:19:07,634 - INFO - Rate Limit - Remaining: 4610, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:19:07,634 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=12
+2024-09-30 15:19:07,905 - INFO - Fetched 100 followers on page 12.
+2024-09-30 15:19:07,906 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:19:11,075 - INFO - Rate Limit - Remaining: 4609, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:19:11,076 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=13
+2024-09-30 15:19:11,321 - INFO - Fetched 100 followers on page 13.
+2024-09-30 15:19:11,322 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:19:14,493 - INFO - Rate Limit - Remaining: 4607, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:19:14,494 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=14
+2024-09-30 15:19:14,735 - INFO - Fetched 100 followers on page 14.
+2024-09-30 15:19:14,736 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:19:17,916 - INFO - Rate Limit - Remaining: 4606, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:19:17,916 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=15
+2024-09-30 15:19:18,120 - INFO - Fetched 100 followers on page 15.
+2024-09-30 15:19:18,120 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:19:21,295 - WARNING - Script interrupted by user. Saving progress and exiting.
+2024-09-30 15:19:21,295 - INFO - Follower counter updated: 2006
+2024-09-30 15:19:21,295 - INFO - 
+Following users from your follower list is done! Total followers fetched: 1500, Total followers followed: 2006
+2024-09-30 15:19:40,111 - INFO - Hi! I am GitHub Follower Bot.
+2024-09-30 15:19:40,112 - INFO - Letting you follow all your followers!
+2024-09-30 15:19:40,112 - INFO - Starting to fetch your follower lists...
+
+2024-09-30 15:19:40,112 - INFO - Loaded 2006 already followed users.
+2024-09-30 15:19:40,113 - INFO - Resuming from last checked follower: Isabella1344
+2024-09-30 15:19:40,113 - INFO - Starting from page: 1
+2024-09-30 15:19:40,113 - INFO - Current follower counter: 2006
+2024-09-30 15:19:40,298 - INFO - Rate Limit - Remaining: 4603, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:19:40,298 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=1
+2024-09-30 15:19:40,498 - DEBUG - Link header: <https://api.github.com/user/72575602/followers?per_page=100&page=2>; rel="next", <https://api.github.com/user/72575602/followers?per_page=100&page=24>; rel="last"
+2024-09-30 15:19:40,498 - DEBUG - Number of followers fetched: 100
+2024-09-30 15:19:40,498 - INFO - Fetched 100 followers on page 1.
+2024-09-30 15:19:40,498 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:19:43,668 - INFO - Rate Limit - Remaining: 4601, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:19:43,669 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=2
+2024-09-30 15:19:43,872 - DEBUG - Link header: <https://api.github.com/user/72575602/followers?per_page=100&page=1>; rel="prev", <https://api.github.com/user/72575602/followers?per_page=100&page=3>; rel="next", <https://api.github.com/user/72575602/followers?per_page=100&page=24>; rel="last", <https://api.github.com/user/72575602/followers?per_page=100&page=1>; rel="first"
+2024-09-30 15:19:43,873 - DEBUG - Number of followers fetched: 100
+2024-09-30 15:19:43,873 - INFO - Fetched 100 followers on page 2.
+2024-09-30 15:19:43,873 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:19:47,052 - INFO - Rate Limit - Remaining: 4600, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:19:47,052 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=3
+2024-09-30 15:19:47,271 - DEBUG - Link header: <https://api.github.com/user/72575602/followers?per_page=100&page=2>; rel="prev", <https://api.github.com/user/72575602/followers?per_page=100&page=4>; rel="next", <https://api.github.com/user/72575602/followers?per_page=100&page=24>; rel="last", <https://api.github.com/user/72575602/followers?per_page=100&page=1>; rel="first"
+2024-09-30 15:19:47,271 - DEBUG - Number of followers fetched: 100
+2024-09-30 15:19:47,271 - INFO - Fetched 100 followers on page 3.
+2024-09-30 15:19:47,271 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:19:50,453 - INFO - Rate Limit - Remaining: 4599, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:19:50,453 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=4
+2024-09-30 15:19:50,685 - DEBUG - Link header: <https://api.github.com/user/72575602/followers?per_page=100&page=3>; rel="prev", <https://api.github.com/user/72575602/followers?per_page=100&page=5>; rel="next", <https://api.github.com/user/72575602/followers?per_page=100&page=24>; rel="last", <https://api.github.com/user/72575602/followers?per_page=100&page=1>; rel="first"
+2024-09-30 15:19:50,685 - DEBUG - Number of followers fetched: 100
+2024-09-30 15:19:50,686 - INFO - Fetched 100 followers on page 4.
+2024-09-30 15:19:50,686 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:19:53,930 - INFO - Rate Limit - Remaining: 4597, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:19:53,932 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=5
+2024-09-30 15:19:54,125 - DEBUG - Link header: <https://api.github.com/user/72575602/followers?per_page=100&page=4>; rel="prev", <https://api.github.com/user/72575602/followers?per_page=100&page=6>; rel="next", <https://api.github.com/user/72575602/followers?per_page=100&page=24>; rel="last", <https://api.github.com/user/72575602/followers?per_page=100&page=1>; rel="first"
+2024-09-30 15:19:54,126 - DEBUG - Number of followers fetched: 100
+2024-09-30 15:19:54,126 - INFO - Fetched 100 followers on page 5.
+2024-09-30 15:19:54,126 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:19:57,318 - INFO - Rate Limit - Remaining: 4596, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:19:57,319 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=6
+2024-09-30 15:19:57,510 - DEBUG - Link header: <https://api.github.com/user/72575602/followers?per_page=100&page=5>; rel="prev", <https://api.github.com/user/72575602/followers?per_page=100&page=7>; rel="next", <https://api.github.com/user/72575602/followers?per_page=100&page=24>; rel="last", <https://api.github.com/user/72575602/followers?per_page=100&page=1>; rel="first"
+2024-09-30 15:19:57,510 - DEBUG - Number of followers fetched: 100
+2024-09-30 15:19:57,510 - INFO - Fetched 100 followers on page 6.
+2024-09-30 15:19:57,510 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:20:00,724 - INFO - Rate Limit - Remaining: 4595, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:20:00,725 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=7
+2024-09-30 15:20:00,925 - DEBUG - Link header: <https://api.github.com/user/72575602/followers?per_page=100&page=6>; rel="prev", <https://api.github.com/user/72575602/followers?per_page=100&page=8>; rel="next", <https://api.github.com/user/72575602/followers?per_page=100&page=24>; rel="last", <https://api.github.com/user/72575602/followers?per_page=100&page=1>; rel="first"
+2024-09-30 15:20:00,925 - DEBUG - Number of followers fetched: 100
+2024-09-30 15:20:00,925 - INFO - Fetched 100 followers on page 7.
+2024-09-30 15:20:00,925 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:20:04,118 - INFO - Rate Limit - Remaining: 4593, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:20:04,119 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=8
+2024-09-30 15:20:04,350 - DEBUG - Link header: <https://api.github.com/user/72575602/followers?per_page=100&page=7>; rel="prev", <https://api.github.com/user/72575602/followers?per_page=100&page=9>; rel="next", <https://api.github.com/user/72575602/followers?per_page=100&page=24>; rel="last", <https://api.github.com/user/72575602/followers?per_page=100&page=1>; rel="first"
+2024-09-30 15:20:04,351 - DEBUG - Number of followers fetched: 100
+2024-09-30 15:20:04,351 - INFO - Fetched 100 followers on page 8.
+2024-09-30 15:20:04,351 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:20:07,555 - INFO - Rate Limit - Remaining: 4592, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:20:07,555 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=9
+2024-09-30 15:20:07,767 - DEBUG - Link header: <https://api.github.com/user/72575602/followers?per_page=100&page=8>; rel="prev", <https://api.github.com/user/72575602/followers?per_page=100&page=10>; rel="next", <https://api.github.com/user/72575602/followers?per_page=100&page=24>; rel="last", <https://api.github.com/user/72575602/followers?per_page=100&page=1>; rel="first"
+2024-09-30 15:20:07,768 - DEBUG - Number of followers fetched: 100
+2024-09-30 15:20:07,768 - INFO - Fetched 100 followers on page 9.
+2024-09-30 15:20:07,768 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:20:11,005 - INFO - Rate Limit - Remaining: 4591, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:20:11,005 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=10
+2024-09-30 15:20:11,212 - DEBUG - Link header: <https://api.github.com/user/72575602/followers?per_page=100&page=9>; rel="prev", <https://api.github.com/user/72575602/followers?per_page=100&page=11>; rel="next", <https://api.github.com/user/72575602/followers?per_page=100&page=24>; rel="last", <https://api.github.com/user/72575602/followers?per_page=100&page=1>; rel="first"
+2024-09-30 15:20:11,212 - DEBUG - Number of followers fetched: 100
+2024-09-30 15:20:11,212 - INFO - Fetched 100 followers on page 10.
+2024-09-30 15:20:11,213 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:20:14,386 - INFO - Rate Limit - Remaining: 4589, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:20:14,386 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=11
+2024-09-30 15:20:14,584 - DEBUG - Link header: <https://api.github.com/user/72575602/followers?per_page=100&page=10>; rel="prev", <https://api.github.com/user/72575602/followers?per_page=100&page=12>; rel="next", <https://api.github.com/user/72575602/followers?per_page=100&page=24>; rel="last", <https://api.github.com/user/72575602/followers?per_page=100&page=1>; rel="first"
+2024-09-30 15:20:14,584 - DEBUG - Number of followers fetched: 100
+2024-09-30 15:20:14,584 - INFO - Fetched 100 followers on page 11.
+2024-09-30 15:20:14,584 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:20:17,759 - INFO - Rate Limit - Remaining: 4588, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:20:17,759 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=12
+2024-09-30 15:20:17,957 - DEBUG - Link header: <https://api.github.com/user/72575602/followers?per_page=100&page=11>; rel="prev", <https://api.github.com/user/72575602/followers?per_page=100&page=13>; rel="next", <https://api.github.com/user/72575602/followers?per_page=100&page=24>; rel="last", <https://api.github.com/user/72575602/followers?per_page=100&page=1>; rel="first"
+2024-09-30 15:20:17,958 - DEBUG - Number of followers fetched: 100
+2024-09-30 15:20:17,958 - INFO - Fetched 100 followers on page 12.
+2024-09-30 15:20:17,958 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:20:21,135 - INFO - Rate Limit - Remaining: 4587, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:20:21,136 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=13
+2024-09-30 15:20:21,339 - DEBUG - Link header: <https://api.github.com/user/72575602/followers?per_page=100&page=12>; rel="prev", <https://api.github.com/user/72575602/followers?per_page=100&page=14>; rel="next", <https://api.github.com/user/72575602/followers?per_page=100&page=24>; rel="last", <https://api.github.com/user/72575602/followers?per_page=100&page=1>; rel="first"
+2024-09-30 15:20:21,340 - DEBUG - Number of followers fetched: 100
+2024-09-30 15:20:21,340 - INFO - Fetched 100 followers on page 13.
+2024-09-30 15:20:21,340 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:20:24,504 - INFO - Rate Limit - Remaining: 4585, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:20:24,504 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=14
+2024-09-30 15:20:24,715 - DEBUG - Link header: <https://api.github.com/user/72575602/followers?per_page=100&page=13>; rel="prev", <https://api.github.com/user/72575602/followers?per_page=100&page=15>; rel="next", <https://api.github.com/user/72575602/followers?per_page=100&page=24>; rel="last", <https://api.github.com/user/72575602/followers?per_page=100&page=1>; rel="first"
+2024-09-30 15:20:24,715 - DEBUG - Number of followers fetched: 100
+2024-09-30 15:20:24,715 - INFO - Fetched 100 followers on page 14.
+2024-09-30 15:20:24,715 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:20:27,902 - INFO - Rate Limit - Remaining: 4584, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:20:27,902 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=15
+2024-09-30 15:20:28,099 - DEBUG - Link header: <https://api.github.com/user/72575602/followers?per_page=100&page=14>; rel="prev", <https://api.github.com/user/72575602/followers?per_page=100&page=16>; rel="next", <https://api.github.com/user/72575602/followers?per_page=100&page=24>; rel="last", <https://api.github.com/user/72575602/followers?per_page=100&page=1>; rel="first"
+2024-09-30 15:20:28,100 - DEBUG - Number of followers fetched: 100
+2024-09-30 15:20:28,100 - INFO - Fetched 100 followers on page 15.
+2024-09-30 15:20:28,100 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:20:31,276 - INFO - Rate Limit - Remaining: 4583, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:20:31,276 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=16
+2024-09-30 15:20:31,493 - DEBUG - Link header: <https://api.github.com/user/72575602/followers?per_page=100&page=15>; rel="prev", <https://api.github.com/user/72575602/followers?per_page=100&page=17>; rel="next", <https://api.github.com/user/72575602/followers?per_page=100&page=24>; rel="last", <https://api.github.com/user/72575602/followers?per_page=100&page=1>; rel="first"
+2024-09-30 15:20:31,493 - DEBUG - Number of followers fetched: 100
+2024-09-30 15:20:31,494 - INFO - Fetched 100 followers on page 16.
+2024-09-30 15:20:31,494 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:20:34,679 - INFO - Rate Limit - Remaining: 4581, Reset at: 2024-09-30 15:20:39
+2024-09-30 15:20:34,680 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=17
+2024-09-30 15:20:34,924 - DEBUG - Link header: <https://api.github.com/user/72575602/followers?per_page=100&page=16>; rel="prev", <https://api.github.com/user/72575602/followers?per_page=100&page=18>; rel="next", <https://api.github.com/user/72575602/followers?per_page=100&page=24>; rel="last", <https://api.github.com/user/72575602/followers?per_page=100&page=1>; rel="first"
+2024-09-30 15:20:34,924 - DEBUG - Number of followers fetched: 100
+2024-09-30 15:20:34,925 - INFO - Fetched 100 followers on page 17.
+2024-09-30 15:20:34,925 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:20:38,099 - INFO - Rate Limit - Remaining: 5000, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:20:38,099 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=18
+2024-09-30 15:20:38,303 - DEBUG - Link header: <https://api.github.com/user/72575602/followers?per_page=100&page=17>; rel="prev", <https://api.github.com/user/72575602/followers?per_page=100&page=19>; rel="next", <https://api.github.com/user/72575602/followers?per_page=100&page=24>; rel="last", <https://api.github.com/user/72575602/followers?per_page=100&page=1>; rel="first"
+2024-09-30 15:20:38,303 - DEBUG - Number of followers fetched: 100
+2024-09-30 15:20:38,303 - INFO - Fetched 100 followers on page 18.
+2024-09-30 15:20:38,303 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:20:41,564 - INFO - Rate Limit - Remaining: 4999, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:20:41,565 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=19
+2024-09-30 15:20:41,824 - DEBUG - Link header: <https://api.github.com/user/72575602/followers?per_page=100&page=18>; rel="prev", <https://api.github.com/user/72575602/followers?per_page=100&page=20>; rel="next", <https://api.github.com/user/72575602/followers?per_page=100&page=24>; rel="last", <https://api.github.com/user/72575602/followers?per_page=100&page=1>; rel="first"
+2024-09-30 15:20:41,824 - DEBUG - Number of followers fetched: 100
+2024-09-30 15:20:41,824 - INFO - Fetched 100 followers on page 19.
+2024-09-30 15:20:41,824 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:20:45,055 - INFO - Rate Limit - Remaining: 4997, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:20:45,055 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=20
+2024-09-30 15:20:45,330 - DEBUG - Link header: <https://api.github.com/user/72575602/followers?per_page=100&page=19>; rel="prev", <https://api.github.com/user/72575602/followers?per_page=100&page=21>; rel="next", <https://api.github.com/user/72575602/followers?per_page=100&page=24>; rel="last", <https://api.github.com/user/72575602/followers?per_page=100&page=1>; rel="first"
+2024-09-30 15:20:45,330 - DEBUG - Number of followers fetched: 100
+2024-09-30 15:20:45,330 - INFO - Fetched 100 followers on page 20.
+2024-09-30 15:20:45,330 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:20:48,503 - INFO - Rate Limit - Remaining: 4996, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:20:48,503 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=21
+2024-09-30 15:20:48,765 - DEBUG - Link header: <https://api.github.com/user/72575602/followers?per_page=100&page=20>; rel="prev", <https://api.github.com/user/72575602/followers?per_page=100&page=22>; rel="next", <https://api.github.com/user/72575602/followers?per_page=100&page=24>; rel="last", <https://api.github.com/user/72575602/followers?per_page=100&page=1>; rel="first"
+2024-09-30 15:20:48,765 - DEBUG - Number of followers fetched: 100
+2024-09-30 15:20:48,765 - INFO - Fetched 100 followers on page 21.
+2024-09-30 15:20:48,765 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:20:51,939 - INFO - Rate Limit - Remaining: 4995, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:20:51,940 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=22
+2024-09-30 15:20:52,155 - DEBUG - Link header: <https://api.github.com/user/72575602/followers?per_page=100&page=21>; rel="prev", <https://api.github.com/user/72575602/followers?per_page=100&page=23>; rel="next", <https://api.github.com/user/72575602/followers?per_page=100&page=24>; rel="last", <https://api.github.com/user/72575602/followers?per_page=100&page=1>; rel="first"
+2024-09-30 15:20:52,156 - DEBUG - Number of followers fetched: 100
+2024-09-30 15:20:52,156 - INFO - Fetched 100 followers on page 22.
+2024-09-30 15:20:52,156 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:20:55,338 - INFO - Rate Limit - Remaining: 4993, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:20:55,338 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=23
+2024-09-30 15:20:55,560 - DEBUG - Link header: <https://api.github.com/user/72575602/followers?per_page=100&page=22>; rel="prev", <https://api.github.com/user/72575602/followers?per_page=100&page=24>; rel="next", <https://api.github.com/user/72575602/followers?per_page=100&page=24>; rel="last", <https://api.github.com/user/72575602/followers?per_page=100&page=1>; rel="first"
+2024-09-30 15:20:55,560 - DEBUG - Number of followers fetched: 100
+2024-09-30 15:20:55,561 - INFO - Fetched 100 followers on page 23.
+2024-09-30 15:20:55,561 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:20:58,732 - INFO - Rate Limit - Remaining: 4992, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:20:58,732 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=24
+2024-09-30 15:20:58,938 - DEBUG - Link header: <https://api.github.com/user/72575602/followers?per_page=100&page=23>; rel="prev", <https://api.github.com/user/72575602/followers?per_page=100&page=1>; rel="first"
+2024-09-30 15:20:58,938 - DEBUG - Number of followers fetched: 100
+2024-09-30 15:20:58,938 - INFO - Fetched 100 followers on page 24.
+2024-09-30 15:20:58,939 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:21:02,146 - WARNING - Received 429 Too Many Requests. Sleeping for 30 seconds.
+2024-09-30 15:21:32,369 - WARNING - Received 429 Too Many Requests. Sleeping for 30 seconds.
+2024-09-30 15:22:02,591 - WARNING - Received 429 Too Many Requests. Sleeping for 30 seconds.
+2024-09-30 15:22:32,816 - WARNING - Received 429 Too Many Requests. Sleeping for 30 seconds.
+2024-09-30 15:23:03,090 - WARNING - Received 429 Too Many Requests. Sleeping for 30 seconds.
+2024-09-30 15:23:33,090 - ERROR - Max retries exceeded for user max71126. Skipping.
+2024-09-30 15:23:33,090 - DEBUG - Last checked follower set to: max71126
+2024-09-30 15:23:33,090 - INFO - Sleeping for 7.08 seconds before the next follow.
+2024-09-30 15:23:40,407 - WARNING - Received 429 Too Many Requests. Sleeping for 30 seconds.
+2024-09-30 15:24:10,612 - WARNING - Received 429 Too Many Requests. Sleeping for 30 seconds.
+2024-09-30 15:24:40,919 - WARNING - Received 429 Too Many Requests. Sleeping for 30 seconds.
+2024-09-30 15:25:11,129 - WARNING - Received 429 Too Many Requests. Sleeping for 30 seconds.
+2024-09-30 15:25:41,362 - WARNING - Received 429 Too Many Requests. Sleeping for 30 seconds.
+2024-09-30 15:26:11,363 - ERROR - Max retries exceeded for user im-dipanshu. Skipping.
+2024-09-30 15:26:11,364 - DEBUG - Last checked follower set to: im-dipanshu
+2024-09-30 15:26:11,364 - INFO - Sleeping for 7.67 seconds before the next follow.
+2024-09-30 15:26:19,250 - WARNING - Received 429 Too Many Requests. Sleeping for 30 seconds.
+2024-09-30 15:26:49,552 - INFO - Successfully followed user: CAPTAINUJAY
+2024-09-30 15:26:49,552 - DEBUG - Last checked follower set to: CAPTAINUJAY
+2024-09-30 15:26:49,553 - INFO - Follower counter updated: 2007
+2024-09-30 15:26:49,553 - INFO - Sleeping for 7.71 seconds before the next follow.
+2024-09-30 15:26:57,562 - INFO - Successfully followed user: kharid-v2ray
+2024-09-30 15:26:57,563 - DEBUG - Last checked follower set to: kharid-v2ray
+2024-09-30 15:26:57,563 - INFO - Follower counter updated: 2008
+2024-09-30 15:26:57,563 - INFO - Sleeping for 8.20 seconds before the next follow.
+2024-09-30 15:27:06,023 - INFO - Successfully followed user: Azarayucil
+2024-09-30 15:27:06,024 - DEBUG - Last checked follower set to: Azarayucil
+2024-09-30 15:27:06,024 - INFO - Follower counter updated: 2009
+2024-09-30 15:27:06,024 - INFO - Sleeping for 8.32 seconds before the next follow.
+2024-09-30 15:27:14,640 - INFO - Successfully followed user: EmanGhazy-2002
+2024-09-30 15:27:14,640 - DEBUG - Last checked follower set to: EmanGhazy-2002
+2024-09-30 15:27:14,641 - INFO - Follower counter updated: 2010
+2024-09-30 15:27:14,641 - INFO - Sleeping for 8.20 seconds before the next follow.
+2024-09-30 15:27:23,056 - INFO - Rate Limit - Remaining: 4938, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:27:23,056 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=25
+2024-09-30 15:27:23,261 - DEBUG - Link header: <https://api.github.com/user/72575602/followers?per_page=100&page=24>; rel="prev", <https://api.github.com/user/72575602/followers?per_page=100&page=1>; rel="first"
+2024-09-30 15:27:23,262 - DEBUG - Number of followers fetched: 3
+2024-09-30 15:27:23,262 - INFO - Fetched 3 followers on page 25.
+2024-09-30 15:27:23,262 - INFO - Sleeping for 3 seconds before following users.
+2024-09-30 15:27:26,263 - DEBUG - Already followed user: kharid-v2ray. Skipping.
+2024-09-30 15:27:26,263 - DEBUG - Already followed user: Azarayucil. Skipping.
+2024-09-30 15:27:26,263 - DEBUG - Already followed user: EmanGhazy-2002. Skipping.
+2024-09-30 15:27:26,450 - INFO - Rate Limit - Remaining: 4937, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:27:26,452 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=26
+2024-09-30 15:27:26,668 - DEBUG - Link header: <https://api.github.com/user/72575602/followers?per_page=100&page=25>; rel="prev", <https://api.github.com/user/72575602/followers?per_page=100&page=25>; rel="last", <https://api.github.com/user/72575602/followers?per_page=100&page=1>; rel="first"
+2024-09-30 15:27:26,668 - DEBUG - Number of followers fetched: 0
+2024-09-30 15:27:26,668 - INFO - No more followers to process. Exiting.
+2024-09-30 15:27:26,669 - INFO - Follower counter updated: 2010
+2024-09-30 15:27:26,669 - INFO - 
+Following users from your follower list is done! Total followers fetched: 2403, Total followers followed: 2010
+2024-09-30 15:28:01,120 - INFO - Hi! I am GitHub Follower Bot.
+2024-09-30 15:28:01,120 - INFO - Letting you follow all your followers!
+2024-09-30 15:28:01,120 - INFO - Starting to fetch your follower lists...
+
+2024-09-30 15:28:01,123 - INFO - Loaded 2010 already followed users.
+2024-09-30 15:28:01,123 - INFO - Resuming from last checked follower: EmanGhazy-2002
+2024-09-30 15:28:01,123 - INFO - Starting from page: 1
+2024-09-30 15:28:01,124 - INFO - Current follower counter: 2010
+2024-09-30 15:28:01,326 - INFO - Rate Limit - Remaining: 4932, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:28:01,327 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=1
+2024-09-30 15:28:01,539 - INFO - Fetched 100 followers on page 1.
+2024-09-30 15:28:01,539 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:28:06,728 - INFO - Rate Limit - Remaining: 4931, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:28:06,729 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=2
+2024-09-30 15:28:06,924 - INFO - Fetched 100 followers on page 2.
+2024-09-30 15:28:06,924 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:28:12,118 - INFO - Rate Limit - Remaining: 4929, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:28:12,119 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=3
+2024-09-30 15:28:12,312 - INFO - Fetched 100 followers on page 3.
+2024-09-30 15:28:12,312 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:28:17,498 - INFO - Rate Limit - Remaining: 4927, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:28:17,499 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=4
+2024-09-30 15:28:17,716 - INFO - Fetched 100 followers on page 4.
+2024-09-30 15:28:17,717 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:28:22,897 - INFO - Rate Limit - Remaining: 4925, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:28:22,897 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=5
+2024-09-30 15:28:23,142 - INFO - Fetched 100 followers on page 5.
+2024-09-30 15:28:23,142 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:28:28,318 - INFO - Rate Limit - Remaining: 4924, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:28:28,318 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=6
+2024-09-30 15:28:28,514 - INFO - Fetched 100 followers on page 6.
+2024-09-30 15:28:28,515 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:28:33,699 - INFO - Rate Limit - Remaining: 4922, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:28:33,699 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=7
+2024-09-30 15:28:33,908 - INFO - Fetched 100 followers on page 7.
+2024-09-30 15:28:33,909 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:28:39,105 - INFO - Rate Limit - Remaining: 4920, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:28:39,105 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=8
+2024-09-30 15:28:39,307 - INFO - Fetched 100 followers on page 8.
+2024-09-30 15:28:39,307 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:28:44,490 - INFO - Rate Limit - Remaining: 4919, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:28:44,490 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=9
+2024-09-30 15:28:44,729 - INFO - Fetched 100 followers on page 9.
+2024-09-30 15:28:44,730 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:28:49,942 - INFO - Rate Limit - Remaining: 4917, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:28:49,943 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=10
+2024-09-30 15:28:50,158 - INFO - Fetched 100 followers on page 10.
+2024-09-30 15:28:50,158 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:28:55,339 - INFO - Rate Limit - Remaining: 4916, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:28:55,339 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=11
+2024-09-30 15:28:55,532 - INFO - Fetched 100 followers on page 11.
+2024-09-30 15:28:55,532 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:29:00,730 - INFO - Rate Limit - Remaining: 4914, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:29:00,730 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=12
+2024-09-30 15:29:00,943 - INFO - Fetched 100 followers on page 12.
+2024-09-30 15:29:00,944 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:29:06,124 - INFO - Rate Limit - Remaining: 4913, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:29:06,125 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=13
+2024-09-30 15:29:06,352 - INFO - Fetched 100 followers on page 13.
+2024-09-30 15:29:06,352 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:29:11,545 - INFO - Rate Limit - Remaining: 4911, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:29:11,545 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=14
+2024-09-30 15:29:11,750 - INFO - Fetched 100 followers on page 14.
+2024-09-30 15:29:11,752 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:29:16,928 - INFO - Rate Limit - Remaining: 4910, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:29:16,928 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=15
+2024-09-30 15:29:17,141 - INFO - Fetched 100 followers on page 15.
+2024-09-30 15:29:17,141 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:29:22,337 - INFO - Rate Limit - Remaining: 4908, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:29:22,338 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=16
+2024-09-30 15:29:22,544 - INFO - Fetched 100 followers on page 16.
+2024-09-30 15:29:22,544 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:29:27,733 - INFO - Rate Limit - Remaining: 4907, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:29:27,733 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=17
+2024-09-30 15:29:27,977 - INFO - Fetched 100 followers on page 17.
+2024-09-30 15:29:27,977 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:29:33,157 - INFO - Rate Limit - Remaining: 4905, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:29:33,158 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=18
+2024-09-30 15:29:33,384 - INFO - Fetched 100 followers on page 18.
+2024-09-30 15:29:33,384 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:29:38,570 - INFO - Rate Limit - Remaining: 4904, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:29:38,570 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=19
+2024-09-30 15:29:38,802 - INFO - Fetched 100 followers on page 19.
+2024-09-30 15:29:38,802 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:29:44,009 - INFO - Rate Limit - Remaining: 4902, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:29:44,009 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=20
+2024-09-30 15:29:44,223 - INFO - Fetched 100 followers on page 20.
+2024-09-30 15:29:44,223 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:29:49,414 - INFO - Rate Limit - Remaining: 4901, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:29:49,414 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=21
+2024-09-30 15:29:49,642 - INFO - Fetched 100 followers on page 21.
+2024-09-30 15:29:49,642 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:29:54,824 - INFO - Rate Limit - Remaining: 4899, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:29:54,824 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=22
+2024-09-30 15:29:55,054 - INFO - Fetched 100 followers on page 22.
+2024-09-30 15:29:55,054 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:30:00,245 - INFO - Rate Limit - Remaining: 4898, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:30:00,245 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=23
+2024-09-30 15:30:00,448 - INFO - Fetched 100 followers on page 23.
+2024-09-30 15:30:00,448 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:30:05,676 - INFO - Rate Limit - Remaining: 4896, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:30:05,676 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=24
+2024-09-30 15:30:05,898 - INFO - Fetched 100 followers on page 24.
+2024-09-30 15:30:05,898 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:30:11,087 - INFO - Rate Limit - Remaining: 4894, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:30:11,088 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=25
+2024-09-30 15:30:11,430 - INFO - Fetched 3 followers on page 25.
+2024-09-30 15:30:11,430 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:30:16,608 - INFO - Rate Limit - Remaining: 4893, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:30:16,608 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=26
+2024-09-30 15:30:16,808 - INFO - No more followers to process. Exiting.
+2024-09-30 15:30:16,809 - INFO - Follower counter updated: 2010
+2024-09-30 15:30:16,809 - INFO - 
+Following users from your follower list is done! Total followers fetched: 2403, Total followers followed: 2010
+2024-09-30 15:34:49,025 - INFO - Hi! I am GitHub Follower Bot.
+2024-09-30 15:34:49,025 - INFO - Letting you follow all your followers!
+2024-09-30 15:34:49,025 - INFO - Starting to fetch your follower lists...
+
+2024-09-30 15:34:49,025 - INFO - Loaded 2010 already followed users.
+2024-09-30 15:34:49,025 - INFO - No last followed user found. Starting from the beginning.
+2024-09-30 15:34:49,027 - INFO - Starting from page: 1
+2024-09-30 15:34:49,027 - INFO - Current follower counter: 2010
+2024-09-30 15:34:49,235 - INFO - Rate Limit - Remaining: 4865, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:34:49,236 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=1
+2024-09-30 15:34:49,497 - INFO - Fetched 100 followers on page 1.
+2024-09-30 15:34:49,497 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:34:54,718 - INFO - Successfully followed user: rm3l
+2024-09-30 15:34:54,719 - INFO - Follower counter updated: 2011
+2024-09-30 15:34:54,719 - INFO - Sleeping for 12.90 seconds before the next follow.
+2024-09-30 15:35:07,830 - INFO - Successfully followed user: DaveRev
+2024-09-30 15:35:07,830 - INFO - Follower counter updated: 2012
+2024-09-30 15:35:07,832 - INFO - Sleeping for 12.75 seconds before the next follow.
+2024-09-30 15:35:20,763 - INFO - Rate Limit - Remaining: 4859, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:35:20,763 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=2
+2024-09-30 15:35:20,976 - INFO - Fetched 100 followers on page 2.
+2024-09-30 15:35:20,976 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:35:26,191 - INFO - Successfully followed user: sergiss
+2024-09-30 15:35:26,192 - INFO - Follower counter updated: 2013
+2024-09-30 15:35:26,192 - INFO - Sleeping for 14.13 seconds before the next follow.
+2024-09-30 15:35:40,508 - INFO - Rate Limit - Remaining: 4855, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:35:40,508 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=3
+2024-09-30 15:35:40,864 - INFO - Fetched 100 followers on page 3.
+2024-09-30 15:35:40,865 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:35:46,072 - INFO - Successfully followed user: jcrben
+2024-09-30 15:35:46,072 - INFO - Follower counter updated: 2014
+2024-09-30 15:35:46,073 - INFO - Sleeping for 10.81 seconds before the next follow.
+2024-09-30 15:35:57,125 - INFO - Successfully followed user: denu5
+2024-09-30 15:35:57,126 - INFO - Follower counter updated: 2015
+2024-09-30 15:35:57,126 - INFO - Sleeping for 14.31 seconds before the next follow.
+2024-09-30 15:36:11,650 - INFO - Successfully followed user: LiuYingJie
+2024-09-30 15:36:11,652 - INFO - Follower counter updated: 2016
+2024-09-30 15:36:11,652 - INFO - Sleeping for 14.95 seconds before the next follow.
+2024-09-30 15:36:26,814 - INFO - Successfully followed user: ludoplex
+2024-09-30 15:36:26,815 - INFO - Follower counter updated: 2017
+2024-09-30 15:36:26,815 - INFO - Sleeping for 11.23 seconds before the next follow.
+2024-09-30 15:36:38,258 - INFO - Successfully followed user: marvinrusinek
+2024-09-30 15:36:38,259 - INFO - Follower counter updated: 2018
+2024-09-30 15:36:38,259 - INFO - Sleeping for 11.92 seconds before the next follow.
+2024-09-30 15:36:50,401 - INFO - Successfully followed user: angelocavallet
+2024-09-30 15:36:50,402 - INFO - Follower counter updated: 2019
+2024-09-30 15:36:50,404 - INFO - Sleeping for 13.57 seconds before the next follow.
+2024-09-30 15:37:04,236 - INFO - Successfully followed user: ravenmk3
+2024-09-30 15:37:04,236 - INFO - Follower counter updated: 2020
+2024-09-30 15:37:04,237 - INFO - Sleeping for 12.62 seconds before the next follow.
+2024-09-30 15:37:17,053 - INFO - Successfully followed user: yloliveira
+2024-09-30 15:37:17,054 - INFO - Follower counter updated: 2021
+2024-09-30 15:37:17,054 - INFO - Sleeping for 10.80 seconds before the next follow.
+2024-09-30 15:37:28,086 - INFO - Successfully followed user: LordRahl90
+2024-09-30 15:37:28,087 - INFO - Follower counter updated: 2022
+2024-09-30 15:37:28,087 - INFO - Sleeping for 12.12 seconds before the next follow.
+2024-09-30 15:37:40,478 - INFO - Successfully followed user: jcarlosadm
+2024-09-30 15:37:40,479 - INFO - Follower counter updated: 2023
+2024-09-30 15:37:40,479 - INFO - Sleeping for 10.22 seconds before the next follow.
+2024-09-30 15:37:50,898 - INFO - Successfully followed user: PedroGuerraPT
+2024-09-30 15:37:50,899 - INFO - Follower counter updated: 2024
+2024-09-30 15:37:50,899 - INFO - Sleeping for 10.55 seconds before the next follow.
+2024-09-30 15:38:01,698 - INFO - Successfully followed user: montreal91
+2024-09-30 15:38:01,699 - INFO - Follower counter updated: 2025
+2024-09-30 15:38:01,699 - INFO - Sleeping for 14.47 seconds before the next follow.
+2024-09-30 15:38:16,389 - INFO - Rate Limit - Remaining: 4827, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:38:16,389 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=4
+2024-09-30 15:38:16,589 - INFO - Fetched 100 followers on page 4.
+2024-09-30 15:38:16,589 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:38:21,812 - INFO - Successfully followed user: topsecretagent007
+2024-09-30 15:38:21,813 - INFO - Follower counter updated: 2026
+2024-09-30 15:38:21,814 - INFO - Sleeping for 10.99 seconds before the next follow.
+2024-09-30 15:38:33,007 - INFO - Successfully followed user: hebertphp
+2024-09-30 15:38:33,008 - INFO - Follower counter updated: 2027
+2024-09-30 15:38:33,008 - INFO - Sleeping for 14.95 seconds before the next follow.
+2024-09-30 15:38:48,172 - INFO - Successfully followed user: seydaozdmr
+2024-09-30 15:38:48,174 - INFO - Follower counter updated: 2028
+2024-09-30 15:38:48,174 - INFO - Sleeping for 13.72 seconds before the next follow.
+2024-09-30 15:39:02,068 - INFO - Rate Limit - Remaining: 4818, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:39:02,068 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=5
+2024-09-30 15:39:02,285 - INFO - Fetched 100 followers on page 5.
+2024-09-30 15:39:02,286 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:39:07,533 - INFO - Successfully followed user: azoth1991
+2024-09-30 15:39:07,534 - INFO - Follower counter updated: 2029
+2024-09-30 15:39:07,534 - INFO - Sleeping for 10.25 seconds before the next follow.
+2024-09-30 15:39:18,024 - INFO - Successfully followed user: ElCodigoDominicano
+2024-09-30 15:39:18,025 - INFO - Follower counter updated: 2030
+2024-09-30 15:39:18,025 - INFO - Sleeping for 10.43 seconds before the next follow.
+2024-09-30 15:39:28,680 - INFO - Successfully followed user: TiffanyHoran
+2024-09-30 15:39:28,680 - INFO - Follower counter updated: 2031
+2024-09-30 15:39:28,680 - INFO - Sleeping for 12.05 seconds before the next follow.
+2024-09-30 15:39:40,907 - INFO - Rate Limit - Remaining: 4811, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:39:40,907 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=6
+2024-09-30 15:39:41,120 - INFO - Fetched 100 followers on page 6.
+2024-09-30 15:39:41,120 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:39:46,343 - INFO - Successfully followed user: gapolli
+2024-09-30 15:39:46,344 - INFO - Follower counter updated: 2032
+2024-09-30 15:39:46,344 - INFO - Sleeping for 13.46 seconds before the next follow.
+2024-09-30 15:40:00,026 - INFO - Successfully followed user: MilenkoMarkovic
+2024-09-30 15:40:00,027 - INFO - Follower counter updated: 2033
+2024-09-30 15:40:00,028 - INFO - Sleeping for 13.66 seconds before the next follow.
+2024-09-30 15:40:13,966 - INFO - Successfully followed user: slozic
+2024-09-30 15:40:13,967 - INFO - Follower counter updated: 2034
+2024-09-30 15:40:13,967 - INFO - Sleeping for 10.69 seconds before the next follow.
+2024-09-30 15:40:24,919 - INFO - Successfully followed user: roo-shy
+2024-09-30 15:40:24,920 - INFO - Follower counter updated: 2035
+2024-09-30 15:40:24,920 - INFO - Sleeping for 13.72 seconds before the next follow.
+2024-09-30 15:40:38,868 - INFO - Successfully followed user: ashmeetsehgal
+2024-09-30 15:40:38,869 - INFO - Follower counter updated: 2036
+2024-09-30 15:40:38,869 - INFO - Sleeping for 12.50 seconds before the next follow.
+2024-09-30 15:40:51,601 - INFO - Successfully followed user: wikten1
+2024-09-30 15:40:51,601 - INFO - Follower counter updated: 2037
+2024-09-30 15:40:51,602 - INFO - Sleeping for 14.32 seconds before the next follow.
+2024-09-30 15:41:06,225 - INFO - Successfully followed user: VikasKad
+2024-09-30 15:41:06,226 - INFO - Follower counter updated: 2038
+2024-09-30 15:41:06,226 - INFO - Sleeping for 12.53 seconds before the next follow.
+2024-09-30 15:41:18,991 - INFO - Successfully followed user: guiireal
+2024-09-30 15:41:18,992 - INFO - Follower counter updated: 2039
+2024-09-30 15:41:18,992 - INFO - Sleeping for 12.56 seconds before the next follow.
+2024-09-30 15:41:31,802 - INFO - Successfully followed user: amarkpark
+2024-09-30 15:41:31,803 - INFO - Follower counter updated: 2040
+2024-09-30 15:41:31,804 - INFO - Sleeping for 12.68 seconds before the next follow.
+2024-09-30 15:41:44,732 - INFO - Successfully followed user: tablangdelio
+2024-09-30 15:41:44,733 - INFO - Follower counter updated: 2041
+2024-09-30 15:41:44,734 - INFO - Sleeping for 14.70 seconds before the next follow.
+2024-09-30 15:41:59,668 - INFO - Successfully followed user: Vinaum8
+2024-09-30 15:41:59,669 - INFO - Follower counter updated: 2042
+2024-09-30 15:41:59,670 - INFO - Sleeping for 13.98 seconds before the next follow.
+2024-09-30 15:42:13,882 - INFO - Successfully followed user: ratamranjith
+2024-09-30 15:42:13,882 - INFO - Follower counter updated: 2043
+2024-09-30 15:42:13,883 - INFO - Sleeping for 13.41 seconds before the next follow.
+2024-09-30 15:42:27,538 - INFO - Successfully followed user: fabriciovo
+2024-09-30 15:42:27,539 - INFO - Follower counter updated: 2044
+2024-09-30 15:42:27,539 - INFO - Sleeping for 12.49 seconds before the next follow.
+2024-09-30 15:42:40,254 - INFO - Successfully followed user: QuentinAndrews
+2024-09-30 15:42:40,255 - INFO - Follower counter updated: 2045
+2024-09-30 15:42:40,255 - INFO - Sleeping for 12.13 seconds before the next follow.
+2024-09-30 15:42:52,684 - INFO - Successfully followed user: wenPKtalk
+2024-09-30 15:42:52,685 - INFO - Follower counter updated: 2046
+2024-09-30 15:42:52,685 - INFO - Sleeping for 13.11 seconds before the next follow.
+2024-09-30 15:43:06,001 - INFO - Rate Limit - Remaining: 4774, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:43:06,001 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=7
+2024-09-30 15:43:06,196 - INFO - Fetched 100 followers on page 7.
+2024-09-30 15:43:06,196 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:43:11,405 - INFO - Successfully followed user: bbkxm
+2024-09-30 15:43:11,406 - INFO - Follower counter updated: 2047
+2024-09-30 15:43:11,406 - INFO - Sleeping for 14.61 seconds before the next follow.
+2024-09-30 15:43:26,233 - INFO - Successfully followed user: barrytestfl
+2024-09-30 15:43:26,234 - INFO - Follower counter updated: 2048
+2024-09-30 15:43:26,234 - INFO - Sleeping for 12.38 seconds before the next follow.
+2024-09-30 15:43:38,789 - INFO - Rate Limit - Remaining: 4768, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:43:38,790 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=8
+2024-09-30 15:43:38,981 - INFO - Fetched 100 followers on page 8.
+2024-09-30 15:43:38,981 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:43:44,231 - INFO - Successfully followed user: basit9498
+2024-09-30 15:43:44,233 - INFO - Follower counter updated: 2049
+2024-09-30 15:43:44,233 - INFO - Sleeping for 11.14 seconds before the next follow.
+2024-09-30 15:43:55,631 - INFO - Successfully followed user: vaibhavbaweja7
+2024-09-30 15:43:55,632 - INFO - Follower counter updated: 2050
+2024-09-30 15:43:55,632 - INFO - Sleeping for 10.48 seconds before the next follow.
+2024-09-30 15:44:06,341 - INFO - Successfully followed user: rogeriolippert
+2024-09-30 15:44:06,343 - INFO - Follower counter updated: 2051
+2024-09-30 15:44:06,343 - INFO - Sleeping for 14.41 seconds before the next follow.
+2024-09-30 15:44:20,939 - INFO - Rate Limit - Remaining: 4760, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:44:20,939 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=9
+2024-09-30 15:44:21,141 - INFO - Fetched 100 followers on page 9.
+2024-09-30 15:44:21,141 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:44:26,359 - INFO - Successfully followed user: AquiraS
+2024-09-30 15:44:26,360 - INFO - Follower counter updated: 2052
+2024-09-30 15:44:26,360 - INFO - Sleeping for 10.03 seconds before the next follow.
+2024-09-30 15:44:36,600 - INFO - Successfully followed user: edenramoneda
+2024-09-30 15:44:36,601 - INFO - Follower counter updated: 2053
+2024-09-30 15:44:36,601 - INFO - Sleeping for 11.10 seconds before the next follow.
+2024-09-30 15:44:47,957 - INFO - Successfully followed user: f0reachARR
+2024-09-30 15:44:47,958 - INFO - Follower counter updated: 2054
+2024-09-30 15:44:47,958 - INFO - Sleeping for 10.23 seconds before the next follow.
+2024-09-30 15:44:58,411 - INFO - Successfully followed user: dhan-profile
+2024-09-30 15:44:58,412 - INFO - Follower counter updated: 2055
+2024-09-30 15:44:58,412 - INFO - Sleeping for 10.03 seconds before the next follow.
+2024-09-30 15:45:08,662 - INFO - Successfully followed user: officialcjunior
+2024-09-30 15:45:08,663 - INFO - Follower counter updated: 2056
+2024-09-30 15:45:08,663 - INFO - Sleeping for 14.92 seconds before the next follow.
+2024-09-30 15:45:23,790 - INFO - Successfully followed user: ediaz13
+2024-09-30 15:45:23,791 - INFO - Follower counter updated: 2057
+2024-09-30 15:45:23,791 - INFO - Sleeping for 13.35 seconds before the next follow.
+2024-09-30 15:45:37,368 - INFO - Successfully followed user: nullniverse
+2024-09-30 15:45:37,369 - INFO - Follower counter updated: 2058
+2024-09-30 15:45:37,370 - INFO - Sleeping for 11.74 seconds before the next follow.
+2024-09-30 15:45:49,354 - INFO - Successfully followed user: mghotbi
+2024-09-30 15:45:49,355 - INFO - Follower counter updated: 2059
+2024-09-30 15:45:49,355 - INFO - Sleeping for 10.19 seconds before the next follow.
+2024-09-30 15:45:59,757 - INFO - Successfully followed user: robinadoro
+2024-09-30 15:45:59,758 - INFO - Follower counter updated: 2060
+2024-09-30 15:45:59,759 - INFO - Sleeping for 11.42 seconds before the next follow.
+2024-09-30 15:46:11,389 - INFO - Successfully followed user: rafallltm
+2024-09-30 15:46:11,390 - INFO - Follower counter updated: 2061
+2024-09-30 15:46:11,390 - INFO - Sleeping for 12.08 seconds before the next follow.
+2024-09-30 15:46:23,690 - INFO - Successfully followed user: raselldev
+2024-09-30 15:46:23,691 - INFO - Follower counter updated: 2062
+2024-09-30 15:46:23,691 - INFO - Sleeping for 13.18 seconds before the next follow.
+2024-09-30 15:46:37,072 - INFO - Successfully followed user: Josephglz
+2024-09-30 15:46:37,074 - INFO - Follower counter updated: 2063
+2024-09-30 15:46:37,074 - INFO - Sleeping for 13.06 seconds before the next follow.
+2024-09-30 15:46:50,369 - INFO - Successfully followed user: CelsonF
+2024-09-30 15:46:50,370 - INFO - Follower counter updated: 2064
+2024-09-30 15:46:50,370 - INFO - Sleeping for 12.51 seconds before the next follow.
+2024-09-30 15:47:03,111 - INFO - Successfully followed user: MB-SMART
+2024-09-30 15:47:03,112 - INFO - Follower counter updated: 2065
+2024-09-30 15:47:03,112 - INFO - Sleeping for 11.34 seconds before the next follow.
+2024-09-30 15:47:14,809 - INFO - Successfully followed user: CTURIN01
+2024-09-30 15:47:14,810 - INFO - Follower counter updated: 2066
+2024-09-30 15:47:14,810 - INFO - Sleeping for 10.07 seconds before the next follow.
+2024-09-30 15:47:25,099 - INFO - Successfully followed user: mercykip
+2024-09-30 15:47:25,100 - INFO - Follower counter updated: 2067
+2024-09-30 15:47:25,101 - INFO - Sleeping for 14.53 seconds before the next follow.
+2024-09-30 15:47:39,817 - INFO - Rate Limit - Remaining: 4724, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:47:39,818 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=10
+2024-09-30 15:47:40,135 - INFO - Fetched 100 followers on page 10.
+2024-09-30 15:47:40,136 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:47:45,346 - INFO - Successfully followed user: guilhermedom
+2024-09-30 15:47:45,347 - INFO - Follower counter updated: 2068
+2024-09-30 15:47:45,348 - INFO - Sleeping for 12.00 seconds before the next follow.
+2024-09-30 15:47:57,591 - INFO - Successfully followed user: ali-eljerrari
+2024-09-30 15:47:57,592 - INFO - Follower counter updated: 2069
+2024-09-30 15:47:57,592 - INFO - Sleeping for 10.48 seconds before the next follow.
+2024-09-30 15:48:08,284 - INFO - Successfully followed user: zhutianning
+2024-09-30 15:48:08,285 - INFO - Follower counter updated: 2070
+2024-09-30 15:48:08,285 - INFO - Sleeping for 10.12 seconds before the next follow.
+2024-09-30 15:48:18,618 - INFO - Successfully followed user: FernandoAOborges
+2024-09-30 15:48:18,619 - INFO - Follower counter updated: 2071
+2024-09-30 15:48:18,619 - INFO - Sleeping for 10.58 seconds before the next follow.
+2024-09-30 15:48:29,420 - INFO - Successfully followed user: AliEmili
+2024-09-30 15:48:29,421 - INFO - Follower counter updated: 2072
+2024-09-30 15:48:29,421 - INFO - Sleeping for 12.07 seconds before the next follow.
+2024-09-30 15:48:41,697 - INFO - Successfully followed user: erinerinchan
+2024-09-30 15:48:41,698 - INFO - Follower counter updated: 2073
+2024-09-30 15:48:41,698 - INFO - Sleeping for 11.30 seconds before the next follow.
+2024-09-30 15:48:53,224 - INFO - Successfully followed user: llraraujo
+2024-09-30 15:48:53,225 - INFO - Follower counter updated: 2074
+2024-09-30 15:48:53,225 - INFO - Sleeping for 11.64 seconds before the next follow.
+2024-09-30 15:49:05,058 - INFO - Rate Limit - Remaining: 4708, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:49:05,059 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=11
+2024-09-30 15:49:05,288 - INFO - Fetched 100 followers on page 11.
+2024-09-30 15:49:05,288 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:49:10,516 - INFO - Successfully followed user: Flaviogameover
+2024-09-30 15:49:10,516 - INFO - Follower counter updated: 2075
+2024-09-30 15:49:10,516 - INFO - Sleeping for 11.53 seconds before the next follow.
+2024-09-30 15:49:22,278 - INFO - Successfully followed user: chrisoco
+2024-09-30 15:49:22,279 - INFO - Follower counter updated: 2076
+2024-09-30 15:49:22,279 - INFO - Sleeping for 12.17 seconds before the next follow.
+2024-09-30 15:49:34,671 - INFO - Successfully followed user: elvis7t
+2024-09-30 15:49:34,672 - INFO - Follower counter updated: 2077
+2024-09-30 15:49:34,672 - INFO - Sleeping for 11.66 seconds before the next follow.
+2024-09-30 15:49:46,589 - INFO - Successfully followed user: AlTheOne
+2024-09-30 15:49:46,590 - INFO - Follower counter updated: 2078
+2024-09-30 15:49:46,590 - INFO - Sleeping for 14.31 seconds before the next follow.
+2024-09-30 15:50:01,123 - INFO - Successfully followed user: Kelvintsokozani
+2024-09-30 15:50:01,124 - INFO - Follower counter updated: 2079
+2024-09-30 15:50:01,124 - INFO - Sleeping for 12.97 seconds before the next follow.
+2024-09-30 15:50:14,340 - INFO - Successfully followed user: 2045matrix
+2024-09-30 15:50:14,341 - INFO - Follower counter updated: 2080
+2024-09-30 15:50:14,341 - INFO - Sleeping for 10.36 seconds before the next follow.
+2024-09-30 15:50:24,919 - INFO - Successfully followed user: iamadarsh1994
+2024-09-30 15:50:24,920 - INFO - Follower counter updated: 2081
+2024-09-30 15:50:24,920 - INFO - Sleeping for 10.15 seconds before the next follow.
+2024-09-30 15:50:35,258 - INFO - Rate Limit - Remaining: 4691, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:50:35,258 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=12
+2024-09-30 15:50:35,477 - INFO - Fetched 100 followers on page 12.
+2024-09-30 15:50:35,477 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:50:40,685 - INFO - Successfully followed user: smaiti7
+2024-09-30 15:50:40,686 - INFO - Follower counter updated: 2082
+2024-09-30 15:50:40,686 - INFO - Sleeping for 13.39 seconds before the next follow.
+2024-09-30 15:50:54,287 - INFO - Successfully followed user: kojo1375
+2024-09-30 15:50:54,288 - INFO - Follower counter updated: 2083
+2024-09-30 15:50:54,288 - INFO - Sleeping for 10.09 seconds before the next follow.
+2024-09-30 15:51:04,600 - INFO - Successfully followed user: luisadha
+2024-09-30 15:51:04,601 - INFO - Follower counter updated: 2084
+2024-09-30 15:51:04,601 - INFO - Sleeping for 12.13 seconds before the next follow.
+2024-09-30 15:51:16,959 - INFO - Successfully followed user: MiladNz
+2024-09-30 15:51:16,959 - INFO - Follower counter updated: 2085
+2024-09-30 15:51:16,960 - INFO - Sleeping for 11.49 seconds before the next follow.
+2024-09-30 15:51:28,691 - INFO - Successfully followed user: keouck
+2024-09-30 15:51:28,692 - INFO - Follower counter updated: 2086
+2024-09-30 15:51:28,692 - INFO - Sleeping for 11.43 seconds before the next follow.
+2024-09-30 15:51:40,342 - INFO - Successfully followed user: da0hn
+2024-09-30 15:51:40,344 - INFO - Follower counter updated: 2087
+2024-09-30 15:51:40,345 - INFO - Sleeping for 11.04 seconds before the next follow.
+2024-09-30 15:51:51,602 - INFO - Successfully followed user: natBizitza
+2024-09-30 15:51:51,604 - INFO - Follower counter updated: 2088
+2024-09-30 15:51:51,604 - INFO - Sleeping for 10.24 seconds before the next follow.
+2024-09-30 15:52:02,094 - INFO - Successfully followed user: xxxleonxx
+2024-09-30 15:52:02,096 - INFO - Follower counter updated: 2089
+2024-09-30 15:52:02,096 - INFO - Sleeping for 13.34 seconds before the next follow.
+2024-09-30 15:52:15,637 - INFO - Successfully followed user: lucasferreiralimax
+2024-09-30 15:52:15,638 - INFO - Follower counter updated: 2090
+2024-09-30 15:52:15,638 - INFO - Sleeping for 10.39 seconds before the next follow.
+2024-09-30 15:52:26,258 - INFO - Successfully followed user: fcolobe
+2024-09-30 15:52:26,258 - INFO - Follower counter updated: 2091
+2024-09-30 15:52:26,259 - INFO - Sleeping for 12.61 seconds before the next follow.
+2024-09-30 15:52:39,137 - INFO - Successfully followed user: biggaji
+2024-09-30 15:52:39,138 - INFO - Follower counter updated: 2092
+2024-09-30 15:52:39,138 - INFO - Sleeping for 10.13 seconds before the next follow.
+2024-09-30 15:52:49,479 - INFO - Successfully followed user: shogo281
+2024-09-30 15:52:49,480 - INFO - Follower counter updated: 2093
+2024-09-30 15:52:49,480 - INFO - Sleeping for 11.42 seconds before the next follow.
+2024-09-30 15:53:01,130 - INFO - Successfully followed user: aybash
+2024-09-30 15:53:01,131 - INFO - Follower counter updated: 2094
+2024-09-30 15:53:01,131 - INFO - Sleeping for 13.35 seconds before the next follow.
+2024-09-30 15:53:14,683 - INFO - Successfully followed user: sheldonlll
+2024-09-30 15:53:14,684 - INFO - Follower counter updated: 2095
+2024-09-30 15:53:14,684 - INFO - Sleeping for 12.40 seconds before the next follow.
+2024-09-30 15:53:27,354 - INFO - Successfully followed user: Akerdogmus
+2024-09-30 15:53:27,355 - INFO - Follower counter updated: 2096
+2024-09-30 15:53:27,355 - INFO - Sleeping for 13.61 seconds before the next follow.
+2024-09-30 15:53:41,166 - INFO - Successfully followed user: aldob-mohamed96
+2024-09-30 15:53:41,166 - INFO - Follower counter updated: 2097
+2024-09-30 15:53:41,167 - INFO - Sleeping for 12.49 seconds before the next follow.
+2024-09-30 15:53:53,841 - INFO - Rate Limit - Remaining: 4653, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:53:53,842 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=13
+2024-09-30 15:53:54,038 - INFO - Fetched 100 followers on page 13.
+2024-09-30 15:53:54,039 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:53:59,239 - INFO - Successfully followed user: NatanVieira
+2024-09-30 15:53:59,240 - INFO - Follower counter updated: 2098
+2024-09-30 15:53:59,240 - INFO - Sleeping for 14.45 seconds before the next follow.
+2024-09-30 15:54:13,899 - INFO - Successfully followed user: adkif
+2024-09-30 15:54:13,900 - INFO - Follower counter updated: 2099
+2024-09-30 15:54:13,900 - INFO - Sleeping for 11.18 seconds before the next follow.
+2024-09-30 15:54:25,294 - INFO - Successfully followed user: memrdk
+2024-09-30 15:54:25,295 - INFO - Follower counter updated: 2100
+2024-09-30 15:54:25,295 - INFO - Sleeping for 11.83 seconds before the next follow.
+2024-09-30 15:54:37,390 - INFO - Successfully followed user: Stormyisland
+2024-09-30 15:54:37,391 - INFO - Follower counter updated: 2101
+2024-09-30 15:54:37,391 - INFO - Sleeping for 11.64 seconds before the next follow.
+2024-09-30 15:54:49,260 - INFO - Successfully followed user: develectro
+2024-09-30 15:54:49,261 - INFO - Follower counter updated: 2102
+2024-09-30 15:54:49,261 - INFO - Sleeping for 13.26 seconds before the next follow.
+2024-09-30 15:55:02,760 - INFO - Successfully followed user: aryamtos
+2024-09-30 15:55:02,761 - INFO - Follower counter updated: 2103
+2024-09-30 15:55:02,761 - INFO - Sleeping for 11.31 seconds before the next follow.
+2024-09-30 15:55:14,316 - INFO - Successfully followed user: yagoid
+2024-09-30 15:55:14,317 - INFO - Follower counter updated: 2104
+2024-09-30 15:55:14,317 - INFO - Sleeping for 13.06 seconds before the next follow.
+2024-09-30 15:55:27,577 - INFO - Successfully followed user: cirejr
+2024-09-30 15:55:27,578 - INFO - Follower counter updated: 2105
+2024-09-30 15:55:27,578 - INFO - Sleeping for 13.40 seconds before the next follow.
+2024-09-30 15:55:41,173 - INFO - Rate Limit - Remaining: 4634, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:55:41,173 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=14
+2024-09-30 15:55:41,378 - INFO - Fetched 100 followers on page 14.
+2024-09-30 15:55:41,379 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:55:46,581 - INFO - Successfully followed user: AlineSiqueira
+2024-09-30 15:55:46,582 - INFO - Follower counter updated: 2106
+2024-09-30 15:55:46,582 - INFO - Sleeping for 13.59 seconds before the next follow.
+2024-09-30 15:56:00,404 - INFO - Successfully followed user: its-tkc
+2024-09-30 15:56:00,405 - INFO - Follower counter updated: 2107
+2024-09-30 15:56:00,405 - INFO - Sleeping for 11.98 seconds before the next follow.
+2024-09-30 15:56:12,597 - INFO - Successfully followed user: CharlyBGood
+2024-09-30 15:56:12,598 - INFO - Follower counter updated: 2108
+2024-09-30 15:56:12,598 - INFO - Sleeping for 11.32 seconds before the next follow.
+2024-09-30 15:56:24,118 - INFO - Successfully followed user: nicolycosta
+2024-09-30 15:56:24,119 - INFO - Follower counter updated: 2109
+2024-09-30 15:56:24,120 - INFO - Sleeping for 14.31 seconds before the next follow.
+2024-09-30 15:56:38,640 - INFO - Successfully followed user: armandosouza
+2024-09-30 15:56:38,641 - INFO - Follower counter updated: 2110
+2024-09-30 15:56:38,641 - INFO - Sleeping for 12.31 seconds before the next follow.
+2024-09-30 15:56:51,216 - INFO - Successfully followed user: khaldi-med
+2024-09-30 15:56:51,217 - INFO - Follower counter updated: 2111
+2024-09-30 15:56:51,217 - INFO - Sleeping for 13.14 seconds before the next follow.
+2024-09-30 15:57:04,588 - INFO - Successfully followed user: Eugene-prog
+2024-09-30 15:57:04,589 - INFO - Follower counter updated: 2112
+2024-09-30 15:57:04,589 - INFO - Sleeping for 12.23 seconds before the next follow.
+2024-09-30 15:57:17,029 - INFO - Successfully followed user: Betulkanmaz
+2024-09-30 15:57:17,030 - INFO - Follower counter updated: 2113
+2024-09-30 15:57:17,030 - INFO - Sleeping for 11.44 seconds before the next follow.
+2024-09-30 15:57:28,687 - INFO - Successfully followed user: eclelucien
+2024-09-30 15:57:28,688 - INFO - Follower counter updated: 2114
+2024-09-30 15:57:28,688 - INFO - Sleeping for 12.58 seconds before the next follow.
+2024-09-30 15:57:41,507 - INFO - Successfully followed user: MiloosN5
+2024-09-30 15:57:41,508 - INFO - Follower counter updated: 2115
+2024-09-30 15:57:41,508 - INFO - Sleeping for 12.41 seconds before the next follow.
+2024-09-30 15:57:54,156 - INFO - Successfully followed user: selcukctn
+2024-09-30 15:57:54,157 - INFO - Follower counter updated: 2116
+2024-09-30 15:57:54,157 - INFO - Sleeping for 10.37 seconds before the next follow.
+2024-09-30 15:58:04,787 - INFO - Successfully followed user: dajneem23
+2024-09-30 15:58:04,789 - INFO - Follower counter updated: 2117
+2024-09-30 15:58:04,789 - INFO - Sleeping for 14.86 seconds before the next follow.
+2024-09-30 15:58:19,863 - INFO - Successfully followed user: Reinhardt254
+2024-09-30 15:58:19,864 - INFO - Follower counter updated: 2118
+2024-09-30 15:58:19,864 - INFO - Sleeping for 14.30 seconds before the next follow.
+2024-09-30 15:58:34,374 - INFO - Successfully followed user: IROpany
+2024-09-30 15:58:34,375 - INFO - Follower counter updated: 2119
+2024-09-30 15:58:34,375 - INFO - Sleeping for 11.14 seconds before the next follow.
+2024-09-30 15:58:45,730 - INFO - Successfully followed user: pushitchaudhary
+2024-09-30 15:58:45,730 - INFO - Follower counter updated: 2120
+2024-09-30 15:58:45,730 - INFO - Sleeping for 14.64 seconds before the next follow.
+2024-09-30 15:59:00,606 - INFO - Rate Limit - Remaining: 4598, Reset at: 2024-09-30 16:20:41
+2024-09-30 15:59:00,606 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=15
+2024-09-30 15:59:00,812 - INFO - Fetched 100 followers on page 15.
+2024-09-30 15:59:00,813 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 15:59:06,025 - INFO - Successfully followed user: njoromyke
+2024-09-30 15:59:06,026 - INFO - Follower counter updated: 2121
+2024-09-30 15:59:06,026 - INFO - Sleeping for 12.46 seconds before the next follow.
+2024-09-30 15:59:18,703 - WARNING - Received 429 Too Many Requests. Sleeping for 300 seconds.
+2024-09-30 16:04:18,965 - WARNING - Received 429 Too Many Requests. Sleeping for 300 seconds.
+2024-09-30 16:09:19,246 - WARNING - Received 429 Too Many Requests. Sleeping for 300 seconds.
+2024-09-30 16:14:19,500 - WARNING - Received 429 Too Many Requests. Sleeping for 300 seconds.
+2024-09-30 16:19:23,153 - WARNING - Received 429 Too Many Requests. Sleeping for 300 seconds.
+2024-09-30 16:24:23,154 - ERROR - Max retries exceeded for user NeisserMS. Skipping.
+2024-09-30 16:24:23,154 - INFO - Sleeping for 11.78 seconds before the next follow.
+2024-09-30 16:24:35,226 - WARNING - Received 429 Too Many Requests. Sleeping for 300 seconds.
+2024-09-30 16:29:35,482 - INFO - Successfully followed user: Maycon355
+2024-09-30 16:29:35,483 - INFO - Follower counter updated: 2122
+2024-09-30 16:29:35,483 - INFO - Sleeping for 13.92 seconds before the next follow.
+2024-09-30 16:29:49,619 - INFO - Successfully followed user: hakan8252
+2024-09-30 16:29:49,620 - INFO - Follower counter updated: 2123
+2024-09-30 16:29:49,621 - INFO - Sleeping for 12.37 seconds before the next follow.
+2024-09-30 16:30:02,216 - INFO - Successfully followed user: Barallobre
+2024-09-30 16:30:02,217 - INFO - Follower counter updated: 2124
+2024-09-30 16:30:02,217 - INFO - Sleeping for 14.98 seconds before the next follow.
+2024-09-30 16:30:17,404 - INFO - Successfully followed user: sendoru
+2024-09-30 16:30:17,405 - INFO - Follower counter updated: 2125
+2024-09-30 16:30:17,405 - INFO - Sleeping for 13.48 seconds before the next follow.
+2024-09-30 16:30:31,139 - INFO - Successfully followed user: MKingdomMac
+2024-09-30 16:30:31,141 - INFO - Follower counter updated: 2126
+2024-09-30 16:30:31,142 - INFO - Sleeping for 11.53 seconds before the next follow.
+2024-09-30 16:30:42,902 - INFO - Successfully followed user: jocanola
+2024-09-30 16:30:42,902 - INFO - Follower counter updated: 2127
+2024-09-30 16:30:42,903 - INFO - Sleeping for 11.67 seconds before the next follow.
+2024-09-30 16:30:54,817 - INFO - Successfully followed user: Dahsle
+2024-09-30 16:30:54,817 - INFO - Follower counter updated: 2128
+2024-09-30 16:30:54,818 - INFO - Sleeping for 12.08 seconds before the next follow.
+2024-09-30 16:31:07,152 - INFO - Successfully followed user: mednoor890
+2024-09-30 16:31:07,153 - INFO - Follower counter updated: 2129
+2024-09-30 16:31:07,153 - INFO - Sleeping for 12.16 seconds before the next follow.
+2024-09-30 16:31:19,522 - INFO - Successfully followed user: MegaBytee
+2024-09-30 16:31:19,523 - INFO - Follower counter updated: 2130
+2024-09-30 16:31:19,523 - INFO - Sleeping for 12.51 seconds before the next follow.
+2024-09-30 16:31:32,241 - INFO - Successfully followed user: apollo-hero
+2024-09-30 16:31:32,242 - INFO - Follower counter updated: 2131
+2024-09-30 16:31:32,243 - INFO - Sleeping for 12.85 seconds before the next follow.
+2024-09-30 16:31:45,346 - INFO - Successfully followed user: aminizahra
+2024-09-30 16:31:45,347 - INFO - Follower counter updated: 2132
+2024-09-30 16:31:45,347 - INFO - Sleeping for 10.20 seconds before the next follow.
+2024-09-30 16:31:55,758 - INFO - Successfully followed user: Rodymus
+2024-09-30 16:31:55,759 - INFO - Follower counter updated: 2133
+2024-09-30 16:31:55,759 - INFO - Sleeping for 12.47 seconds before the next follow.
+2024-09-30 16:32:08,454 - INFO - Successfully followed user: fabriciored
+2024-09-30 16:32:08,455 - INFO - Follower counter updated: 2134
+2024-09-30 16:32:08,455 - INFO - Sleeping for 12.75 seconds before the next follow.
+2024-09-30 16:32:21,403 - INFO - Successfully followed user: kaw101010
+2024-09-30 16:32:21,405 - INFO - Follower counter updated: 2135
+2024-09-30 16:32:21,405 - INFO - Sleeping for 14.51 seconds before the next follow.
+2024-09-30 16:32:36,085 - INFO - Rate Limit - Remaining: 4918, Reset at: 2024-09-30 17:20:47
+2024-09-30 16:32:36,085 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=16
+2024-09-30 16:32:36,314 - INFO - Fetched 100 followers on page 16.
+2024-09-30 16:32:36,314 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 16:32:41,535 - INFO - Successfully followed user: davisantosr
+2024-09-30 16:32:41,536 - INFO - Follower counter updated: 2136
+2024-09-30 16:32:41,536 - INFO - Sleeping for 13.06 seconds before the next follow.
+2024-09-30 16:32:54,864 - INFO - Successfully followed user: muriukiMartin
+2024-09-30 16:32:54,865 - INFO - Follower counter updated: 2137
+2024-09-30 16:32:54,865 - INFO - Sleeping for 11.60 seconds before the next follow.
+2024-09-30 16:33:06,684 - INFO - Successfully followed user: aduayom
+2024-09-30 16:33:06,685 - INFO - Follower counter updated: 2138
+2024-09-30 16:33:06,685 - INFO - Sleeping for 14.94 seconds before the next follow.
+2024-09-30 16:33:21,833 - INFO - Successfully followed user: SammyLeths
+2024-09-30 16:33:21,834 - INFO - Follower counter updated: 2139
+2024-09-30 16:33:21,834 - INFO - Sleeping for 10.70 seconds before the next follow.
+2024-09-30 16:33:32,745 - INFO - Successfully followed user: peterdgreat
+2024-09-30 16:33:32,745 - INFO - Follower counter updated: 2140
+2024-09-30 16:33:32,746 - INFO - Sleeping for 10.13 seconds before the next follow.
+2024-09-30 16:33:43,118 - INFO - Successfully followed user: aniketpatidar
+2024-09-30 16:33:43,119 - INFO - Follower counter updated: 2141
+2024-09-30 16:33:43,120 - INFO - Sleeping for 10.62 seconds before the next follow.
+2024-09-30 16:33:54,000 - INFO - Successfully followed user: lucasdefreitasroberto
+2024-09-30 16:33:54,001 - INFO - Follower counter updated: 2142
+2024-09-30 16:33:54,001 - INFO - Sleeping for 10.12 seconds before the next follow.
+2024-09-30 16:34:04,359 - INFO - Successfully followed user: emmanuelthegeek
+2024-09-30 16:34:04,360 - INFO - Follower counter updated: 2143
+2024-09-30 16:34:04,360 - INFO - Sleeping for 14.10 seconds before the next follow.
+2024-09-30 16:34:18,677 - INFO - Successfully followed user: Ahiamata-Gabriel
+2024-09-30 16:34:18,678 - INFO - Follower counter updated: 2144
+2024-09-30 16:34:18,678 - INFO - Sleeping for 11.00 seconds before the next follow.
+2024-09-30 16:34:29,890 - INFO - Successfully followed user: RecepKeremZeybek
+2024-09-30 16:34:29,891 - INFO - Follower counter updated: 2145
+2024-09-30 16:34:29,891 - INFO - Sleeping for 12.15 seconds before the next follow.
+2024-09-30 16:34:42,261 - INFO - Successfully followed user: tatsumoto-ren
+2024-09-30 16:34:42,262 - INFO - Follower counter updated: 2146
+2024-09-30 16:34:42,262 - INFO - Sleeping for 13.49 seconds before the next follow.
+2024-09-30 16:34:55,994 - INFO - Successfully followed user: Piyush-Keshri
+2024-09-30 16:34:55,995 - INFO - Follower counter updated: 2147
+2024-09-30 16:34:55,996 - INFO - Sleeping for 11.31 seconds before the next follow.
+2024-09-30 16:35:07,513 - INFO - Successfully followed user: mozhgan-k
+2024-09-30 16:35:07,514 - INFO - Follower counter updated: 2148
+2024-09-30 16:35:07,514 - INFO - Sleeping for 14.92 seconds before the next follow.
+2024-09-30 16:35:22,668 - INFO - Successfully followed user: serdbay
+2024-09-30 16:35:22,669 - INFO - Follower counter updated: 2149
+2024-09-30 16:35:22,669 - INFO - Sleeping for 14.42 seconds before the next follow.
+2024-09-30 16:35:37,280 - INFO - Rate Limit - Remaining: 4886, Reset at: 2024-09-30 17:20:47
+2024-09-30 16:35:37,281 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=17
+2024-09-30 16:35:37,520 - INFO - Fetched 100 followers on page 17.
+2024-09-30 16:35:37,521 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 16:35:42,760 - INFO - Successfully followed user: eflatuna
+2024-09-30 16:35:42,761 - INFO - Follower counter updated: 2150
+2024-09-30 16:35:42,761 - INFO - Sleeping for 12.03 seconds before the next follow.
+2024-09-30 16:35:55,004 - INFO - Successfully followed user: amakaogbu
+2024-09-30 16:35:55,005 - INFO - Follower counter updated: 2151
+2024-09-30 16:35:55,005 - INFO - Sleeping for 12.80 seconds before the next follow.
+2024-09-30 16:36:08,058 - INFO - Successfully followed user: hishammohamed101
+2024-09-30 16:36:08,059 - INFO - Follower counter updated: 2152
+2024-09-30 16:36:08,059 - INFO - Sleeping for 13.52 seconds before the next follow.
+2024-09-30 16:36:21,846 - INFO - Successfully followed user: stormbrain-agency
+2024-09-30 16:36:21,848 - INFO - Follower counter updated: 2153
+2024-09-30 16:36:21,848 - INFO - Sleeping for 14.16 seconds before the next follow.
+2024-09-30 16:36:36,216 - INFO - Successfully followed user: guptasonu14
+2024-09-30 16:36:36,217 - INFO - Follower counter updated: 2154
+2024-09-30 16:36:36,217 - INFO - Sleeping for 11.70 seconds before the next follow.
+2024-09-30 16:36:48,130 - INFO - Successfully followed user: FehTC
+2024-09-30 16:36:48,131 - INFO - Follower counter updated: 2155
+2024-09-30 16:36:48,131 - INFO - Sleeping for 10.38 seconds before the next follow.
+2024-09-30 16:36:58,732 - INFO - Successfully followed user: work-rjkashyap
+2024-09-30 16:36:58,733 - INFO - Follower counter updated: 2156
+2024-09-30 16:36:58,733 - INFO - Sleeping for 13.99 seconds before the next follow.
+2024-09-30 16:37:12,950 - INFO - Rate Limit - Remaining: 4868, Reset at: 2024-09-30 17:20:47
+2024-09-30 16:37:12,951 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=18
+2024-09-30 16:37:13,164 - INFO - Fetched 100 followers on page 18.
+2024-09-30 16:37:13,165 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 16:37:18,440 - INFO - Successfully followed user: isaka-james
+2024-09-30 16:37:18,441 - INFO - Follower counter updated: 2157
+2024-09-30 16:37:18,441 - INFO - Sleeping for 13.19 seconds before the next follow.
+2024-09-30 16:37:31,840 - INFO - Successfully followed user: qh21
+2024-09-30 16:37:31,841 - INFO - Follower counter updated: 2158
+2024-09-30 16:37:31,841 - INFO - Sleeping for 13.52 seconds before the next follow.
+2024-09-30 16:37:45,575 - INFO - Successfully followed user: Saltinbank-SyS
+2024-09-30 16:37:45,576 - INFO - Follower counter updated: 2159
+2024-09-30 16:37:45,576 - INFO - Sleeping for 10.99 seconds before the next follow.
+2024-09-30 16:37:56,783 - INFO - Successfully followed user: YKO-01
+2024-09-30 16:37:56,785 - INFO - Follower counter updated: 2160
+2024-09-30 16:37:56,785 - INFO - Sleeping for 13.76 seconds before the next follow.
+2024-09-30 16:38:10,772 - INFO - Successfully followed user: kelseykm
+2024-09-30 16:38:10,773 - INFO - Follower counter updated: 2161
+2024-09-30 16:38:10,773 - INFO - Sleeping for 13.51 seconds before the next follow.
+2024-09-30 16:38:24,503 - INFO - Successfully followed user: tymsai
+2024-09-30 16:38:24,504 - INFO - Follower counter updated: 2162
+2024-09-30 16:38:24,504 - INFO - Sleeping for 13.14 seconds before the next follow.
+2024-09-30 16:38:37,844 - INFO - Successfully followed user: saranshsinhaa
+2024-09-30 16:38:37,845 - INFO - Follower counter updated: 2163
+2024-09-30 16:38:37,845 - INFO - Sleeping for 13.65 seconds before the next follow.
+2024-09-30 16:38:51,699 - INFO - Successfully followed user: osamaayub
+2024-09-30 16:38:51,700 - INFO - Follower counter updated: 2164
+2024-09-30 16:38:51,701 - INFO - Sleeping for 11.71 seconds before the next follow.
+2024-09-30 16:39:03,625 - INFO - Successfully followed user: juniorrdgs
+2024-09-30 16:39:03,626 - INFO - Follower counter updated: 2165
+2024-09-30 16:39:03,626 - INFO - Sleeping for 13.99 seconds before the next follow.
+2024-09-30 16:39:17,831 - INFO - Successfully followed user: OftenUser
+2024-09-30 16:39:17,832 - INFO - Follower counter updated: 2166
+2024-09-30 16:39:17,832 - INFO - Sleeping for 11.59 seconds before the next follow.
+2024-09-30 16:39:29,665 - INFO - Successfully followed user: Sara-Jo
+2024-09-30 16:39:29,666 - INFO - Follower counter updated: 2167
+2024-09-30 16:39:29,666 - INFO - Sleeping for 13.39 seconds before the next follow.
+2024-09-30 16:39:43,285 - INFO - Successfully followed user: marianapiccolo
+2024-09-30 16:39:43,286 - INFO - Follower counter updated: 2168
+2024-09-30 16:39:43,286 - INFO - Sleeping for 14.68 seconds before the next follow.
+2024-09-30 16:39:58,177 - INFO - Successfully followed user: Olegchs
+2024-09-30 16:39:58,178 - INFO - Follower counter updated: 2169
+2024-09-30 16:39:58,178 - INFO - Sleeping for 11.26 seconds before the next follow.
+2024-09-30 16:40:09,656 - INFO - Successfully followed user: musamairshad
+2024-09-30 16:40:09,658 - INFO - Follower counter updated: 2170
+2024-09-30 16:40:09,658 - INFO - Sleeping for 12.25 seconds before the next follow.
+2024-09-30 16:40:22,146 - INFO - Successfully followed user: Endale2
+2024-09-30 16:40:22,148 - INFO - Follower counter updated: 2171
+2024-09-30 16:40:22,148 - INFO - Sleeping for 12.68 seconds before the next follow.
+2024-09-30 16:40:35,083 - INFO - Successfully followed user: parsarezaee
+2024-09-30 16:40:35,084 - INFO - Follower counter updated: 2172
+2024-09-30 16:40:35,084 - INFO - Sleeping for 12.44 seconds before the next follow.
+2024-09-30 16:40:47,757 - INFO - Successfully followed user: rizvan555
+2024-09-30 16:40:47,758 - INFO - Follower counter updated: 2173
+2024-09-30 16:40:47,758 - INFO - Sleeping for 11.10 seconds before the next follow.
+2024-09-30 16:40:59,095 - INFO - Successfully followed user: msalehabadi
+2024-09-30 16:40:59,096 - INFO - Follower counter updated: 2174
+2024-09-30 16:40:59,096 - INFO - Sleeping for 11.04 seconds before the next follow.
+2024-09-30 16:41:10,350 - INFO - Successfully followed user: MhtpMmr
+2024-09-30 16:41:10,351 - INFO - Follower counter updated: 2175
+2024-09-30 16:41:10,351 - INFO - Sleeping for 11.78 seconds before the next follow.
+2024-09-30 16:41:22,385 - INFO - Successfully followed user: elvirafimansyah
+2024-09-30 16:41:22,386 - INFO - Follower counter updated: 2176
+2024-09-30 16:41:22,386 - INFO - Sleeping for 10.19 seconds before the next follow.
+2024-09-30 16:41:32,784 - INFO - Successfully followed user: AbhiMishra-Now
+2024-09-30 16:41:32,785 - INFO - Follower counter updated: 2177
+2024-09-30 16:41:32,786 - INFO - Sleeping for 11.70 seconds before the next follow.
+2024-09-30 16:41:44,752 - INFO - Successfully followed user: contepablod
+2024-09-30 16:41:44,753 - INFO - Follower counter updated: 2178
+2024-09-30 16:41:44,754 - INFO - Sleeping for 11.07 seconds before the next follow.
+2024-09-30 16:41:56,040 - INFO - Successfully followed user: ghramcode18
+2024-09-30 16:41:56,041 - INFO - Follower counter updated: 2179
+2024-09-30 16:41:56,042 - INFO - Sleeping for 14.83 seconds before the next follow.
+2024-09-30 16:42:11,090 - INFO - Successfully followed user: yanosea
+2024-09-30 16:42:11,091 - INFO - Follower counter updated: 2180
+2024-09-30 16:42:11,092 - INFO - Sleeping for 10.76 seconds before the next follow.
+2024-09-30 16:42:22,115 - INFO - Successfully followed user: AMCoder-80
+2024-09-30 16:42:22,116 - INFO - Follower counter updated: 2181
+2024-09-30 16:42:22,116 - INFO - Sleeping for 10.58 seconds before the next follow.
+2024-09-30 16:42:32,897 - INFO - Successfully followed user: Merciful123
+2024-09-30 16:42:32,898 - INFO - Follower counter updated: 2182
+2024-09-30 16:42:32,899 - INFO - Sleeping for 11.34 seconds before the next follow.
+2024-09-30 16:42:44,491 - INFO - Successfully followed user: devbrina
+2024-09-30 16:42:44,492 - INFO - Follower counter updated: 2183
+2024-09-30 16:42:44,492 - INFO - Sleeping for 14.18 seconds before the next follow.
+2024-09-30 16:42:58,883 - INFO - Successfully followed user: ByeongHunKim
+2024-09-30 16:42:58,884 - INFO - Follower counter updated: 2184
+2024-09-30 16:42:58,884 - INFO - Sleeping for 13.80 seconds before the next follow.
+2024-09-30 16:43:12,907 - INFO - Successfully followed user: DalyChouikh
+2024-09-30 16:43:12,908 - INFO - Follower counter updated: 2185
+2024-09-30 16:43:12,908 - INFO - Sleeping for 10.64 seconds before the next follow.
+2024-09-30 16:43:23,788 - INFO - Successfully followed user: fulviavaz
+2024-09-30 16:43:23,789 - INFO - Follower counter updated: 2186
+2024-09-30 16:43:23,789 - INFO - Sleeping for 12.96 seconds before the next follow.
+2024-09-30 16:43:37,058 - INFO - Successfully followed user: lgustavopalmieri
+2024-09-30 16:43:37,058 - INFO - Follower counter updated: 2187
+2024-09-30 16:43:37,059 - INFO - Sleeping for 10.29 seconds before the next follow.
+2024-09-30 16:43:47,629 - INFO - Successfully followed user: HasanPiash
+2024-09-30 16:43:47,630 - INFO - Follower counter updated: 2188
+2024-09-30 16:43:47,630 - INFO - Sleeping for 13.72 seconds before the next follow.
+2024-09-30 16:44:01,562 - INFO - Successfully followed user: MahinMuhammad
+2024-09-30 16:44:01,563 - INFO - Follower counter updated: 2189
+2024-09-30 16:44:01,563 - INFO - Sleeping for 12.33 seconds before the next follow.
+2024-09-30 16:44:14,085 - INFO - Rate Limit - Remaining: 4792, Reset at: 2024-09-30 17:20:47
+2024-09-30 16:44:14,086 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=19
+2024-09-30 16:44:14,294 - INFO - Fetched 100 followers on page 19.
+2024-09-30 16:44:14,294 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 16:44:19,580 - INFO - Successfully followed user: piaocreative
+2024-09-30 16:44:19,581 - INFO - Follower counter updated: 2190
+2024-09-30 16:44:19,581 - INFO - Sleeping for 14.07 seconds before the next follow.
+2024-09-30 16:44:33,869 - INFO - Successfully followed user: julmart87
+2024-09-30 16:44:33,870 - INFO - Follower counter updated: 2191
+2024-09-30 16:44:33,870 - INFO - Sleeping for 12.30 seconds before the next follow.
+2024-09-30 16:44:46,435 - INFO - Successfully followed user: Vergilraven
+2024-09-30 16:44:46,436 - INFO - Follower counter updated: 2192
+2024-09-30 16:44:46,436 - INFO - Sleeping for 10.90 seconds before the next follow.
+2024-09-30 16:44:57,596 - INFO - Successfully followed user: yM4T3US
+2024-09-30 16:44:57,597 - INFO - Follower counter updated: 2193
+2024-09-30 16:44:57,597 - INFO - Sleeping for 14.62 seconds before the next follow.
+2024-09-30 16:45:12,419 - INFO - Successfully followed user: codewithJosh
+2024-09-30 16:45:12,420 - INFO - Follower counter updated: 2194
+2024-09-30 16:45:12,420 - INFO - Sleeping for 12.71 seconds before the next follow.
+2024-09-30 16:45:25,346 - INFO - Successfully followed user: flaviadanielareisenauer
+2024-09-30 16:45:25,347 - INFO - Follower counter updated: 2195
+2024-09-30 16:45:25,347 - INFO - Sleeping for 11.70 seconds before the next follow.
+2024-09-30 16:45:37,272 - INFO - Successfully followed user: Paulo-galvao
+2024-09-30 16:45:37,273 - INFO - Follower counter updated: 2196
+2024-09-30 16:45:37,273 - INFO - Sleeping for 13.59 seconds before the next follow.
+2024-09-30 16:45:51,086 - INFO - Successfully followed user: eliaskirui
+2024-09-30 16:45:51,087 - INFO - Follower counter updated: 2197
+2024-09-30 16:45:51,087 - INFO - Sleeping for 12.73 seconds before the next follow.
+2024-09-30 16:46:04,069 - INFO - Successfully followed user: IIAmir
+2024-09-30 16:46:04,070 - INFO - Follower counter updated: 2198
+2024-09-30 16:46:04,070 - INFO - Sleeping for 10.85 seconds before the next follow.
+2024-09-30 16:46:15,146 - INFO - Successfully followed user: HugoSilva023
+2024-09-30 16:46:15,147 - INFO - Follower counter updated: 2199
+2024-09-30 16:46:15,147 - INFO - Sleeping for 12.15 seconds before the next follow.
+2024-09-30 16:46:27,519 - INFO - Successfully followed user: TanjimulSabbir
+2024-09-30 16:46:27,520 - INFO - Follower counter updated: 2200
+2024-09-30 16:46:27,520 - INFO - Sleeping for 12.03 seconds before the next follow.
+2024-09-30 16:46:39,867 - INFO - Successfully followed user: JenniferSieber
+2024-09-30 16:46:39,868 - INFO - Follower counter updated: 2201
+2024-09-30 16:46:39,868 - INFO - Sleeping for 10.38 seconds before the next follow.
+2024-09-30 16:46:50,474 - INFO - Successfully followed user: WesleyIcaro
+2024-09-30 16:46:50,475 - INFO - Follower counter updated: 2202
+2024-09-30 16:46:50,475 - INFO - Sleeping for 14.61 seconds before the next follow.
+2024-09-30 16:47:05,334 - INFO - Successfully followed user: Mudhya19
+2024-09-30 16:47:05,335 - INFO - Follower counter updated: 2203
+2024-09-30 16:47:05,336 - INFO - Sleeping for 13.96 seconds before the next follow.
+2024-09-30 16:47:19,591 - INFO - Successfully followed user: debelha
+2024-09-30 16:47:19,592 - INFO - Follower counter updated: 2204
+2024-09-30 16:47:19,592 - INFO - Sleeping for 11.86 seconds before the next follow.
+2024-09-30 16:47:31,656 - INFO - Successfully followed user: itgdata
+2024-09-30 16:47:31,657 - INFO - Follower counter updated: 2205
+2024-09-30 16:47:31,657 - INFO - Sleeping for 10.50 seconds before the next follow.
+2024-09-30 16:47:42,367 - INFO - Successfully followed user: JBenedicto13
+2024-09-30 16:47:42,368 - INFO - Follower counter updated: 2206
+2024-09-30 16:47:42,368 - INFO - Sleeping for 12.48 seconds before the next follow.
+2024-09-30 16:47:55,021 - INFO - Rate Limit - Remaining: 4752, Reset at: 2024-09-30 17:20:47
+2024-09-30 16:47:55,021 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=20
+2024-09-30 16:47:55,234 - INFO - Fetched 100 followers on page 20.
+2024-09-30 16:47:55,234 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 16:48:00,436 - INFO - Successfully followed user: Ghassen-Hizem
+2024-09-30 16:48:00,437 - INFO - Follower counter updated: 2207
+2024-09-30 16:48:00,437 - INFO - Sleeping for 10.12 seconds before the next follow.
+2024-09-30 16:48:10,865 - INFO - Successfully followed user: rishabh1S
+2024-09-30 16:48:10,866 - INFO - Follower counter updated: 2208
+2024-09-30 16:48:10,866 - INFO - Sleeping for 10.71 seconds before the next follow.
+2024-09-30 16:48:21,841 - INFO - Successfully followed user: ekrishnachaitanya2004
+2024-09-30 16:48:21,842 - INFO - Follower counter updated: 2209
+2024-09-30 16:48:21,842 - INFO - Sleeping for 13.38 seconds before the next follow.
+2024-09-30 16:48:35,436 - INFO - Successfully followed user: kinshuk-code-1729
+2024-09-30 16:48:35,437 - INFO - Follower counter updated: 2210
+2024-09-30 16:48:35,437 - INFO - Sleeping for 13.17 seconds before the next follow.
+2024-09-30 16:48:48,817 - INFO - Successfully followed user: iam8uman
+2024-09-30 16:48:48,818 - INFO - Follower counter updated: 2211
+2024-09-30 16:48:48,818 - INFO - Sleeping for 11.16 seconds before the next follow.
+2024-09-30 16:49:00,197 - INFO - Successfully followed user: SantiagoZ13
+2024-09-30 16:49:00,197 - INFO - Follower counter updated: 2212
+2024-09-30 16:49:00,198 - INFO - Sleeping for 10.76 seconds before the next follow.
+2024-09-30 16:49:11,189 - INFO - Successfully followed user: umidtech
+2024-09-30 16:49:11,190 - INFO - Follower counter updated: 2213
+2024-09-30 16:49:11,190 - INFO - Sleeping for 11.99 seconds before the next follow.
+2024-09-30 16:49:23,481 - INFO - Successfully followed user: Na-yako
+2024-09-30 16:49:23,482 - INFO - Follower counter updated: 2214
+2024-09-30 16:49:23,482 - INFO - Sleeping for 10.21 seconds before the next follow.
+2024-09-30 16:49:33,893 - INFO - Successfully followed user: papadritta
+2024-09-30 16:49:33,894 - INFO - Follower counter updated: 2215
+2024-09-30 16:49:33,895 - INFO - Sleeping for 10.63 seconds before the next follow.
+2024-09-30 16:49:44,746 - INFO - Successfully followed user: messi10tom
+2024-09-30 16:49:44,747 - INFO - Follower counter updated: 2216
+2024-09-30 16:49:44,747 - INFO - Sleeping for 12.75 seconds before the next follow.
+2024-09-30 16:49:57,715 - INFO - Successfully followed user: nishant7372
+2024-09-30 16:49:57,716 - INFO - Follower counter updated: 2217
+2024-09-30 16:49:57,716 - INFO - Sleeping for 11.79 seconds before the next follow.
+2024-09-30 16:50:09,764 - INFO - Successfully followed user: Maiz27
+2024-09-30 16:50:09,764 - INFO - Follower counter updated: 2218
+2024-09-30 16:50:09,765 - INFO - Sleeping for 11.15 seconds before the next follow.
+2024-09-30 16:50:21,131 - INFO - Successfully followed user: soummyaanon
+2024-09-30 16:50:21,132 - INFO - Follower counter updated: 2219
+2024-09-30 16:50:21,132 - INFO - Sleeping for 11.51 seconds before the next follow.
+2024-09-30 16:50:32,874 - INFO - Successfully followed user: kenny17a
+2024-09-30 16:50:32,875 - INFO - Follower counter updated: 2220
+2024-09-30 16:50:32,875 - INFO - Sleeping for 11.34 seconds before the next follow.
+2024-09-30 16:50:44,448 - INFO - Successfully followed user: ch4570
+2024-09-30 16:50:44,449 - INFO - Follower counter updated: 2221
+2024-09-30 16:50:44,449 - INFO - Sleeping for 10.30 seconds before the next follow.
+2024-09-30 16:50:54,974 - INFO - Successfully followed user: HackEzra
+2024-09-30 16:50:54,975 - INFO - Follower counter updated: 2222
+2024-09-30 16:50:54,975 - INFO - Sleeping for 14.48 seconds before the next follow.
+2024-09-30 16:51:09,653 - INFO - Successfully followed user: KianEbtekari0
+2024-09-30 16:51:09,654 - INFO - Follower counter updated: 2223
+2024-09-30 16:51:09,654 - INFO - Sleeping for 11.36 seconds before the next follow.
+2024-09-30 16:51:21,325 - INFO - Successfully followed user: mohamed271220
+2024-09-30 16:51:21,326 - INFO - Follower counter updated: 2224
+2024-09-30 16:51:21,326 - INFO - Sleeping for 14.89 seconds before the next follow.
+2024-09-30 16:51:36,457 - INFO - Successfully followed user: duyu09
+2024-09-30 16:51:36,458 - INFO - Follower counter updated: 2225
+2024-09-30 16:51:36,458 - INFO - Sleeping for 13.06 seconds before the next follow.
+2024-09-30 16:51:49,728 - INFO - Successfully followed user: MobinaEsmaeilpour
+2024-09-30 16:51:49,729 - INFO - Follower counter updated: 2226
+2024-09-30 16:51:49,729 - INFO - Sleeping for 13.32 seconds before the next follow.
+2024-09-30 16:52:03,264 - INFO - Successfully followed user: Peshkov-Matvei
+2024-09-30 16:52:03,265 - INFO - Follower counter updated: 2227
+2024-09-30 16:52:03,265 - INFO - Sleeping for 10.54 seconds before the next follow.
+2024-09-30 16:52:14,015 - INFO - Successfully followed user: mk-milly02
+2024-09-30 16:52:14,016 - INFO - Follower counter updated: 2228
+2024-09-30 16:52:14,016 - INFO - Sleeping for 10.85 seconds before the next follow.
+2024-09-30 16:52:25,090 - INFO - Successfully followed user: migosih
+2024-09-30 16:52:25,091 - INFO - Follower counter updated: 2229
+2024-09-30 16:52:25,091 - INFO - Sleeping for 10.43 seconds before the next follow.
+2024-09-30 16:52:35,740 - INFO - Successfully followed user: mbeka02
+2024-09-30 16:52:35,741 - INFO - Follower counter updated: 2230
+2024-09-30 16:52:35,742 - INFO - Sleeping for 14.29 seconds before the next follow.
+2024-09-30 16:52:50,253 - INFO - Successfully followed user: AkshayAnand2002
+2024-09-30 16:52:50,254 - INFO - Follower counter updated: 2231
+2024-09-30 16:52:50,254 - INFO - Sleeping for 13.02 seconds before the next follow.
+2024-09-30 16:53:03,479 - INFO - Successfully followed user: codegrann
+2024-09-30 16:53:03,480 - INFO - Follower counter updated: 2232
+2024-09-30 16:53:03,480 - INFO - Sleeping for 12.43 seconds before the next follow.
+2024-09-30 16:53:16,122 - INFO - Successfully followed user: jarvisrwabu
+2024-09-30 16:53:16,123 - INFO - Follower counter updated: 2233
+2024-09-30 16:53:16,123 - INFO - Sleeping for 11.40 seconds before the next follow.
+2024-09-30 16:53:27,772 - INFO - Successfully followed user: Keven-Costa
+2024-09-30 16:53:27,773 - INFO - Follower counter updated: 2234
+2024-09-30 16:53:27,773 - INFO - Sleeping for 14.49 seconds before the next follow.
+2024-09-30 16:53:42,541 - INFO - Successfully followed user: Saul-Martins
+2024-09-30 16:53:42,541 - INFO - Follower counter updated: 2235
+2024-09-30 16:53:42,542 - INFO - Sleeping for 14.31 seconds before the next follow.
+2024-09-30 16:53:57,073 - INFO - Successfully followed user: JaySabva
+2024-09-30 16:53:57,074 - INFO - Follower counter updated: 2236
+2024-09-30 16:53:57,074 - INFO - Sleeping for 10.47 seconds before the next follow.
+2024-09-30 16:54:07,757 - INFO - Successfully followed user: AndreyPradoAP
+2024-09-30 16:54:07,757 - INFO - Follower counter updated: 2237
+2024-09-30 16:54:07,758 - INFO - Sleeping for 10.02 seconds before the next follow.
+2024-09-30 16:54:17,985 - INFO - Successfully followed user: ABOBAKAR-IT
+2024-09-30 16:54:17,986 - INFO - Follower counter updated: 2238
+2024-09-30 16:54:17,986 - INFO - Sleeping for 14.39 seconds before the next follow.
+2024-09-30 16:54:32,580 - INFO - Successfully followed user: madfauzy
+2024-09-30 16:54:32,581 - INFO - Follower counter updated: 2239
+2024-09-30 16:54:32,581 - INFO - Sleeping for 12.47 seconds before the next follow.
+2024-09-30 16:54:45,253 - INFO - Successfully followed user: PRATIK-AVATE
+2024-09-30 16:54:45,254 - INFO - Follower counter updated: 2240
+2024-09-30 16:54:45,254 - INFO - Sleeping for 10.68 seconds before the next follow.
+2024-09-30 16:54:56,164 - INFO - Successfully followed user: Mertcncifter
+2024-09-30 16:54:56,165 - INFO - Follower counter updated: 2241
+2024-09-30 16:54:56,165 - INFO - Sleeping for 13.66 seconds before the next follow.
+2024-09-30 16:55:10,059 - INFO - Successfully followed user: BatmanGautham
+2024-09-30 16:55:10,060 - INFO - Follower counter updated: 2242
+2024-09-30 16:55:10,060 - INFO - Sleeping for 13.99 seconds before the next follow.
+2024-09-30 16:55:24,263 - INFO - Successfully followed user: Yuliafire
+2024-09-30 16:55:24,265 - INFO - Follower counter updated: 2243
+2024-09-30 16:55:24,265 - INFO - Sleeping for 13.97 seconds before the next follow.
+2024-09-30 16:55:38,444 - INFO - Successfully followed user: LorenaMuralha23
+2024-09-30 16:55:38,445 - INFO - Follower counter updated: 2244
+2024-09-30 16:55:38,446 - INFO - Sleeping for 13.18 seconds before the next follow.
+2024-09-30 16:55:51,854 - INFO - Rate Limit - Remaining: 4666, Reset at: 2024-09-30 17:20:47
+2024-09-30 16:55:51,854 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=21
+2024-09-30 16:55:52,062 - INFO - Fetched 100 followers on page 21.
+2024-09-30 16:55:52,064 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 16:55:57,271 - INFO - Successfully followed user: Hridxyz
+2024-09-30 16:55:57,272 - INFO - Follower counter updated: 2245
+2024-09-30 16:55:57,272 - INFO - Sleeping for 11.11 seconds before the next follow.
+2024-09-30 16:56:08,612 - INFO - Successfully followed user: wahyudesu
+2024-09-30 16:56:08,612 - INFO - Follower counter updated: 2246
+2024-09-30 16:56:08,612 - INFO - Sleeping for 14.10 seconds before the next follow.
+2024-09-30 16:56:22,992 - INFO - Successfully followed user: aldrshan
+2024-09-30 16:56:22,994 - INFO - Follower counter updated: 2247
+2024-09-30 16:56:22,995 - INFO - Sleeping for 13.79 seconds before the next follow.
+2024-09-30 16:56:37,018 - INFO - Successfully followed user: MaDrCloudDev
+2024-09-30 16:56:37,019 - INFO - Follower counter updated: 2248
+2024-09-30 16:56:37,020 - INFO - Sleeping for 11.20 seconds before the next follow.
+2024-09-30 16:56:48,447 - INFO - Successfully followed user: cumsoft
+2024-09-30 16:56:48,449 - INFO - Follower counter updated: 2249
+2024-09-30 16:56:48,449 - INFO - Sleeping for 14.11 seconds before the next follow.
+2024-09-30 16:57:02,797 - INFO - Successfully followed user: Gakiri001
+2024-09-30 16:57:02,798 - INFO - Follower counter updated: 2250
+2024-09-30 16:57:02,798 - INFO - Sleeping for 11.06 seconds before the next follow.
+2024-09-30 16:57:14,067 - INFO - Successfully followed user: Satyam-kum
+2024-09-30 16:57:14,068 - INFO - Follower counter updated: 2251
+2024-09-30 16:57:14,068 - INFO - Sleeping for 11.78 seconds before the next follow.
+2024-09-30 16:57:26,074 - INFO - Successfully followed user: Shrustirteli
+2024-09-30 16:57:26,075 - INFO - Follower counter updated: 2252
+2024-09-30 16:57:26,075 - INFO - Sleeping for 10.83 seconds before the next follow.
+2024-09-30 16:57:37,109 - INFO - Successfully followed user: usbtypec1
+2024-09-30 16:57:37,110 - INFO - Follower counter updated: 2253
+2024-09-30 16:57:37,110 - INFO - Sleeping for 10.93 seconds before the next follow.
+2024-09-30 16:57:48,255 - INFO - Successfully followed user: DevBrenoSantos
+2024-09-30 16:57:48,256 - INFO - Follower counter updated: 2254
+2024-09-30 16:57:48,257 - INFO - Sleeping for 14.23 seconds before the next follow.
+2024-09-30 16:58:02,748 - INFO - Successfully followed user: woocom22
+2024-09-30 16:58:02,750 - INFO - Follower counter updated: 2255
+2024-09-30 16:58:02,750 - INFO - Sleeping for 13.91 seconds before the next follow.
+2024-09-30 16:58:16,871 - INFO - Successfully followed user: Frosmin
+2024-09-30 16:58:16,872 - INFO - Follower counter updated: 2256
+2024-09-30 16:58:16,872 - INFO - Sleeping for 13.25 seconds before the next follow.
+2024-09-30 16:58:30,372 - INFO - Successfully followed user: gdpp
+2024-09-30 16:58:30,373 - INFO - Follower counter updated: 2257
+2024-09-30 16:58:30,373 - INFO - Sleeping for 13.13 seconds before the next follow.
+2024-09-30 16:58:43,758 - INFO - Successfully followed user: PedroCarpe
+2024-09-30 16:58:43,759 - INFO - Follower counter updated: 2258
+2024-09-30 16:58:43,759 - INFO - Sleeping for 13.95 seconds before the next follow.
+2024-09-30 16:58:57,924 - INFO - Successfully followed user: Siris4
+2024-09-30 16:58:57,926 - INFO - Follower counter updated: 2259
+2024-09-30 16:58:57,926 - INFO - Sleeping for 13.58 seconds before the next follow.
+2024-09-30 16:59:11,718 - INFO - Successfully followed user: anaVitoriaLouro
+2024-09-30 16:59:11,719 - INFO - Follower counter updated: 2260
+2024-09-30 16:59:11,720 - INFO - Sleeping for 10.95 seconds before the next follow.
+2024-09-30 16:59:22,889 - WARNING - Received 429 Too Many Requests. Sleeping for 300 seconds.
+2024-09-30 17:04:23,140 - WARNING - Received 429 Too Many Requests. Sleeping for 300 seconds.
+2024-09-30 17:09:23,381 - WARNING - Received 429 Too Many Requests. Sleeping for 300 seconds.
+2024-09-30 17:14:23,642 - WARNING - Received 429 Too Many Requests. Sleeping for 300 seconds.
+2024-09-30 17:19:23,888 - WARNING - Received 429 Too Many Requests. Sleeping for 300 seconds.
+2024-09-30 17:24:23,889 - ERROR - Max retries exceeded for user prathyyyyy. Skipping.
+2024-09-30 17:24:23,889 - INFO - Sleeping for 14.40 seconds before the next follow.
+2024-09-30 17:24:38,523 - WARNING - Received 429 Too Many Requests. Sleeping for 300 seconds.
+2024-09-30 17:29:38,823 - INFO - Successfully followed user: PouyaniArmin
+2024-09-30 17:29:38,824 - INFO - Follower counter updated: 2261
+2024-09-30 17:29:38,825 - INFO - Sleeping for 13.45 seconds before the next follow.
+2024-09-30 17:29:52,501 - INFO - Successfully followed user: emirhankbl
+2024-09-30 17:29:52,502 - INFO - Follower counter updated: 2262
+2024-09-30 17:29:52,503 - INFO - Sleeping for 10.90 seconds before the next follow.
+2024-09-30 17:30:03,637 - INFO - Successfully followed user: eaddaa
+2024-09-30 17:30:03,638 - INFO - Follower counter updated: 2263
+2024-09-30 17:30:03,639 - INFO - Sleeping for 14.16 seconds before the next follow.
+2024-09-30 17:30:18,000 - INFO - Successfully followed user: tail-s
+2024-09-30 17:30:18,001 - INFO - Follower counter updated: 2264
+2024-09-30 17:30:18,001 - INFO - Sleeping for 11.84 seconds before the next follow.
+2024-09-30 17:30:30,057 - INFO - Successfully followed user: Billy272
+2024-09-30 17:30:30,058 - INFO - Follower counter updated: 2265
+2024-09-30 17:30:30,058 - INFO - Sleeping for 11.59 seconds before the next follow.
+2024-09-30 17:30:41,874 - INFO - Successfully followed user: MohamedRagabAbbas
+2024-09-30 17:30:41,876 - INFO - Follower counter updated: 2266
+2024-09-30 17:30:41,876 - INFO - Sleeping for 10.78 seconds before the next follow.
+2024-09-30 17:30:52,884 - INFO - Successfully followed user: mateolafalce
+2024-09-30 17:30:52,885 - INFO - Follower counter updated: 2267
+2024-09-30 17:30:52,885 - INFO - Sleeping for 14.79 seconds before the next follow.
+2024-09-30 17:31:07,899 - INFO - Successfully followed user: Anjasfedo
+2024-09-30 17:31:07,900 - INFO - Follower counter updated: 2268
+2024-09-30 17:31:07,900 - INFO - Sleeping for 13.74 seconds before the next follow.
+2024-09-30 17:31:21,862 - INFO - Successfully followed user: dan-abu
+2024-09-30 17:31:21,863 - INFO - Follower counter updated: 2269
+2024-09-30 17:31:21,863 - INFO - Sleeping for 10.46 seconds before the next follow.
+2024-09-30 17:31:32,536 - INFO - Successfully followed user: ejunior89
+2024-09-30 17:31:32,537 - INFO - Follower counter updated: 2270
+2024-09-30 17:31:32,537 - INFO - Sleeping for 10.49 seconds before the next follow.
+2024-09-30 17:31:43,325 - INFO - Successfully followed user: rudrabhikadiya3
+2024-09-30 17:31:43,326 - INFO - Follower counter updated: 2271
+2024-09-30 17:31:43,326 - INFO - Sleeping for 10.35 seconds before the next follow.
+2024-09-30 17:31:53,933 - INFO - Successfully followed user: shashank0092
+2024-09-30 17:31:53,934 - INFO - Follower counter updated: 2272
+2024-09-30 17:31:53,934 - INFO - Sleeping for 13.34 seconds before the next follow.
+2024-09-30 17:32:07,481 - INFO - Successfully followed user: horodeski
+2024-09-30 17:32:07,482 - INFO - Follower counter updated: 2273
+2024-09-30 17:32:07,482 - INFO - Sleeping for 10.33 seconds before the next follow.
+2024-09-30 17:32:18,038 - INFO - Successfully followed user: NCherfaoui
+2024-09-30 17:32:18,039 - INFO - Follower counter updated: 2274
+2024-09-30 17:32:18,040 - INFO - Sleeping for 12.23 seconds before the next follow.
+2024-09-30 17:32:30,474 - INFO - Successfully followed user: tecnicoemerson
+2024-09-30 17:32:30,475 - INFO - Follower counter updated: 2275
+2024-09-30 17:32:30,475 - INFO - Sleeping for 10.21 seconds before the next follow.
+2024-09-30 17:32:40,911 - INFO - Successfully followed user: x200706
+2024-09-30 17:32:40,912 - INFO - Follower counter updated: 2276
+2024-09-30 17:32:40,913 - INFO - Sleeping for 10.04 seconds before the next follow.
+2024-09-30 17:32:51,193 - INFO - Successfully followed user: MarianeBS
+2024-09-30 17:32:51,195 - INFO - Follower counter updated: 2277
+2024-09-30 17:32:51,195 - INFO - Sleeping for 10.38 seconds before the next follow.
+2024-09-30 17:33:01,779 - INFO - Successfully followed user: SoulSolomon21
+2024-09-30 17:33:01,780 - INFO - Follower counter updated: 2278
+2024-09-30 17:33:01,780 - INFO - Sleeping for 10.81 seconds before the next follow.
+2024-09-30 17:33:12,822 - INFO - Successfully followed user: shawal-mbalire
+2024-09-30 17:33:12,823 - INFO - Follower counter updated: 2279
+2024-09-30 17:33:12,823 - INFO - Sleeping for 12.68 seconds before the next follow.
+2024-09-30 17:33:25,704 - INFO - Successfully followed user: blockchainscorpion
+2024-09-30 17:33:25,706 - INFO - Follower counter updated: 2280
+2024-09-30 17:33:25,706 - INFO - Sleeping for 13.84 seconds before the next follow.
+2024-09-30 17:33:39,761 - INFO - Successfully followed user: fmelihh
+2024-09-30 17:33:39,762 - INFO - Follower counter updated: 2281
+2024-09-30 17:33:39,763 - INFO - Sleeping for 10.96 seconds before the next follow.
+2024-09-30 17:33:50,948 - INFO - Successfully followed user: MatheusAlvesPereira
+2024-09-30 17:33:50,949 - INFO - Follower counter updated: 2282
+2024-09-30 17:33:50,949 - INFO - Sleeping for 12.60 seconds before the next follow.
+2024-09-30 17:34:03,845 - INFO - Successfully followed user: QuitoTactico
+2024-09-30 17:34:03,846 - INFO - Follower counter updated: 2283
+2024-09-30 17:34:03,846 - INFO - Sleeping for 12.02 seconds before the next follow.
+2024-09-30 17:34:16,081 - INFO - Successfully followed user: usernamedlo
+2024-09-30 17:34:16,082 - INFO - Follower counter updated: 2284
+2024-09-30 17:34:16,082 - INFO - Sleeping for 14.60 seconds before the next follow.
+2024-09-30 17:34:30,896 - INFO - Successfully followed user: Chimex2022
+2024-09-30 17:34:30,897 - INFO - Follower counter updated: 2285
+2024-09-30 17:34:30,897 - INFO - Sleeping for 10.03 seconds before the next follow.
+2024-09-30 17:34:41,132 - INFO - Successfully followed user: mohantyrohan3
+2024-09-30 17:34:41,133 - INFO - Follower counter updated: 2286
+2024-09-30 17:34:41,134 - INFO - Sleeping for 12.99 seconds before the next follow.
+2024-09-30 17:34:54,361 - INFO - Successfully followed user: UlviSuleymanov
+2024-09-30 17:34:54,362 - INFO - Follower counter updated: 2287
+2024-09-30 17:34:54,363 - INFO - Sleeping for 10.04 seconds before the next follow.
+2024-09-30 17:35:04,629 - INFO - Successfully followed user: manosanti
+2024-09-30 17:35:04,630 - INFO - Follower counter updated: 2288
+2024-09-30 17:35:04,630 - INFO - Sleeping for 11.55 seconds before the next follow.
+2024-09-30 17:35:16,395 - INFO - Successfully followed user: Okemwag
+2024-09-30 17:35:16,396 - INFO - Follower counter updated: 2289
+2024-09-30 17:35:16,396 - INFO - Sleeping for 11.75 seconds before the next follow.
+2024-09-30 17:35:28,369 - INFO - Successfully followed user: Leobritt
+2024-09-30 17:35:28,370 - INFO - Follower counter updated: 2290
+2024-09-30 17:35:28,370 - INFO - Sleeping for 13.76 seconds before the next follow.
+2024-09-30 17:35:42,351 - INFO - Successfully followed user: lulunac27a
+2024-09-30 17:35:42,352 - INFO - Follower counter updated: 2291
+2024-09-30 17:35:42,352 - INFO - Sleeping for 11.74 seconds before the next follow.
+2024-09-30 17:35:54,318 - INFO - Successfully followed user: ITurres
+2024-09-30 17:35:54,319 - INFO - Follower counter updated: 2292
+2024-09-30 17:35:54,319 - INFO - Sleeping for 14.47 seconds before the next follow.
+2024-09-30 17:36:09,099 - INFO - Successfully followed user: Taimisson
+2024-09-30 17:36:09,100 - INFO - Follower counter updated: 2293
+2024-09-30 17:36:09,100 - INFO - Sleeping for 10.58 seconds before the next follow.
+2024-09-30 17:36:19,902 - INFO - Successfully followed user: stephanniegb
+2024-09-30 17:36:19,903 - INFO - Follower counter updated: 2294
+2024-09-30 17:36:19,903 - INFO - Sleeping for 14.98 seconds before the next follow.
+2024-09-30 17:36:35,086 - INFO - Successfully followed user: MooudMohammady
+2024-09-30 17:36:35,087 - INFO - Follower counter updated: 2295
+2024-09-30 17:36:35,087 - INFO - Sleeping for 12.82 seconds before the next follow.
+2024-09-30 17:36:48,130 - INFO - Successfully followed user: Juliana2102
+2024-09-30 17:36:48,131 - INFO - Follower counter updated: 2296
+2024-09-30 17:36:48,131 - INFO - Sleeping for 11.98 seconds before the next follow.
+2024-09-30 17:37:00,331 - INFO - Successfully followed user: Bleu-Yves-Sopoude
+2024-09-30 17:37:00,332 - INFO - Follower counter updated: 2297
+2024-09-30 17:37:00,332 - INFO - Sleeping for 14.65 seconds before the next follow.
+2024-09-30 17:37:15,209 - INFO - Successfully followed user: LidiMG
+2024-09-30 17:37:15,210 - INFO - Follower counter updated: 2298
+2024-09-30 17:37:15,211 - INFO - Sleeping for 10.30 seconds before the next follow.
+2024-09-30 17:37:25,717 - INFO - Successfully followed user: SherzodAxadov2
+2024-09-30 17:37:25,718 - INFO - Follower counter updated: 2299
+2024-09-30 17:37:25,718 - INFO - Sleeping for 11.13 seconds before the next follow.
+2024-09-30 17:37:37,071 - INFO - Successfully followed user: Pirate-960
+2024-09-30 17:37:37,072 - INFO - Follower counter updated: 2300
+2024-09-30 17:37:37,072 - INFO - Sleeping for 11.14 seconds before the next follow.
+2024-09-30 17:37:48,420 - INFO - Successfully followed user: Jairo-Domingos-Buto
+2024-09-30 17:37:48,421 - INFO - Follower counter updated: 2301
+2024-09-30 17:37:48,421 - INFO - Sleeping for 12.16 seconds before the next follow.
+2024-09-30 17:38:00,790 - INFO - Successfully followed user: jonathafernandes
+2024-09-30 17:38:00,791 - INFO - Follower counter updated: 2302
+2024-09-30 17:38:00,791 - INFO - Sleeping for 12.59 seconds before the next follow.
+2024-09-30 17:38:13,581 - INFO - Successfully followed user: vickyqu115
+2024-09-30 17:38:13,582 - INFO - Follower counter updated: 2303
+2024-09-30 17:38:13,582 - INFO - Sleeping for 10.94 seconds before the next follow.
+2024-09-30 17:38:24,776 - INFO - Successfully followed user: ZigaoWang
+2024-09-30 17:38:24,777 - INFO - Follower counter updated: 2304
+2024-09-30 17:38:24,777 - INFO - Sleeping for 14.98 seconds before the next follow.
+2024-09-30 17:38:39,977 - INFO - Successfully followed user: KrhystFerrari
+2024-09-30 17:38:39,978 - INFO - Follower counter updated: 2305
+2024-09-30 17:38:39,978 - INFO - Sleeping for 12.27 seconds before the next follow.
+2024-09-30 17:38:52,480 - INFO - Successfully followed user: glitchingcore
+2024-09-30 17:38:52,480 - INFO - Follower counter updated: 2306
+2024-09-30 17:38:52,481 - INFO - Sleeping for 11.25 seconds before the next follow.
+2024-09-30 17:39:03,943 - INFO - Successfully followed user: omerhalid
+2024-09-30 17:39:03,944 - INFO - Follower counter updated: 2307
+2024-09-30 17:39:03,944 - INFO - Sleeping for 14.07 seconds before the next follow.
+2024-09-30 17:39:18,251 - INFO - Successfully followed user: Bilal98815
+2024-09-30 17:39:18,252 - INFO - Follower counter updated: 2308
+2024-09-30 17:39:18,253 - INFO - Sleeping for 12.05 seconds before the next follow.
+2024-09-30 17:39:30,577 - INFO - Successfully followed user: sahmed41
+2024-09-30 17:39:30,578 - INFO - Follower counter updated: 2309
+2024-09-30 17:39:30,579 - INFO - Sleeping for 14.34 seconds before the next follow.
+2024-09-30 17:39:45,132 - INFO - Successfully followed user: JulianoSchaurich
+2024-09-30 17:39:45,134 - INFO - Follower counter updated: 2310
+2024-09-30 17:39:45,134 - INFO - Sleeping for 13.83 seconds before the next follow.
+2024-09-30 17:39:59,184 - INFO - Successfully followed user: mohammadi-com
+2024-09-30 17:39:59,185 - INFO - Follower counter updated: 2311
+2024-09-30 17:39:59,185 - INFO - Sleeping for 11.80 seconds before the next follow.
+2024-09-30 17:40:11,248 - INFO - Successfully followed user: Dikendev
+2024-09-30 17:40:11,249 - INFO - Follower counter updated: 2312
+2024-09-30 17:40:11,249 - INFO - Sleeping for 10.83 seconds before the next follow.
+2024-09-30 17:40:22,354 - INFO - Successfully followed user: NITIN-VERMA-afk
+2024-09-30 17:40:22,355 - INFO - Follower counter updated: 2313
+2024-09-30 17:40:22,355 - INFO - Sleeping for 11.49 seconds before the next follow.
+2024-09-30 17:40:34,109 - INFO - Successfully followed user: TitoBotelho
+2024-09-30 17:40:34,110 - INFO - Follower counter updated: 2314
+2024-09-30 17:40:34,110 - INFO - Sleeping for 14.43 seconds before the next follow.
+2024-09-30 17:40:48,749 - INFO - Successfully followed user: KimTaeO
+2024-09-30 17:40:48,750 - INFO - Follower counter updated: 2315
+2024-09-30 17:40:48,750 - INFO - Sleeping for 11.80 seconds before the next follow.
+2024-09-30 17:41:00,834 - INFO - Successfully followed user: Nandhukriss
+2024-09-30 17:41:00,834 - INFO - Follower counter updated: 2316
+2024-09-30 17:41:00,834 - INFO - Sleeping for 11.78 seconds before the next follow.
+2024-09-30 17:41:12,828 - INFO - Successfully followed user: catharygr
+2024-09-30 17:41:12,829 - INFO - Follower counter updated: 2317
+2024-09-30 17:41:12,829 - INFO - Sleeping for 14.05 seconds before the next follow.
+2024-09-30 17:41:27,099 - INFO - Successfully followed user: Amadeo-Frontend
+2024-09-30 17:41:27,100 - INFO - Follower counter updated: 2318
+2024-09-30 17:41:27,100 - INFO - Sleeping for 10.48 seconds before the next follow.
+2024-09-30 17:41:37,833 - INFO - Successfully followed user: JCSIVO
+2024-09-30 17:41:37,834 - INFO - Follower counter updated: 2319
+2024-09-30 17:41:37,834 - INFO - Sleeping for 14.47 seconds before the next follow.
+2024-09-30 17:41:52,604 - INFO - Successfully followed user: DanteLegends
+2024-09-30 17:41:52,605 - INFO - Follower counter updated: 2320
+2024-09-30 17:41:52,605 - INFO - Sleeping for 11.76 seconds before the next follow.
+2024-09-30 17:42:04,591 - INFO - Successfully followed user: Younessboumlik
+2024-09-30 17:42:04,592 - INFO - Follower counter updated: 2321
+2024-09-30 17:42:04,592 - INFO - Sleeping for 11.42 seconds before the next follow.
+2024-09-30 17:42:16,219 - INFO - Successfully followed user: NarutoUchiha39
+2024-09-30 17:42:16,220 - INFO - Follower counter updated: 2322
+2024-09-30 17:42:16,220 - INFO - Sleeping for 12.13 seconds before the next follow.
+2024-09-30 17:42:28,558 - INFO - Successfully followed user: juliannParra99
+2024-09-30 17:42:28,558 - INFO - Follower counter updated: 2323
+2024-09-30 17:42:28,559 - INFO - Sleeping for 10.72 seconds before the next follow.
+2024-09-30 17:42:39,510 - INFO - Successfully followed user: neerajmanivarnan
+2024-09-30 17:42:39,511 - INFO - Follower counter updated: 2324
+2024-09-30 17:42:39,511 - INFO - Sleeping for 12.34 seconds before the next follow.
+2024-09-30 17:42:52,082 - INFO - Successfully followed user: muganga-charles
+2024-09-30 17:42:52,083 - INFO - Follower counter updated: 2325
+2024-09-30 17:42:52,083 - INFO - Sleeping for 14.32 seconds before the next follow.
+2024-09-30 17:43:06,621 - INFO - Successfully followed user: elfat-py
+2024-09-30 17:43:06,622 - INFO - Follower counter updated: 2326
+2024-09-30 17:43:06,623 - INFO - Sleeping for 13.79 seconds before the next follow.
+2024-09-30 17:43:20,622 - INFO - Successfully followed user: prjctimg
+2024-09-30 17:43:20,624 - INFO - Follower counter updated: 2327
+2024-09-30 17:43:20,624 - INFO - Sleeping for 14.54 seconds before the next follow.
+2024-09-30 17:43:35,379 - INFO - Successfully followed user: Agni133
+2024-09-30 17:43:35,380 - INFO - Follower counter updated: 2328
+2024-09-30 17:43:35,381 - INFO - Sleeping for 10.38 seconds before the next follow.
+2024-09-30 17:43:46,004 - INFO - Successfully followed user: abirul3881
+2024-09-30 17:43:46,005 - INFO - Follower counter updated: 2329
+2024-09-30 17:43:46,006 - INFO - Sleeping for 12.30 seconds before the next follow.
+2024-09-30 17:43:58,509 - INFO - Successfully followed user: Joshua-Repos
+2024-09-30 17:43:58,510 - INFO - Follower counter updated: 2330
+2024-09-30 17:43:58,510 - INFO - Sleeping for 13.87 seconds before the next follow.
+2024-09-30 17:44:12,627 - INFO - Successfully followed user: Walaaali782
+2024-09-30 17:44:12,628 - INFO - Follower counter updated: 2331
+2024-09-30 17:44:12,628 - INFO - Sleeping for 10.81 seconds before the next follow.
+2024-09-30 17:44:23,657 - INFO - Successfully followed user: Akbarabi
+2024-09-30 17:44:23,658 - INFO - Follower counter updated: 2332
+2024-09-30 17:44:23,658 - INFO - Sleeping for 11.00 seconds before the next follow.
+2024-09-30 17:44:34,838 - INFO - Rate Limit - Remaining: 4787, Reset at: 2024-09-30 18:20:53
+2024-09-30 17:44:34,839 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=22
+2024-09-30 17:44:35,040 - INFO - Fetched 100 followers on page 22.
+2024-09-30 17:44:35,040 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 17:44:40,242 - INFO - Successfully followed user: dandelion-huang
+2024-09-30 17:44:40,243 - INFO - Follower counter updated: 2333
+2024-09-30 17:44:40,243 - INFO - Sleeping for 13.55 seconds before the next follow.
+2024-09-30 17:44:54,044 - INFO - Successfully followed user: Fatmaaktar
+2024-09-30 17:44:54,045 - INFO - Follower counter updated: 2334
+2024-09-30 17:44:54,045 - INFO - Sleeping for 10.84 seconds before the next follow.
+2024-09-30 17:45:05,089 - INFO - Successfully followed user: Th3c0d3d1
+2024-09-30 17:45:05,090 - INFO - Follower counter updated: 2335
+2024-09-30 17:45:05,090 - INFO - Sleeping for 11.08 seconds before the next follow.
+2024-09-30 17:45:16,412 - INFO - Successfully followed user: OtaviOuu
+2024-09-30 17:45:16,413 - INFO - Follower counter updated: 2336
+2024-09-30 17:45:16,413 - INFO - Sleeping for 10.31 seconds before the next follow.
+2024-09-30 17:45:26,955 - INFO - Successfully followed user: Koribraide
+2024-09-30 17:45:26,956 - INFO - Follower counter updated: 2337
+2024-09-30 17:45:26,956 - INFO - Sleeping for 11.46 seconds before the next follow.
+2024-09-30 17:45:38,615 - INFO - Successfully followed user: moisesfdasilva
+2024-09-30 17:45:38,616 - INFO - Follower counter updated: 2338
+2024-09-30 17:45:38,617 - INFO - Sleeping for 14.18 seconds before the next follow.
+2024-09-30 17:45:53,064 - INFO - Successfully followed user: BAslani
+2024-09-30 17:45:53,065 - INFO - Follower counter updated: 2339
+2024-09-30 17:45:53,066 - INFO - Sleeping for 14.92 seconds before the next follow.
+2024-09-30 17:46:08,196 - INFO - Successfully followed user: eric2016mark
+2024-09-30 17:46:08,196 - INFO - Follower counter updated: 2340
+2024-09-30 17:46:08,197 - INFO - Sleeping for 11.85 seconds before the next follow.
+2024-09-30 17:46:20,270 - INFO - Successfully followed user: dadyutenga
+2024-09-30 17:46:20,271 - INFO - Follower counter updated: 2341
+2024-09-30 17:46:20,272 - INFO - Sleeping for 11.86 seconds before the next follow.
+2024-09-30 17:46:32,328 - INFO - Successfully followed user: minhhoccode111
+2024-09-30 17:46:32,329 - INFO - Follower counter updated: 2342
+2024-09-30 17:46:32,329 - INFO - Sleeping for 12.23 seconds before the next follow.
+2024-09-30 17:46:44,772 - INFO - Successfully followed user: ThecoderPinar
+2024-09-30 17:46:44,774 - INFO - Follower counter updated: 2343
+2024-09-30 17:46:44,774 - INFO - Sleeping for 14.09 seconds before the next follow.
+2024-09-30 17:46:59,112 - INFO - Successfully followed user: Sooshiance
+2024-09-30 17:46:59,113 - INFO - Follower counter updated: 2344
+2024-09-30 17:46:59,113 - INFO - Sleeping for 14.51 seconds before the next follow.
+2024-09-30 17:47:13,832 - INFO - Successfully followed user: blue-slushy9
+2024-09-30 17:47:13,832 - INFO - Follower counter updated: 2345
+2024-09-30 17:47:13,832 - INFO - Sleeping for 12.01 seconds before the next follow.
+2024-09-30 17:47:26,058 - INFO - Successfully followed user: JoaoPedroos
+2024-09-30 17:47:26,059 - INFO - Follower counter updated: 2346
+2024-09-30 17:47:26,059 - INFO - Sleeping for 11.57 seconds before the next follow.
+2024-09-30 17:47:37,831 - INFO - Successfully followed user: Zane-Liao
+2024-09-30 17:47:37,832 - INFO - Follower counter updated: 2347
+2024-09-30 17:47:37,832 - INFO - Sleeping for 13.14 seconds before the next follow.
+2024-09-30 17:47:51,190 - INFO - Successfully followed user: garkos
+2024-09-30 17:47:51,191 - INFO - Follower counter updated: 2348
+2024-09-30 17:47:51,191 - INFO - Sleeping for 13.78 seconds before the next follow.
+2024-09-30 17:48:05,218 - INFO - Successfully followed user: evi1Husky
+2024-09-30 17:48:05,219 - INFO - Follower counter updated: 2349
+2024-09-30 17:48:05,219 - INFO - Sleeping for 12.32 seconds before the next follow.
+2024-09-30 17:48:17,754 - INFO - Successfully followed user: ViniciusMassari
+2024-09-30 17:48:17,755 - INFO - Follower counter updated: 2350
+2024-09-30 17:48:17,755 - INFO - Sleeping for 13.98 seconds before the next follow.
+2024-09-30 17:48:31,944 - INFO - Successfully followed user: JetBrain2056
+2024-09-30 17:48:31,945 - INFO - Follower counter updated: 2351
+2024-09-30 17:48:31,945 - INFO - Sleeping for 13.02 seconds before the next follow.
+2024-09-30 17:48:45,182 - INFO - Successfully followed user: RenanAderneF
+2024-09-30 17:48:45,183 - INFO - Follower counter updated: 2352
+2024-09-30 17:48:45,183 - INFO - Sleeping for 10.34 seconds before the next follow.
+2024-09-30 17:48:55,734 - INFO - Successfully followed user: SalarKesha
+2024-09-30 17:48:55,735 - INFO - Follower counter updated: 2353
+2024-09-30 17:48:55,735 - INFO - Sleeping for 12.95 seconds before the next follow.
+2024-09-30 17:49:08,917 - INFO - Successfully followed user: LeonardoS1lva
+2024-09-30 17:49:08,918 - INFO - Follower counter updated: 2354
+2024-09-30 17:49:08,918 - INFO - Sleeping for 14.51 seconds before the next follow.
+2024-09-30 17:49:23,659 - INFO - Successfully followed user: Mburu-Elvis
+2024-09-30 17:49:23,660 - INFO - Follower counter updated: 2355
+2024-09-30 17:49:23,660 - INFO - Sleeping for 13.55 seconds before the next follow.
+2024-09-30 17:49:37,435 - INFO - Successfully followed user: Prog-Vinsu
+2024-09-30 17:49:37,436 - INFO - Follower counter updated: 2356
+2024-09-30 17:49:37,436 - INFO - Sleeping for 10.47 seconds before the next follow.
+2024-09-30 17:49:48,112 - INFO - Successfully followed user: DeveloperMindset123
+2024-09-30 17:49:48,114 - INFO - Follower counter updated: 2357
+2024-09-30 17:49:48,114 - INFO - Sleeping for 11.22 seconds before the next follow.
+2024-09-30 17:49:59,552 - INFO - Successfully followed user: Ifeanyi-Ani
+2024-09-30 17:49:59,554 - INFO - Follower counter updated: 2358
+2024-09-30 17:49:59,555 - INFO - Sleeping for 10.48 seconds before the next follow.
+2024-09-30 17:50:10,292 - INFO - Successfully followed user: Ronit26Mehta
+2024-09-30 17:50:10,294 - INFO - Follower counter updated: 2359
+2024-09-30 17:50:10,294 - INFO - Sleeping for 12.09 seconds before the next follow.
+2024-09-30 17:50:22,603 - INFO - Successfully followed user: Fortune-Ndlovu
+2024-09-30 17:50:22,604 - INFO - Follower counter updated: 2360
+2024-09-30 17:50:22,604 - INFO - Sleeping for 13.49 seconds before the next follow.
+2024-09-30 17:50:36,305 - INFO - Successfully followed user: Candle-Electric
+2024-09-30 17:50:36,306 - INFO - Follower counter updated: 2361
+2024-09-30 17:50:36,307 - INFO - Sleeping for 10.95 seconds before the next follow.
+2024-09-30 17:50:47,478 - INFO - Successfully followed user: Prdsilva80
+2024-09-30 17:50:47,479 - INFO - Follower counter updated: 2362
+2024-09-30 17:50:47,479 - INFO - Sleeping for 11.08 seconds before the next follow.
+2024-09-30 17:50:58,842 - INFO - Successfully followed user: sachithdh
+2024-09-30 17:50:58,844 - INFO - Follower counter updated: 2363
+2024-09-30 17:50:58,844 - INFO - Sleeping for 11.86 seconds before the next follow.
+2024-09-30 17:51:10,957 - INFO - Successfully followed user: Kaifungamedev
+2024-09-30 17:51:10,958 - INFO - Follower counter updated: 2364
+2024-09-30 17:51:10,958 - INFO - Sleeping for 11.35 seconds before the next follow.
+2024-09-30 17:51:22,525 - INFO - Successfully followed user: Arittra-Bag
+2024-09-30 17:51:22,526 - INFO - Follower counter updated: 2365
+2024-09-30 17:51:22,526 - INFO - Sleeping for 13.49 seconds before the next follow.
+2024-09-30 17:51:36,224 - INFO - Successfully followed user: Ismaelmurekezi
+2024-09-30 17:51:36,225 - INFO - Follower counter updated: 2366
+2024-09-30 17:51:36,225 - INFO - Sleeping for 12.74 seconds before the next follow.
+2024-09-30 17:51:49,175 - INFO - Successfully followed user: leoGeraldino
+2024-09-30 17:51:49,175 - INFO - Follower counter updated: 2367
+2024-09-30 17:51:49,176 - INFO - Sleeping for 14.90 seconds before the next follow.
+2024-09-30 17:52:04,289 - INFO - Successfully followed user: MustajabAhmed
+2024-09-30 17:52:04,289 - INFO - Follower counter updated: 2368
+2024-09-30 17:52:04,290 - INFO - Sleeping for 13.54 seconds before the next follow.
+2024-09-30 17:52:18,049 - INFO - Successfully followed user: Bubhux
+2024-09-30 17:52:18,050 - INFO - Follower counter updated: 2369
+2024-09-30 17:52:18,050 - INFO - Sleeping for 12.47 seconds before the next follow.
+2024-09-30 17:52:30,728 - INFO - Successfully followed user: guvenfazli
+2024-09-30 17:52:30,729 - INFO - Follower counter updated: 2370
+2024-09-30 17:52:30,729 - INFO - Sleeping for 12.70 seconds before the next follow.
+2024-09-30 17:52:43,672 - INFO - Successfully followed user: Safeya-Yasien
+2024-09-30 17:52:43,673 - INFO - Follower counter updated: 2371
+2024-09-30 17:52:43,673 - INFO - Sleeping for 13.20 seconds before the next follow.
+2024-09-30 17:52:57,068 - INFO - Successfully followed user: P3R43L3
+2024-09-30 17:52:57,068 - INFO - Follower counter updated: 2372
+2024-09-30 17:52:57,069 - INFO - Sleeping for 10.35 seconds before the next follow.
+2024-09-30 17:53:07,660 - INFO - Successfully followed user: Mosensei7
+2024-09-30 17:53:07,661 - INFO - Follower counter updated: 2373
+2024-09-30 17:53:07,661 - INFO - Sleeping for 13.99 seconds before the next follow.
+2024-09-30 17:53:21,939 - INFO - Successfully followed user: yoenuts
+2024-09-30 17:53:21,940 - INFO - Follower counter updated: 2374
+2024-09-30 17:53:21,940 - INFO - Sleeping for 13.69 seconds before the next follow.
+2024-09-30 17:53:35,845 - INFO - Successfully followed user: Luwa-Tech
+2024-09-30 17:53:35,846 - INFO - Follower counter updated: 2375
+2024-09-30 17:53:35,846 - INFO - Sleeping for 11.66 seconds before the next follow.
+2024-09-30 17:53:47,721 - INFO - Successfully followed user: TheFirewallDragon
+2024-09-30 17:53:47,723 - INFO - Follower counter updated: 2376
+2024-09-30 17:53:47,723 - INFO - Sleeping for 10.45 seconds before the next follow.
+2024-09-30 17:53:58,408 - INFO - Successfully followed user: Hiarleyy
+2024-09-30 17:53:58,409 - INFO - Follower counter updated: 2377
+2024-09-30 17:53:58,409 - INFO - Sleeping for 10.80 seconds before the next follow.
+2024-09-30 17:54:09,412 - INFO - Successfully followed user: Shashankphiske
+2024-09-30 17:54:09,413 - INFO - Follower counter updated: 2378
+2024-09-30 17:54:09,413 - INFO - Sleeping for 13.46 seconds before the next follow.
+2024-09-30 17:54:23,146 - INFO - Successfully followed user: bcsurf2822
+2024-09-30 17:54:23,147 - INFO - Follower counter updated: 2379
+2024-09-30 17:54:23,147 - INFO - Sleeping for 12.49 seconds before the next follow.
+2024-09-30 17:54:35,853 - INFO - Successfully followed user: Joeeazy
+2024-09-30 17:54:35,854 - INFO - Follower counter updated: 2380
+2024-09-30 17:54:35,854 - INFO - Sleeping for 12.94 seconds before the next follow.
+2024-09-30 17:54:49,002 - INFO - Successfully followed user: Resonaa
+2024-09-30 17:54:49,002 - INFO - Follower counter updated: 2381
+2024-09-30 17:54:49,004 - INFO - Sleeping for 10.86 seconds before the next follow.
+2024-09-30 17:55:00,068 - INFO - Successfully followed user: AlpeshJasani
+2024-09-30 17:55:00,069 - INFO - Follower counter updated: 2382
+2024-09-30 17:55:00,069 - INFO - Sleeping for 13.35 seconds before the next follow.
+2024-09-30 17:55:13,634 - INFO - Successfully followed user: Pizzaboi87
+2024-09-30 17:55:13,635 - INFO - Follower counter updated: 2383
+2024-09-30 17:55:13,635 - INFO - Sleeping for 12.22 seconds before the next follow.
+2024-09-30 17:55:26,062 - INFO - Successfully followed user: harshit1142
+2024-09-30 17:55:26,063 - INFO - Follower counter updated: 2384
+2024-09-30 17:55:26,063 - INFO - Sleeping for 12.47 seconds before the next follow.
+2024-09-30 17:55:38,746 - INFO - Successfully followed user: raufzer
+2024-09-30 17:55:38,747 - INFO - Follower counter updated: 2385
+2024-09-30 17:55:38,747 - INFO - Sleeping for 10.56 seconds before the next follow.
+2024-09-30 17:55:49,531 - INFO - Successfully followed user: AmalEltelbany
+2024-09-30 17:55:49,532 - INFO - Follower counter updated: 2386
+2024-09-30 17:55:49,532 - INFO - Sleeping for 13.09 seconds before the next follow.
+2024-09-30 17:56:02,827 - INFO - Successfully followed user: luanaxcardoso
+2024-09-30 17:56:02,828 - INFO - Follower counter updated: 2387
+2024-09-30 17:56:02,829 - INFO - Sleeping for 11.04 seconds before the next follow.
+2024-09-30 17:56:14,090 - INFO - Successfully followed user: PouyaBaniadam
+2024-09-30 17:56:14,091 - INFO - Follower counter updated: 2388
+2024-09-30 17:56:14,091 - INFO - Sleeping for 14.61 seconds before the next follow.
+2024-09-30 17:56:28,961 - INFO - Successfully followed user: hanzelkaraagac
+2024-09-30 17:56:28,962 - INFO - Follower counter updated: 2389
+2024-09-30 17:56:28,962 - INFO - Sleeping for 10.10 seconds before the next follow.
+2024-09-30 17:56:39,262 - INFO - Successfully followed user: BALLISTICrobin
+2024-09-30 17:56:39,265 - INFO - Follower counter updated: 2390
+2024-09-30 17:56:39,265 - INFO - Sleeping for 13.67 seconds before the next follow.
+2024-09-30 17:56:53,152 - INFO - Successfully followed user: AndersonDinizDev
+2024-09-30 17:56:53,154 - INFO - Follower counter updated: 2391
+2024-09-30 17:56:53,154 - INFO - Sleeping for 10.36 seconds before the next follow.
+2024-09-30 17:57:03,716 - INFO - Successfully followed user: UlviParviz
+2024-09-30 17:57:03,717 - INFO - Follower counter updated: 2392
+2024-09-30 17:57:03,717 - INFO - Sleeping for 12.20 seconds before the next follow.
+2024-09-30 17:57:16,114 - INFO - Successfully followed user: Stormlig
+2024-09-30 17:57:16,115 - INFO - Follower counter updated: 2393
+2024-09-30 17:57:16,115 - INFO - Sleeping for 13.14 seconds before the next follow.
+2024-09-30 17:57:29,505 - INFO - Successfully followed user: mondalsurojit
+2024-09-30 17:57:29,506 - INFO - Follower counter updated: 2394
+2024-09-30 17:57:29,506 - INFO - Sleeping for 11.89 seconds before the next follow.
+2024-09-30 17:57:41,598 - INFO - Successfully followed user: H-a-r-s-h-i-t-a-k
+2024-09-30 17:57:41,599 - INFO - Follower counter updated: 2395
+2024-09-30 17:57:41,599 - INFO - Sleeping for 14.00 seconds before the next follow.
+2024-09-30 17:57:55,824 - INFO - Successfully followed user: Kxrma47
+2024-09-30 17:57:55,825 - INFO - Follower counter updated: 2396
+2024-09-30 17:57:55,826 - INFO - Sleeping for 13.87 seconds before the next follow.
+2024-09-30 17:58:09,906 - INFO - Successfully followed user: SaraBioinformatics
+2024-09-30 17:58:09,907 - INFO - Follower counter updated: 2397
+2024-09-30 17:58:09,907 - INFO - Sleeping for 12.33 seconds before the next follow.
+2024-09-30 17:58:22,455 - INFO - Successfully followed user: zeriong
+2024-09-30 17:58:22,456 - INFO - Follower counter updated: 2398
+2024-09-30 17:58:22,457 - INFO - Sleeping for 12.29 seconds before the next follow.
+2024-09-30 17:58:35,003 - INFO - Successfully followed user: jackysmith040
+2024-09-30 17:58:35,003 - INFO - Follower counter updated: 2399
+2024-09-30 17:58:35,005 - INFO - Sleeping for 15.00 seconds before the next follow.
+2024-09-30 17:58:50,216 - INFO - Successfully followed user: AndressaBenevidees
+2024-09-30 17:58:50,217 - INFO - Follower counter updated: 2400
+2024-09-30 17:58:50,217 - INFO - Sleeping for 11.98 seconds before the next follow.
+2024-09-30 17:59:02,417 - INFO - Successfully followed user: Joao-Herculano-DuoConect
+2024-09-30 17:59:02,418 - INFO - Follower counter updated: 2401
+2024-09-30 17:59:02,418 - INFO - Sleeping for 10.01 seconds before the next follow.
+2024-09-30 17:59:12,651 - INFO - Successfully followed user: Sepehr-samarzadeh
+2024-09-30 17:59:12,653 - INFO - Follower counter updated: 2402
+2024-09-30 17:59:12,653 - INFO - Sleeping for 11.20 seconds before the next follow.
+2024-09-30 17:59:24,029 - INFO - Rate Limit - Remaining: 4627, Reset at: 2024-09-30 18:20:53
+2024-09-30 17:59:24,029 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=23
+2024-09-30 17:59:24,277 - INFO - Fetched 100 followers on page 23.
+2024-09-30 17:59:24,277 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 17:59:29,540 - INFO - Successfully followed user: Karimhossion
+2024-09-30 17:59:29,541 - INFO - Follower counter updated: 2403
+2024-09-30 17:59:29,542 - INFO - Sleeping for 10.45 seconds before the next follow.
+2024-09-30 17:59:40,224 - INFO - Successfully followed user: ViRotta
+2024-09-30 17:59:40,225 - INFO - Follower counter updated: 2404
+2024-09-30 17:59:40,225 - INFO - Sleeping for 11.01 seconds before the next follow.
+2024-09-30 17:59:51,452 - WARNING - Received 429 Too Many Requests. Sleeping for 300 seconds.
+2024-09-30 18:04:51,692 - WARNING - Received 429 Too Many Requests. Sleeping for 300 seconds.
+2024-09-30 18:09:51,936 - WARNING - Received 429 Too Many Requests. Sleeping for 300 seconds.
+2024-09-30 18:14:54,162 - WARNING - Received 429 Too Many Requests. Sleeping for 300 seconds.
+2024-09-30 18:19:55,365 - WARNING - Received 429 Too Many Requests. Sleeping for 300 seconds.
+2024-09-30 18:24:55,366 - ERROR - Max retries exceeded for user ByteXenon. Skipping.
+2024-09-30 18:24:55,367 - INFO - Sleeping for 12.71 seconds before the next follow.
+2024-09-30 18:25:09,947 - WARNING - Received 429 Too Many Requests. Sleeping for 300 seconds.
+2024-09-30 18:52:43,967 - INFO - Hi! I am GitHub Follower Bot.
+2024-09-30 18:52:43,968 - INFO - Letting you follow all your followers!
+2024-09-30 18:52:43,968 - INFO - Starting to fetch your follower lists...
+
+2024-09-30 18:52:43,969 - INFO - Loaded 2404 already followed users.
+2024-09-30 18:52:43,970 - INFO - Resuming from last followed user: ByteXenon
+2024-09-30 18:52:43,970 - INFO - Starting from page: 1
+2024-09-30 18:52:43,971 - INFO - Current follower counter: 2404
+2024-09-30 18:52:44,344 - INFO - Rate Limit - Remaining: 4809, Reset at: 2024-09-30 19:21:00
+2024-09-30 18:52:44,344 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=1
+2024-09-30 18:52:44,566 - INFO - Fetched 100 followers on page 1.
+2024-09-30 18:52:44,566 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 18:52:49,743 - INFO - Rate Limit - Remaining: 4808, Reset at: 2024-09-30 19:21:00
+2024-09-30 18:52:49,744 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=2
+2024-09-30 18:52:49,991 - INFO - Fetched 100 followers on page 2.
+2024-09-30 18:52:49,991 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 18:52:55,170 - INFO - Rate Limit - Remaining: 4806, Reset at: 2024-09-30 19:21:00
+2024-09-30 18:52:55,170 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=3
+2024-09-30 18:52:55,360 - INFO - Fetched 100 followers on page 3.
+2024-09-30 18:52:55,360 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 18:53:00,539 - INFO - Rate Limit - Remaining: 4805, Reset at: 2024-09-30 19:21:00
+2024-09-30 18:53:00,539 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=4
+2024-09-30 18:53:00,739 - INFO - Fetched 100 followers on page 4.
+2024-09-30 18:53:00,739 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 18:53:05,953 - INFO - Rate Limit - Remaining: 4803, Reset at: 2024-09-30 19:21:00
+2024-09-30 18:53:05,954 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=5
+2024-09-30 18:53:06,158 - INFO - Fetched 100 followers on page 5.
+2024-09-30 18:53:06,158 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 18:53:11,342 - INFO - Rate Limit - Remaining: 4801, Reset at: 2024-09-30 19:21:00
+2024-09-30 18:53:11,342 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=6
+2024-09-30 18:53:11,531 - INFO - Fetched 100 followers on page 6.
+2024-09-30 18:53:11,532 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 18:53:16,706 - INFO - Rate Limit - Remaining: 4800, Reset at: 2024-09-30 19:21:00
+2024-09-30 18:53:16,706 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=7
+2024-09-30 18:53:16,899 - INFO - Fetched 100 followers on page 7.
+2024-09-30 18:53:16,899 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 18:53:22,087 - INFO - Rate Limit - Remaining: 4798, Reset at: 2024-09-30 19:21:00
+2024-09-30 18:53:22,087 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=8
+2024-09-30 18:53:22,320 - INFO - Fetched 100 followers on page 8.
+2024-09-30 18:53:22,321 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 18:53:27,498 - INFO - Rate Limit - Remaining: 4797, Reset at: 2024-09-30 19:21:00
+2024-09-30 18:53:27,498 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=9
+2024-09-30 18:53:27,692 - INFO - Fetched 100 followers on page 9.
+2024-09-30 18:53:27,692 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 18:53:32,891 - INFO - Rate Limit - Remaining: 4795, Reset at: 2024-09-30 19:21:00
+2024-09-30 18:53:32,892 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=10
+2024-09-30 18:53:33,090 - INFO - Fetched 100 followers on page 10.
+2024-09-30 18:53:33,090 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 18:53:38,325 - INFO - Rate Limit - Remaining: 4794, Reset at: 2024-09-30 19:21:00
+2024-09-30 18:53:38,326 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=11
+2024-09-30 18:53:38,525 - INFO - Fetched 100 followers on page 11.
+2024-09-30 18:53:38,525 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 18:53:43,715 - INFO - Rate Limit - Remaining: 4792, Reset at: 2024-09-30 19:21:00
+2024-09-30 18:53:43,716 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=12
+2024-09-30 18:53:43,914 - INFO - Fetched 100 followers on page 12.
+2024-09-30 18:53:43,914 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 18:53:49,088 - INFO - Rate Limit - Remaining: 4791, Reset at: 2024-09-30 19:21:00
+2024-09-30 18:53:49,088 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=13
+2024-09-30 18:53:49,287 - INFO - Fetched 100 followers on page 13.
+2024-09-30 18:53:49,287 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 18:53:54,462 - INFO - Rate Limit - Remaining: 4789, Reset at: 2024-09-30 19:21:00
+2024-09-30 18:53:54,463 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=14
+2024-09-30 18:53:54,665 - INFO - Fetched 100 followers on page 14.
+2024-09-30 18:53:54,665 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 18:53:59,841 - INFO - Rate Limit - Remaining: 4788, Reset at: 2024-09-30 19:21:00
+2024-09-30 18:53:59,841 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=15
+2024-09-30 18:54:00,058 - INFO - Fetched 100 followers on page 15.
+2024-09-30 18:54:00,059 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 18:54:05,240 - INFO - Rate Limit - Remaining: 4786, Reset at: 2024-09-30 19:21:00
+2024-09-30 18:54:05,241 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=16
+2024-09-30 18:54:05,448 - INFO - Fetched 100 followers on page 16.
+2024-09-30 18:54:05,448 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 18:54:10,633 - INFO - Rate Limit - Remaining: 4785, Reset at: 2024-09-30 19:21:00
+2024-09-30 18:54:10,634 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=17
+2024-09-30 18:54:10,868 - INFO - Fetched 100 followers on page 17.
+2024-09-30 18:54:10,868 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 18:54:16,100 - INFO - Rate Limit - Remaining: 4783, Reset at: 2024-09-30 19:21:00
+2024-09-30 18:54:16,100 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=18
+2024-09-30 18:54:16,303 - INFO - Fetched 100 followers on page 18.
+2024-09-30 18:54:16,304 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 18:54:21,491 - INFO - Rate Limit - Remaining: 4782, Reset at: 2024-09-30 19:21:00
+2024-09-30 18:54:21,491 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=19
+2024-09-30 18:54:21,704 - INFO - Fetched 100 followers on page 19.
+2024-09-30 18:54:21,704 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 18:54:26,883 - INFO - Rate Limit - Remaining: 4780, Reset at: 2024-09-30 19:21:00
+2024-09-30 18:54:26,883 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=20
+2024-09-30 18:54:27,127 - INFO - Fetched 100 followers on page 20.
+2024-09-30 18:54:27,127 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 18:54:32,342 - INFO - Rate Limit - Remaining: 4779, Reset at: 2024-09-30 19:21:00
+2024-09-30 18:54:32,343 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=21
+2024-09-30 18:54:32,555 - INFO - Fetched 100 followers on page 21.
+2024-09-30 18:54:32,555 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 18:54:37,770 - INFO - Rate Limit - Remaining: 4777, Reset at: 2024-09-30 19:21:00
+2024-09-30 18:54:37,770 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=22
+2024-09-30 18:54:37,970 - INFO - Fetched 100 followers on page 22.
+2024-09-30 18:54:37,970 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 18:54:43,148 - INFO - Rate Limit - Remaining: 4775, Reset at: 2024-09-30 19:21:00
+2024-09-30 18:54:43,148 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=23
+2024-09-30 18:54:43,363 - INFO - Fetched 100 followers on page 23.
+2024-09-30 18:54:43,363 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 18:54:48,608 - INFO - Successfully followed user: danmaster01
+2024-09-30 18:54:48,609 - INFO - Follower counter updated: 2405
+2024-09-30 18:54:48,609 - INFO - Sleeping for 10.26 seconds before the next follow.
+2024-09-30 18:54:59,120 - INFO - Successfully followed user: ryuunoskes
+2024-09-30 18:54:59,121 - INFO - Follower counter updated: 2406
+2024-09-30 18:54:59,121 - INFO - Sleeping for 11.13 seconds before the next follow.
+2024-09-30 18:55:10,544 - INFO - Successfully followed user: issamElkhadirYC
+2024-09-30 18:55:10,545 - INFO - Follower counter updated: 2407
+2024-09-30 18:55:10,545 - INFO - Sleeping for 10.58 seconds before the next follow.
+2024-09-30 18:55:21,378 - INFO - Successfully followed user: johansitoweb
+2024-09-30 18:55:21,379 - INFO - Follower counter updated: 2408
+2024-09-30 18:55:21,379 - INFO - Sleeping for 13.26 seconds before the next follow.
+2024-09-30 18:55:34,878 - INFO - Successfully followed user: EhabMahmoudAli
+2024-09-30 18:55:34,879 - INFO - Follower counter updated: 2409
+2024-09-30 18:55:34,879 - INFO - Sleeping for 14.80 seconds before the next follow.
+2024-09-30 18:55:49,972 - INFO - Successfully followed user: brajesh708
+2024-09-30 18:55:49,973 - INFO - Follower counter updated: 2410
+2024-09-30 18:55:49,973 - INFO - Sleeping for 14.57 seconds before the next follow.
+2024-09-30 18:56:04,727 - INFO - Rate Limit - Remaining: 4760, Reset at: 2024-09-30 19:21:00
+2024-09-30 18:56:04,728 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=24
+2024-09-30 18:56:04,950 - INFO - Fetched 100 followers on page 24.
+2024-09-30 18:56:04,950 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 18:56:10,268 - INFO - Successfully followed user: special-kate
+2024-09-30 18:56:10,269 - INFO - Follower counter updated: 2411
+2024-09-30 18:56:10,269 - INFO - Sleeping for 14.39 seconds before the next follow.
+2024-09-30 18:56:24,911 - INFO - Successfully followed user: kayes99
+2024-09-30 18:56:24,912 - INFO - Follower counter updated: 2412
+2024-09-30 18:56:24,912 - INFO - Sleeping for 12.57 seconds before the next follow.
+2024-09-30 18:56:37,701 - INFO - Successfully followed user: richardchan1131
+2024-09-30 18:56:37,702 - INFO - Follower counter updated: 2413
+2024-09-30 18:56:37,702 - INFO - Sleeping for 12.43 seconds before the next follow.
+2024-09-30 18:56:50,398 - INFO - Successfully followed user: veryhari
+2024-09-30 18:56:50,399 - INFO - Follower counter updated: 2414
+2024-09-30 18:56:50,399 - INFO - Sleeping for 14.36 seconds before the next follow.
+2024-09-30 18:57:05,037 - INFO - Successfully followed user: shiny7star
+2024-09-30 18:57:05,037 - INFO - Follower counter updated: 2415
+2024-09-30 18:57:05,038 - INFO - Sleeping for 14.63 seconds before the next follow.
+2024-09-30 18:57:19,877 - INFO - Successfully followed user: Sheikhmahii
+2024-09-30 18:57:19,878 - INFO - Follower counter updated: 2416
+2024-09-30 18:57:19,878 - INFO - Sleeping for 11.89 seconds before the next follow.
+2024-09-30 18:57:31,947 - INFO - Rate Limit - Remaining: 4745, Reset at: 2024-09-30 19:21:00
+2024-09-30 18:57:31,947 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=25
+2024-09-30 18:57:32,188 - INFO - Fetched 7 followers on page 25.
+2024-09-30 18:57:32,189 - INFO - Sleeping for 5 seconds before following users.
+2024-09-30 18:57:37,447 - INFO - Successfully followed user: max71126
+2024-09-30 18:57:37,448 - INFO - Follower counter updated: 2417
+2024-09-30 18:57:37,448 - INFO - Sleeping for 11.25 seconds before the next follow.
+2024-09-30 18:57:48,954 - INFO - Successfully followed user: im-dipanshu
+2024-09-30 18:57:48,954 - INFO - Follower counter updated: 2418
+2024-09-30 18:57:48,955 - INFO - Sleeping for 12.50 seconds before the next follow.
+2024-09-30 18:58:01,667 - INFO - Rate Limit - Remaining: 4739, Reset at: 2024-09-30 19:21:00
+2024-09-30 18:58:01,667 - INFO - Fetching followers from: https://api.github.com/users/OfficialCodeVoyage/followers?per_page=100&page=26
+2024-09-30 18:58:01,867 - INFO - No more followers to process. Exiting.
+2024-09-30 18:58:01,868 - INFO - Follower counter updated: 2418
+2024-09-30 18:58:01,868 - INFO - 
+Following users from your follower list is done! Total followers fetched: 2407, Total followers followed: 2418
