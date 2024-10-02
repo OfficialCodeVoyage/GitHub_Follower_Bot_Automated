@@ -29,7 +29,6 @@ FOLLOW_USER_URL_TEMPLATE = 'https://api.github.com/user/following/{}'
 # File paths
 FOLLOWED_USERS_FILE = 'followers.txt'
 FOLLOWER_COUNTER_FILE = 'follower_counter.txt'
-LAST_FOLLOWED_USER_FILE = 'last_followed_user.txt'
 
 # Rate limiting and retry settings
 MAX_RETRIES = 5
@@ -39,14 +38,14 @@ RATE_LIMIT_THRESHOLD = 100  # Remaining requests to start being cautious
 # Delay settings (in seconds)
 DELAY_BETWEEN_FETCH_AND_FOLLOW = 5
 DELAY_BETWEEN_FOLLOWS = 10
-DELAY_ON_RATE_LIMIT = 300  # 5 minutes
+DELAY_ON_RATE_LIMIT = 300
 
 # ===========================
 # Logging Configuration
 # ===========================
 
 logger = logging.getLogger('GitHubFollowerBot')
-logger.setLevel(logging.INFO)
+logger.setLevel(logging.DEBUG)  # Set to DEBUG for detailed logs
 
 # Rotating File Handler
 file_handler = RotatingFileHandler('bot.log', maxBytes=5 * 1024 * 1024, backupCount=5)  # 5 MB per file, 5 backups
@@ -56,7 +55,7 @@ logger.addHandler(file_handler)
 
 # Console Handler
 console_handler = logging.StreamHandler()
-console_handler.setLevel(logging.INFO)
+console_handler.setLevel(logging.INFO)  # Change to DEBUG for more verbosity in console
 console_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 console_handler.setFormatter(console_formatter)
 logger.addHandler(console_handler)
@@ -78,8 +77,12 @@ def append_followed_user(file_path, user):
     """
     Appends a followed user to the file.
     """
-    with open(file_path, 'a') as f:
-        f.write(f"{user}\n")
+    try:
+        with open(file_path, 'a') as f:
+            f.write(f"{user}\n")
+        logger.debug(f"Appended user {user} to {file_path}.")
+    except Exception as e:
+        logger.error(f"Failed to append user {user} to {file_path}: {e}")
 
 def load_follower_counter(file_path):
     """
@@ -101,27 +104,6 @@ def update_follower_counter(file_path, count):
         logger.info(f"Follower counter updated: {count}")
     except Exception as e:
         logger.error(f"Failed to update follower counter: {e}")
-
-def get_last_followed_user(file_path):
-    """
-    Retrieves the last followed user from the file.
-    """
-    if not os.path.exists(file_path):
-        return None
-    with open(file_path, 'r') as f:
-        last_user = f.read().strip()
-        return last_user if last_user else None
-
-def set_last_followed_user(file_path, user):
-    """
-    Updates the last followed user in the file.
-    """
-    try:
-        with open(file_path, 'w') as f:
-            f.write(user)
-        logger.debug(f"Last followed user set to: {user}")
-    except Exception as e:
-        logger.error(f"Failed to set last followed user: {e}")
 
 def handle_rate_limit(response):
     """
@@ -217,14 +199,10 @@ def main():
     followed_users = load_followed_users(FOLLOWED_USERS_FILE)
     logger.info(f"Loaded {len(followed_users)} already followed users.")
 
-    # Retrieve the last followed user
-    last_followed_user = get_last_followed_user(LAST_FOLLOWED_USER_FILE)
-    if last_followed_user:
-        logger.info(f"Resuming from last followed user: {last_followed_user}")
-    else:
-        logger.info("No last followed user found. Starting from the beginning.")
+    # Remove resume following logic
+    logger.info("Processing all followers without resume.")
+    resume_following = True  # Always process from the beginning
 
-    # **Start from Page 1 on every run**
     current_page = 1
     logger.info(f"Starting from page: {current_page}")
 
@@ -241,9 +219,6 @@ def main():
         sleep_duration = max(reset_time - int(time.time()), DELAY_ON_RATE_LIMIT)
         logger.warning(f"Low rate limit remaining: {remaining}. Sleeping for {sleep_duration} seconds until reset.")
         time.sleep(sleep_duration)
-
-    # Flag to indicate when to start following new users
-    resume_following = False if last_followed_user else True  # If there's a last followed user, start skipping until after it
 
     while True:
         current_follower_url = FOLLOWERS_URL_TEMPLATE.format(current_page)
@@ -276,26 +251,20 @@ def main():
                 if not user:
                     continue  # Skip if 'login' not present
 
-                if not resume_following:
-                    if user == last_followed_user:
-                        resume_following = True
-                        continue  # Start processing from the next user
-                    else:
-                        continue  # Still skipping users before the last followed user
-
                 if user in followed_users:
                     logger.debug(f"Already followed user: {user}. Skipping.")
                     continue
 
+                logger.info(f"Attempting to follow user: {user}")
                 success = follow_user(user)
-                # Update last followed user regardless of success
-                set_last_followed_user(LAST_FOLLOWED_USER_FILE, user)
 
                 if success:
                     append_followed_user(FOLLOWED_USERS_FILE, user)
                     followed_users.add(user)
                     total_followers_followed += 1
                     update_follower_counter(FOLLOWER_COUNTER_FILE, total_followers_followed)
+                else:
+                    logger.warning(f"Failed to follow user: {user}")
 
                 # Delay between follows to prevent triggering rate limits or abuse detection
                 # Adding jitter to make delays less predictable
