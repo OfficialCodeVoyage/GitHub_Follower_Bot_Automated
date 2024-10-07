@@ -1,72 +1,72 @@
-name: GitHub Follower Bot
+# name: GitHub Follower Bot
 
-on:
-  schedule:
-    - cron: '0 */12 * * *'  # Runs every 12 hours
-  workflow_dispatch:
+# on:
+#   schedule:
+#     - cron: '0 */12 * * *'  # Runs every 12 hours
+#   workflow_dispatch:
 
-permissions:
-  contents: write  # Needed for committing and pushing changes
-  actions: read
-  packages: write
+# permissions:
+#   contents: write  # Needed for committing and pushing changes
+#   actions: read
+#   packages: write
 
-jobs:
-  follow-bot:
-    runs-on: ubuntu-latest
+# jobs:
+#   follow-bot:
+#     runs-on: ubuntu-latest
 
-    env:
-      GITHUB_USER: officialcodevoyage
-      PERSONAL_GITHUB_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
+#     env:
+#       GITHUB_USER: officialcodevoyage
+#       PERSONAL_GITHUB_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 1
+#     steps:
+#       - name: Checkout repository
+#         uses: actions/checkout@v3
+#         with:
+#           fetch-depth: 1
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.8'  # Consider updating to a newer version if possible
+#       - name: Set up Python
+#         uses: actions/setup-python@v4
+#         with:
+#           python-version: '3.8'  # Consider updating to a newer version if possible
 
-      - name: Upgrade pip
-        run: python -m pip install --upgrade pip
+#       - name: Upgrade pip
+#         run: python -m pip install --upgrade pip
 
-      - name: Install Pipenv
-        run: pip install pipenv
+#       - name: Install Pipenv
+#         run: pip install pipenv
 
-      - name: Cache Pipenv dependencies
-        uses: actions/cache@v3
-        with:
-          path: |
-            ~/.local/share/pipenv
-            ~/.cache/pip
-            ~/.venv
-          key: ${{ runner.os }}-pipenv-${{ hashFiles('**/Pipfile.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-pipenv-
+#       - name: Cache Pipenv dependencies
+#         uses: actions/cache@v3
+#         with:
+#           path: |
+#             ~/.local/share/pipenv
+#             ~/.cache/pip
+#             ~/.venv
+#           key: ${{ runner.os }}-pipenv-${{ hashFiles('**/Pipfile.lock') }}
+#           restore-keys: |
+#             ${{ runner.os }}-pipenv-
 
-      - name: Install dependencies
-        run: pipenv install --deploy --ignore-pipfile
+#       - name: Install dependencies
+#         run: pipenv install --deploy --ignore-pipfile
 
-      - name: Verify Pipenv Installation
-        run: pipenv --version
+#       - name: Verify Pipenv Installation
+#         run: pipenv --version
 
-      - name: List Installed Packages
-        run: pipenv run pip list
+#       - name: List Installed Packages
+#         run: pipenv run pip list
 
-      - name: Run Follower Bot
-        env:
-          GITHUB_USER: ${{ env.GITHUB_USER }}
-          PERSONAL_GITHUB_TOKEN: ${{ env.PERSONAL_GITHUB_TOKEN }}
-        run: pipenv run python bot.py
+#       - name: Run Follower Bot
+#         env:
+#           GITHUB_USER: ${{ env.GITHUB_USER }}
+#           PERSONAL_GITHUB_TOKEN: ${{ env.PERSONAL_GITHUB_TOKEN }}
+#         run: pipenv run python bot.py
 
-      - name: Commit and Push Changes
-        if: github.ref == 'refs/heads/main'  # Ensures it runs only on the main branch
-        run: |
-          git config user.name "OfficialCodeVoyage"
-          git config user.email "bondarenkopavloua@yahoo.com"
-          git add -A
-          timestamp=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
-          git commit -m "Automated Commit: ${timestamp} (UTC)" || echo "No changes to commit."
-          git push origin main
+#       - name: Commit and Push Changes
+#         if: github.ref == 'refs/heads/main'  # Ensures it runs only on the main branch
+#         run: |
+#           git config user.name "OfficialCodeVoyage"
+#           git config user.email "bondarenkopavloua@yahoo.com"
+#           git add -A
+#           timestamp=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+#           git commit -m "Automated Commit: ${timestamp} (UTC)" || echo "No changes to commit."
+#           git push origin main
