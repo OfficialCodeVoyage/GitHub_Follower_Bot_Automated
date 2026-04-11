@@ -1,164 +1,387 @@
-# tests/test_bot.py
-
+import os
+import sys
+import time
+import logging
 import pytest
-from unittest.mock import patch, mock_open, MagicMock
-import requests
-from bot import fetch_followers, follow_user, get_new_followers, process_batch, process_followers_in_batches
-from utils import read_file, write_file, append_to_file, increment_counter
+from unittest.mock import patch, MagicMock, mock_open
 
-# Constants for testing
-TEST_URL = 'https://api.github.com/users/test_user/followers'
-TEST_USERNAME = 'testuser'
-LAST_CHECKED = 'existing_user'
-ALL_FOLLOWERS = ['new_user1', 'new_user2', 'existing_user', 'old_user1']
+# ---------------------------------------------------------------------------
+# Bootstrap: stub dotenv and RotatingFileHandler BEFORE importing bot
+# ---------------------------------------------------------------------------
 
-def test_fetch_followers_success():
-    mock_response = [
-        {'login': 'user1'},
-        {'login': 'user2'}
-    ]
+os.environ.setdefault('GITHUB_USER', 'testuser')
+os.environ.setdefault('PERSONAL_GITHUB_TOKEN', 'test-token')
 
-    with patch('requests.get') as mock_get:
-        mock_get.return_value = MagicMock(status_code=200, json=lambda: mock_response)
-        followers = fetch_followers(TEST_URL, page=1)
-        assert followers == mock_response
-        mock_get.assert_called_once_with(
-            TEST_URL,
-            headers={'Authorization': 'token None', 'Accept': 'application/vnd.github.v3+json'},
-            params={'page': 1, 'per_page': 100}
+# Ensure project root is on sys.path so bot and bot_exceptions can be imported
+_project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if _project_root not in sys.path:
+    sys.path.insert(0, _project_root)
+
+# Stub dotenv if not installed
+import types as _types
+if 'dotenv' not in sys.modules:
+    _dotenv_stub = _types.ModuleType('dotenv')
+    _dotenv_stub.load_dotenv = lambda *a, **kw: None
+    sys.modules['dotenv'] = _dotenv_stub
+
+# Use a real NullHandler so logger.callHandlers never compares MagicMock.level
+_null_handler = logging.NullHandler()
+
+with patch('logging.handlers.RotatingFileHandler', return_value=_null_handler):
+    import bot
+    from bot_exceptions import (
+        FileOperationError,
+        GitHubAuthError,
+        GitHubRateLimitError,
+    )
+
+# Strip all handlers from the bot logger and disable propagation so no log
+# call can reach the root logger or any file-based handler.
+_bot_logger = logging.getLogger('GitHubFollowerBot')
+_bot_logger.handlers.clear()
+_bot_logger.propagate = False
+_bot_logger.addHandler(logging.NullHandler())
+
+
+# ---------------------------------------------------------------------------
+# load_followed_users
+# ---------------------------------------------------------------------------
+
+class TestLoadFollowedUsers:
+    def test_returns_empty_set_when_file_missing(self, tmp_path):
+        result = bot.load_followed_users(str(tmp_path / 'nonexistent.txt'))
+        assert result == set()
+
+    def test_returns_set_of_usernames(self, tmp_path):
+        f = tmp_path / 'followers.txt'
+        f.write_text('alice\nbob\ncharlie\n')
+        result = bot.load_followed_users(str(f))
+        assert result == {'alice', 'bob', 'charlie'}
+
+    def test_ignores_blank_lines(self, tmp_path):
+        f = tmp_path / 'followers.txt'
+        f.write_text('alice\n\nbob\n\n')
+        result = bot.load_followed_users(str(f))
+        assert result == {'alice', 'bob'}
+
+    def test_strips_whitespace(self, tmp_path):
+        f = tmp_path / 'followers.txt'
+        f.write_text('  alice  \n  bob\n')
+        result = bot.load_followed_users(str(f))
+        assert result == {'alice', 'bob'}
+
+    def test_empty_file_returns_empty_set(self, tmp_path):
+        f = tmp_path / 'followers.txt'
+        f.write_text('')
+        result = bot.load_followed_users(str(f))
+        assert result == set()
+
+
+# ---------------------------------------------------------------------------
+# append_followed_user
+# ---------------------------------------------------------------------------
+
+class TestAppendFollowedUser:
+    def test_appends_user_to_file(self, tmp_path):
+        f = tmp_path / 'followers.txt'
+        bot.append_followed_user(str(f), 'alice')
+        assert f.read_text() == 'alice\n'
+
+    def test_appends_multiple_users(self, tmp_path):
+        f = tmp_path / 'followers.txt'
+        bot.append_followed_user(str(f), 'alice')
+        bot.append_followed_user(str(f), 'bob')
+        assert f.read_text() == 'alice\nbob\n'
+
+    def test_raises_file_operation_error_on_write_failure(self, tmp_path):
+        # bot re-raises OSError as FileOperationError
+        bad_path = str(tmp_path / 'no_such_dir' / 'followers.txt')
+        with pytest.raises(FileOperationError):
+            bot.append_followed_user(bad_path, 'alice')
+
+
+# ---------------------------------------------------------------------------
+# load_follower_counter
+# ---------------------------------------------------------------------------
+
+class TestLoadFollowerCounter:
+    def test_returns_zero_when_file_missing(self, tmp_path):
+        result = bot.load_follower_counter(str(tmp_path / 'counter.txt'))
+        assert result == 0
+
+    def test_returns_integer_from_file(self, tmp_path):
+        f = tmp_path / 'counter.txt'
+        f.write_text('42\n')
+        assert bot.load_follower_counter(str(f)) == 42
+
+    def test_returns_zero_for_non_digit_content(self, tmp_path):
+        f = tmp_path / 'counter.txt'
+        f.write_text('not-a-number\n')
+        assert bot.load_follower_counter(str(f)) == 0
+
+    def test_returns_zero_for_empty_file(self, tmp_path):
+        f = tmp_path / 'counter.txt'
+        f.write_text('')
+        assert bot.load_follower_counter(str(f)) == 0
+
+    def test_returns_zero_for_float_string(self, tmp_path):
+        # '3.14'.isdigit() is False
+        f = tmp_path / 'counter.txt'
+        f.write_text('3.14\n')
+        assert bot.load_follower_counter(str(f)) == 0
+
+    def test_returns_zero_for_negative_string(self, tmp_path):
+        # '-5'.isdigit() is False
+        f = tmp_path / 'counter.txt'
+        f.write_text('-5\n')
+        assert bot.load_follower_counter(str(f)) == 0
+
+
+# ---------------------------------------------------------------------------
+# update_follower_counter
+# ---------------------------------------------------------------------------
+
+class TestUpdateFollowerCounter:
+    def test_writes_count_to_file(self, tmp_path):
+        f = tmp_path / 'counter.txt'
+        bot.update_follower_counter(str(f), 99)
+        assert f.read_text() == '99\n'
+
+    def test_overwrites_existing_value(self, tmp_path):
+        f = tmp_path / 'counter.txt'
+        f.write_text('5\n')
+        bot.update_follower_counter(str(f), 10)
+        assert f.read_text() == '10\n'
+
+    def test_raises_file_operation_error_on_write_failure(self, tmp_path):
+        # bot re-raises OSError as FileOperationError
+        bad_path = str(tmp_path / 'no_such_dir' / 'counter.txt')
+        with pytest.raises(FileOperationError):
+            bot.update_follower_counter(bad_path, 1)
+
+
+# ---------------------------------------------------------------------------
+# handle_rate_limit
+# ---------------------------------------------------------------------------
+
+class TestHandleRateLimit:
+    def _make_response(self, status_code, text='', headers=None):
+        resp = MagicMock()
+        resp.status_code = status_code
+        resp.text = text
+        resp.headers = headers or {}
+        return resp
+
+    def test_returns_false_for_200(self):
+        resp = self._make_response(200)
+        assert bot.handle_rate_limit(resp) is False
+
+    def test_returns_false_for_401(self):
+        resp = self._make_response(401)
+        assert bot.handle_rate_limit(resp) is False
+
+    def test_returns_false_for_403_without_triggering_keywords(self):
+        # Text must NOT contain 'rate limit' or 'abuse detection'
+        resp = self._make_response(403, text='Forbidden access denied')
+        assert bot.handle_rate_limit(resp) is False
+
+    @patch('bot.time.sleep')
+    def test_returns_true_and_sleeps_for_403_rate_limit(self, mock_sleep):
+        future_reset = int(time.time()) + 1000
+        resp = self._make_response(
+            403,
+            text='rate limit exceeded',
+            headers={'X-RateLimit-Reset': str(future_reset)}
         )
+        result = bot.handle_rate_limit(resp)
+        assert result is True
+        mock_sleep.assert_called_once()
 
-def test_fetch_followers_http_error():
-    with patch('requests.get') as mock_get:
-        mock_get.return_value.raise_for_status.side_effect = requests.HTTPError("404 Client Error: Not Found for url")
-        followers = fetch_followers(TEST_URL, page=1)
-        assert followers == []
+    @patch('bot.time.sleep')
+    def test_returns_true_and_sleeps_for_403_abuse_detection(self, mock_sleep):
+        future_reset = int(time.time()) + 500
+        resp = self._make_response(
+            403,
+            text='abuse detection triggered',
+            headers={'X-RateLimit-Reset': str(future_reset)}
+        )
+        result = bot.handle_rate_limit(resp)
+        assert result is True
+        mock_sleep.assert_called_once()
+
+    @patch('bot.time.sleep')
+    def test_returns_true_and_sleeps_for_429(self, mock_sleep):
+        resp = self._make_response(429, headers={'Retry-After': '60'})
+        result = bot.handle_rate_limit(resp)
+        assert result is True
+        mock_sleep.assert_called_once_with(60)
+
+    @patch('bot.time.sleep')
+    def test_429_uses_default_delay_when_no_retry_after_header(self, mock_sleep):
+        resp = self._make_response(429, headers={})
+        result = bot.handle_rate_limit(resp)
+        assert result is True
+        mock_sleep.assert_called_once_with(bot.DELAY_ON_RATE_LIMIT)
+
+
+# ---------------------------------------------------------------------------
+# check_rate_limit
+# ---------------------------------------------------------------------------
+
+class TestCheckRateLimit:
+    def _rate_limit_payload(self, remaining=1500, reset=9999999999):
+        return {
+            'resources': {
+                'core': {
+                    'remaining': remaining,
+                    'reset': reset,
+                }
+            }
+        }
+
+    @patch('bot.requests.get')
+    def test_returns_remaining_and_reset_on_success(self, mock_get):
+        mock_resp = MagicMock()
+        mock_resp.raise_for_status.return_value = None
+        mock_resp.json.return_value = self._rate_limit_payload(remaining=500, reset=1700000000)
+        mock_get.return_value = mock_resp
+
+        remaining, reset_time = bot.check_rate_limit()
+
+        assert remaining == 500
+        assert reset_time == 1700000000
         mock_get.assert_called_once()
 
-def test_follow_user_success():
-    username = 'user1'
-    with patch('requests.put') as mock_put:
-        mock_put.return_value.status_code = 204
-        success = follow_user(username)
-        assert success is True
-        mock_put.assert_called_once_with(
-            f'https://api.github.com/user/following/{username}',
-            headers={'Authorization': 'token None', 'Accept': 'application/vnd.github.v3+json'}
-        )
+    @patch('bot.requests.get')
+    def test_returns_none_none_on_request_exception(self, mock_get):
+        from requests.exceptions import RequestException
+        mock_get.side_effect = RequestException('connection failed')
 
-def test_follow_user_not_found():
-    username = 'nonexistent_user'
-    with patch('requests.put') as mock_put:
-        mock_put.return_value.status_code = 404
-        success = follow_user(username)
-        assert success is False
+        remaining, reset_time = bot.check_rate_limit()
+
+        assert remaining is None
+        assert reset_time is None
+
+    @patch('bot.requests.get')
+    def test_sends_authorization_header_with_token(self, mock_get):
+        mock_resp = MagicMock()
+        mock_resp.raise_for_status.return_value = None
+        mock_resp.json.return_value = self._rate_limit_payload()
+        mock_get.return_value = mock_resp
+
+        bot.check_rate_limit()
+
+        _, kwargs = mock_get.call_args
+        headers = kwargs.get('headers', {})
+        assert 'Authorization' in headers
+        assert 'test-token' in headers['Authorization']
+
+    @patch('bot.requests.get')
+    def test_calls_rate_limit_url(self, mock_get):
+        mock_resp = MagicMock()
+        mock_resp.raise_for_status.return_value = None
+        mock_resp.json.return_value = self._rate_limit_payload()
+        mock_get.return_value = mock_resp
+
+        bot.check_rate_limit()
+
+        args, _ = mock_get.call_args
+        assert args[0] == 'https://api.github.com/rate_limit'
+
+
+# ---------------------------------------------------------------------------
+# follow_user
+# ---------------------------------------------------------------------------
+
+class TestFollowUser:
+    @patch('bot.time.sleep')
+    @patch('bot.requests.put')
+    def test_returns_true_on_204(self, mock_put, mock_sleep):
+        mock_resp = MagicMock()
+        mock_resp.status_code = 204
+        mock_put.return_value = mock_resp
+
+        assert bot.follow_user('alice') is True
         mock_put.assert_called_once()
 
-def test_follow_user_forbidden():
-    username = 'user1'
-    with patch('requests.put') as mock_put:
-        mock_put.return_value.status_code = 403
-        success = follow_user(username)
-        assert success is False
-        mock_put.assert_called_once()
+    @patch('bot.time.sleep')
+    @patch('bot.requests.put')
+    def test_raises_auth_error_on_401(self, mock_put, mock_sleep):
+        mock_resp = MagicMock()
+        mock_resp.status_code = 401
+        mock_put.return_value = mock_resp
 
-def test_read_file_exists():
-    mock = mock_open(read_data='user1')
-    with patch('builtins.open', mock):
-        content = read_file('some_file.txt')
-        assert content == 'user1'
-        mock.assert_called_once_with('some_file.txt', 'r')
+        with pytest.raises(GitHubAuthError):
+            bot.follow_user('alice')
 
-def test_read_file_not_found():
-    with patch('builtins.open', side_effect=FileNotFoundError):
-        content = read_file('nonexistent_file.txt')
-        assert content == ''
+    @patch('bot.time.sleep')
+    @patch('bot.requests.put')
+    def test_returns_false_on_404(self, mock_put, mock_sleep):
+        mock_resp = MagicMock()
+        mock_resp.status_code = 404
+        mock_resp.text = 'Not Found'
+        mock_put.return_value = mock_resp
 
-def test_write_file():
-    mock = mock_open()
-    with patch('builtins.open', mock):
-        write_file('some_file.txt', 'content')
-        mock.assert_called_once_with('some_file.txt', 'w')
-        mock().write.assert_called_once_with('content')
+        assert bot.follow_user('ghost') is False
 
+    @patch('bot.time.sleep')
+    @patch('bot.requests.put')
+    def test_raises_rate_limit_error_on_403_rate_limit(self, mock_put, mock_sleep):
+        # 403 with rate-limit body triggers handle_rate_limit then raises GitHubRateLimitError
+        rate_limit_resp = MagicMock()
+        rate_limit_resp.status_code = 403
+        rate_limit_resp.text = 'rate limit exceeded'
+        rate_limit_resp.headers = {'X-RateLimit-Reset': str(int(time.time()) + 10)}
+        mock_put.return_value = rate_limit_resp
 
-def test_append_to_file():
-    mock = mock_open()
-    with patch('builtins.open', mock):
-        append_to_file('some_file.txt', 'new_user')
-        mock.assert_called_once_with('some_file.txt', 'a')
-        mock().write.assert_called_once_with('new_user\n')
+        with pytest.raises(GitHubRateLimitError):
+            bot.follow_user('alice')
 
-def test_increment_counter_exists():
-    mock = mock_open(read_data='5')
-    with patch('builtins.open', mock):
-        counter = increment_counter('counter.txt')
-        assert counter == 6
-        mock.assert_called_once_with('counter.txt', 'r+')
-        handle = mock()
-        handle.seek.assert_called_once_with(0)
-        handle.write.assert_called_once_with('6')
-        handle.truncate.assert_called_once()
+    @patch('bot.time.sleep')
+    @patch('bot.requests.put')
+    def test_raises_rate_limit_error_on_429(self, mock_put, mock_sleep):
+        # 429 sleeps then raises GitHubRateLimitError
+        too_many_resp = MagicMock()
+        too_many_resp.status_code = 429
+        too_many_resp.headers = {'Retry-After': '1'}
+        mock_put.return_value = too_many_resp
 
-def test_increment_counter_not_found():
-    with patch('builtins.open', side_effect=FileNotFoundError):
-        with patch('utils.write_file') as mock_write:
-            counter = increment_counter('nonexistent_counter.txt')
-            assert counter == 1
-            mock_write.assert_called_once_with('nonexistent_counter.txt', '1')
+        with pytest.raises(GitHubRateLimitError):
+            bot.follow_user('alice')
+        mock_sleep.assert_called_once_with(1)
 
-def test_get_new_followers():
-    new_followers = get_new_followers(LAST_CHECKED, ALL_FOLLOWERS)
-    assert new_followers == ['new_user1', 'new_user2']
+    @patch('bot.time.sleep')
+    @patch('bot.requests.put')
+    def test_returns_false_after_max_retries_on_request_exception(self, mock_put, mock_sleep):
+        from requests.exceptions import RequestException
+        mock_put.side_effect = RequestException('connection error')
 
-def test_get_new_followers_not_found():
-    new_followers = get_new_followers('unknown_user', ALL_FOLLOWERS)
-    assert new_followers == ALL_FOLLOWERS
+        result = bot.follow_user('alice')
+        assert result is False
+        assert mock_put.call_count == bot.MAX_RETRIES
 
+    @patch('bot.time.sleep')
+    @patch('bot.requests.put')
+    def test_calls_correct_url(self, mock_put, mock_sleep):
+        mock_resp = MagicMock()
+        mock_resp.status_code = 204
+        mock_put.return_value = mock_resp
 
-def test_process_batch():
-    usernames = ['user1', 'user2', 'user3']
-    with patch('bot.follow_user') as mock_follow_user, \
-            patch('bot.append_to_file') as mock_append, \
-            patch('bot.write_file') as mock_write, \
-            patch('bot.increment_counter') as mock_increment:
-        mock_follow_user.side_effect = [True, False, True]
+        bot.follow_user('targetuser')
 
-        process_batch(usernames)
+        args, _ = mock_put.call_args
+        assert args[0] == 'https://api.github.com/user/following/targetuser'
 
-        # Assert that follow_user was called three times
-        assert mock_follow_user.call_count == 3
-        mock_follow_user.assert_any_call('user1')
-        mock_follow_user.assert_any_call('user2')
-        mock_follow_user.assert_any_call('user3')
+    @patch('bot.time.sleep')
+    @patch('bot.requests.put')
+    def test_sends_authorization_header(self, mock_put, mock_sleep):
+        mock_resp = MagicMock()
+        mock_resp.status_code = 204
+        mock_put.return_value = mock_resp
 
-        # Assert that append_to_file was called correctly
-        mock_append.assert_any_call('followers.txt', 'user1')
-        mock_append.assert_any_call('followers.txt', 'user3')
-        assert mock_append.call_count == 2  # Only two successful follows
+        bot.follow_user('alice')
 
-        # Assert that write_file was called correctly
-        mock_write.assert_any_call('last_checked_follower.txt', 'user1')
-        mock_write.assert_any_call('last_checked_follower.txt', 'user3')
-        assert mock_write.call_count == 2
-
-        # Assert that increment_counter was called correctly
-        mock_increment.assert_any_call('counter.txt')
-        assert mock_increment.call_count == 2
-
-
-def test_process_followers_in_batches():
-    new_followers = [f'user{i}' for i in range(1, 31)]  # 30 users
-
-    with patch('bot.process_batch') as mock_process_batch, \
-         patch('time.sleep') as mock_sleep:
-        process_followers_in_batches(new_followers, batch_size=30, sleep_interval=0)
-        mock_process_batch.assert_called_once_with(new_followers)
-        mock_sleep.assert_not_called()
-
-    new_followers = [f'user{i}' for i in range(1, 61)]  # 60 users
-    with patch('bot.process_batch') as mock_process_batch, \
-         patch('time.sleep') as mock_sleep:
-        process_followers_in_batches(new_followers, batch_size=30, sleep_interval=0)
-        assert mock_process_batch.call_count == 2
-        mock_sleep.assert_called_once_with(0)
+        _, kwargs = mock_put.call_args
+        headers = kwargs.get('headers', {})
+        assert 'Authorization' in headers
+        assert 'test-token' in headers['Authorization']
