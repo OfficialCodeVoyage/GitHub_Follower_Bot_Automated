@@ -7,6 +7,12 @@ import random
 from dotenv import load_dotenv
 from requests.exceptions import RequestException, HTTPError
 from logging.handlers import RotatingFileHandler
+from bot_exceptions import (
+    GitHubAPIError,
+    GitHubRateLimitError,
+    GitHubAuthError,
+    FileOperationError,
+)
 
 # ===========================
 # Configuration Section
@@ -81,8 +87,9 @@ def append_followed_user(file_path, user):
         with open(file_path, 'a') as f:
             f.write(f"{user}\n")
         logger.debug(f"Appended user {user} to {file_path}.")
-    except Exception as e:
+    except OSError as e:
         logger.error(f"Failed to append user {user} to {file_path}: {e}")
+        raise FileOperationError(f"Failed to append user {user} to {file_path}: {e}") from e
 
 def load_follower_counter(file_path):
     """
@@ -102,8 +109,9 @@ def update_follower_counter(file_path, count):
         with open(file_path, 'w') as f:
             f.write(f"{count}\n")
         logger.info(f"Follower counter updated: {count}")
-    except Exception as e:
+    except OSError as e:
         logger.error(f"Failed to update follower counter: {e}")
+        raise FileOperationError(f"Failed to update follower counter in {file_path}: {e}") from e
 
 def handle_rate_limit(response):
     """
@@ -165,15 +173,15 @@ def follow_user(user):
                 return True
             elif response.status_code == 401:
                 logger.error("Unauthorized. Check your 'PERSONAL_GITHUB_TOKEN'.")
-                return False
+                raise GitHubAuthError("Authentication failed: invalid or missing token.", status_code=401)
             elif response.status_code == 403 and handle_rate_limit(response):
-                continue  # Retry after sleeping
+                raise GitHubRateLimitError("GitHub API rate limit hit (403).", status_code=403)
             elif response.status_code == 429:
                 # Handle Too Many Requests
                 retry_after = int(response.headers.get('Retry-After', DELAY_ON_RATE_LIMIT))
                 logger.warning(f"Received 429 Too Many Requests. Sleeping for {retry_after} seconds.")
                 time.sleep(retry_after)
-                continue  # Retry after sleeping
+                raise GitHubRateLimitError("GitHub API rate limit hit (429).", status_code=429)
             else:
                 logger.warning(f"Failed to follow user {user}. Status Code: {response.status_code}. Response: {response.text}")
                 return False
